@@ -13,7 +13,7 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
 
     String settingsType;
     String parameterName;
-    String value;
+    String parameterValue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
         Intent intent = getIntent();
         settingsType = intent.getStringExtra(PPPPSApplication.EXTRA_PUT_SETTING_PARAMETER_TYPE);
         parameterName = intent.getStringExtra(PPPPSApplication.EXTRA_PUT_SETTING_PARAMETER_NAME);
-        value = intent.getStringExtra(PPPPSApplication.EXTRA_PUT_SETTING_PARAMETER_VALUE);
+        parameterValue = intent.getStringExtra(PPPPSApplication.EXTRA_PUT_SETTING_PARAMETER_VALUE);
     }
 
     /*
@@ -42,6 +42,8 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
 
         if (!Permissions.grantNotificationsPermission(this)) {
             putSettingsParameter();
+            if (!isFinishing())
+                finish();
         }
     }
 
@@ -50,22 +52,25 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == Permissions.NOTIFICATIONS_PERMISSION_REQUEST_CODE) {
             putSettingsParameter();
-            //if (!isFinishing())
-            //    finish();
+            if (!isFinishing())
+                finish();
         }
     }
 
     private void putSettingsParameter() {
+        Log.e("PutSettingsParameterActivity.putSettingsParameter", "settingsType="+settingsType);
+        Log.e("PutSettingsParameterActivity.putSettingsParameter", "parameterName="+parameterName);
+        Log.e("PutSettingsParameterActivity.putSettingsParameter", "parameterValue="+parameterValue);
 
         ContentResolver contentResolver = getApplicationContext().getContentResolver();
         try {
             ContentValues contentValues = new ContentValues(2);
             contentValues.put("name", parameterName);
-            contentValues.put("value", value);
+            contentValues.put("value", parameterValue);
             // settingsType : "system", "secure", "global"
             contentResolver.insert(Uri.parse("content://settings/" + settingsType), contentValues);
         } catch (Exception e) {
-            Log.e("FromPhoneProfilesPlusBroadcastReceiver.onReceive", Log.getStackTraceString(e));
+            Log.e("PutSettingsParameterActivity.putSettingsParameter", Log.getStackTraceString(e));
         }
 
     }

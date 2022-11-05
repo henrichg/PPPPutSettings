@@ -57,8 +57,7 @@
             android:theme="@style/EmptyAppCompatActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
+                <action android:name="sk.henrichg.pppputsettings.LAUNCH_IT"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
