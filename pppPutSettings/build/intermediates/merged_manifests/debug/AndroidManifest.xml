@@ -61,6 +61,7 @@
             android:excludeFromRecents="true"
             android:exported="true"
             android:label="@string/empty_string"
+            android:launchMode="singleInstance"
             android:theme="@style/EmptyAppCompatActivity" >
             <intent-filter>
                 <action android:name="sk.henrichg.pppputsettings.LAUNCH_IT" />

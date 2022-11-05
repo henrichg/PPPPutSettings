@@ -41,7 +41,7 @@
 25
 26    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
 27    <application
-27-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:24:5-65:19
+27-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:24:5-66:19
 28        android:name="sk.henrichg.pppputsettings.PPPPSApplication"
 28-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:25:9-41
 29        android:allowBackup="false"
@@ -95,7 +95,7 @@
 57-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:50:13-49
 58        </activity>
 59        <activity
-59-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:53:9-63:20
+59-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:53:9-64:20
 60            android:name="sk.henrichg.pppputsettings.PutSettingsParameterActivity"
 60-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:54:13-57
 61            android:excludeFromRecents="true"
@@ -104,41 +104,43 @@
 62-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:58:13-36
 63            android:label="@string/empty_string"
 63-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:56:13-49
-64            android:theme="@style/EmptyAppCompatActivity" >
-64-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:57:13-58
-65            <intent-filter>
-65-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:59:13-62:29
-66                <action android:name="sk.henrichg.pppputsettings.LAUNCH_IT" />
-66-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:60:17-78
-66-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:60:25-76
-67
-68                <category android:name="android.intent.category.DEFAULT" />
-68-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:61:17-75
-68-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:61:27-73
-69            </intent-filter>
-70        </activity>
-71
-72        <provider
-72-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-73            android:name="androidx.startup.InitializationProvider"
-73-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-74            android:authorities="sk.henrichg.pppputsettings.androidx-startup"
-74-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-75            android:exported="false" >
-75-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-76            <meta-data
-76-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-77                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-77-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-78                android:value="androidx.startup" />
-78-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
-79            <meta-data
-79-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-80                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-80-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-81                android:value="androidx.startup" />
-81-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-82        </provider>
-83    </application>
-84
-85</manifest>
+64            android:launchMode="singleInstance"
+64-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:59:13-48
+65            android:theme="@style/EmptyAppCompatActivity" >
+65-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:57:13-58
+66            <intent-filter>
+66-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:60:13-63:29
+67                <action android:name="sk.henrichg.pppputsettings.LAUNCH_IT" />
+67-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:61:17-78
+67-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:61:25-76
+68
+69                <category android:name="android.intent.category.DEFAULT" />
+69-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:62:17-75
+69-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:62:27-73
+70            </intent-filter>
+71        </activity>
+72
+73        <provider
+73-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+75            android:authorities="sk.henrichg.pppputsettings.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+83        </provider>
+84    </application>
+85
+86</manifest>
