@@ -1,11 +1,19 @@
 package sk.henrichg.pppputsettings;
 
+import android.content.ContentResolver;
+import android.content.ContentValues;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class PutSettingsParameterActivity extends AppCompatActivity {
+
+    String settingsType;
+    String parameterName;
+    String value;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,8 +23,9 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
 //        PPPPSApplication.logE("PutSettingsParameterActivity.onCreate", "xxx");
 
         Intent intent = getIntent();
-        //startupSource = intent.getIntExtra(PPApplication.EXTRA_STARTUP_SOURCE, PPApplication.STARTUP_SOURCE_SHORTCUT);
-        //profile_id = intent.getLongExtra(PPApplication.EXTRA_PROFILE_ID, 0);
+        settingsType = intent.getStringExtra(PPPPSApplication.EXTRA_PUT_SETTING_PARAMETER_TYPE);
+        parameterName = intent.getStringExtra(PPPPSApplication.EXTRA_PUT_SETTING_PARAMETER_NAME);
+        value = intent.getStringExtra(PPPPSApplication.EXTRA_PUT_SETTING_PARAMETER_VALUE);
     }
 
     /*
@@ -47,6 +56,17 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
     }
 
     private void putSettingsParameter() {
+
+        ContentResolver contentResolver = getApplicationContext().getContentResolver();
+        try {
+            ContentValues contentValues = new ContentValues(2);
+            contentValues.put("name", parameterName);
+            contentValues.put("value", value);
+            // settingsType : "system", "secure", "global"
+            contentResolver.insert(Uri.parse("content://settings/" + settingsType), contentValues);
+        } catch (Exception e) {
+            Log.e("FromPhoneProfilesPlusBroadcastReceiver.onReceive", Log.getStackTraceString(e));
+        }
 
     }
 
