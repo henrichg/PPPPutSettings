@@ -917,6 +917,7 @@ int menu log_crash_menu 0x7f0c0000
 int menu main_menu 0x7f0c0001
 int mipmap ic_launcher 0x7f0d0000
 int mipmap ic_launcher_adaptive_back 0x7f0d0001
+int mipmap ic_launcher_adaptive_fore 0x7f0d0002
 int string abc_action_bar_home_description 0x7f0e0000
 int string abc_action_bar_up_description 0x7f0e0001
 int string abc_action_menu_overflow_description 0x7f0e0002

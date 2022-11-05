@@ -918,6 +918,7 @@ menu log_crash_menu
 menu main_menu
 mipmap ic_launcher
 mipmap ic_launcher_adaptive_back
+mipmap ic_launcher_adaptive_fore
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
