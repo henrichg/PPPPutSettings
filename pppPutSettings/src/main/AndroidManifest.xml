@@ -50,6 +50,19 @@
             android:label="@string/empty_string">
         </activity>
 
+        <activity
+            android:name=".PutSettingsParameterActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/empty_string"
+            android:theme="@style/EmptyAppCompatActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

@@ -13,8 +13,9 @@ import androidx.appcompat.app.AlertDialog;
 class Permissions {
 
     //static final int PERMISSIONS_REQUEST_CODE = 9091;
+    static final int NOTIFICATIONS_PERMISSION_REQUEST_CODE = 9900;
 
-    static void grantNotificationsPermission(final Activity activity) {
+    static boolean grantNotificationsPermission(final Activity activity) {
         if (Build.VERSION.SDK_INT >= 33) {
             NotificationManager notificationManager = (NotificationManager) activity.getSystemService(Context.NOTIFICATION_SERVICE);
             if (notificationManager != null) {
@@ -33,7 +34,8 @@ class Permissions {
 
                         if (MainActivity.activityIntentExists(intent, activity.getApplicationContext())) {
                             try {
-                                activity.startActivity(intent);
+                                //activity.startActivity(intent);
+                                activity.startActivityForResult(intent, NOTIFICATIONS_PERMISSION_REQUEST_CODE);
                                 ok = true;
                             } catch (Exception e) {
                                 Log.e("Permissions.grantNotificationsPermission", Log.getStackTraceString(e));
@@ -69,9 +71,12 @@ class Permissions {
 
                     if (!activity.isFinishing())
                         dialog.show();
+
+                    return true;
                 }
             }
         }
+        return false;
     }
 
 }

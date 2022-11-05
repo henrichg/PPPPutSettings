@@ -37,12 +37,6 @@ public class PPPPSApplication extends Application {
     @SuppressWarnings("PointlessBooleanExpression")
     static final boolean crashIntoFile = true && BuildConfig.DEBUG;
     private static final String logFilterTags = ""
-                                                //+"|PPPEAccessibilityService"
-                                                //+"|SMSBroadcastReceiver"
-
-                                                //+"|PhoneCallReceiver"
-                                                //+"|PPPEPhoneStateListener"
-
                                                 //+ "|MainActivity"
                                                 //+ "|FromPhoneProfilesPlusBroadcastReceiver"
             ;
