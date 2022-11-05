@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="sk.henrichg.pppputsettings"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+
+
+<!--    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" /> -->
+
+    <application
+        android:name=".PPPPutSettings"
+        android:label="@string/pppputsettings_app_name"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+<!--        android:roundIcon="@mipmap/ic_launcher_round"-->
+
+        <activity android:name=".MainActivity"
+            android:label="@string/pppputsettings_app_name"
+            tools:ignore="IntentFilterExportedReceiver,RedundantLabel">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

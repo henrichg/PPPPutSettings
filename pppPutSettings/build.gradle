@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+apply from: '../dependencies.gradle'
+
+android {
+    compileSdkVersion ppVersions.compileSdk
+    buildToolsVersion ppVersions.buildTools
+
+    defaultConfig {
+        applicationId "sk.henrichg.pppputsettings"
+
+        minSdkVersion ppVersions.minSdk
+
+        //noinspection ExpiredTargetSdkVersion,OldTargetApi
+        targetSdkVersion ppVersions.targetSdk
+
+        versionCode ppVersions.publishVersionCode
+        versionName ppVersions.publishVersion
+
+        resConfigs 'en', 'ar', 'bn-rIN', 'bg', 'ca', 'cs', 'da', 'de', 'el', 'es', 'et', 'fa', 'fi', 'fr', 'ga-rIN', 'hi', 'hr', 'hu', 'in', 'is', 'it', 'iw', 'ja', 'ko', 'ku', 'lb', 'lv', 'ms', 'nl', 'no', 'pl', 'pt-rBR', 'pt-rPT', 'ro', 'ru', 'sk', 'sl', 'sr', 'b+sr+Latn', 'sv', 'te', 'th', 'tr', 'uk', 'vi', 'zh-rCN', 'zh-rTW'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            /*firebaseCrashlytics {
+                mappingFileUploadEnabled true
+            }*/
+        }
+        debug {
+            minifyEnabled false
+            debuggable true
+            /*firebaseCrashlytics {
+                mappingFileUploadEnabled true
+            }*/
+        }
+    }
+    lint {
+        abortOnError false
+        disable 'ManifestResource', 'LongLogTag', 'AppBundleLocaleChanges'
+    }
+
+}
+
+dependencies {
+    implementation "androidx.appcompat:appcompat:$ppVersions.appcompatXLib"
+    implementation "androidx.appcompat:appcompat-resources:$ppVersions.appcompatXLib"
+
+    //noinspection GradleDependency
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+}

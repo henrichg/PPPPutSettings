@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/layout_activity_main.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/layout/activity_main.xml"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/layout_log_crash_list_item.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-debug-22:/layout/log_crash_list_item.xml"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/layout_activity_log_crash.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-debug-22:/layout/activity_log_crash.xml"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable_popup_menu_list_item_background.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable/popup_menu_list_item_background.xml"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable_popupmenu_background.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable/popupmenu_background.xml"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable-mdpi_ic_exclamation_notify.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable-mdpi/ic_exclamation_notify.webp"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable_ic_launcher_monochrome.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable/ic_launcher_monochrome.xml"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable-xxhdpi_ic_pppps_app_icon.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable-xxhdpi/ic_pppps_app_icon.webp"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable-hdpi_ic_exclamation_notify.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable-hdpi/ic_exclamation_notify.webp"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable-xhdpi_ic_pppps_app_icon.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable-xhdpi/ic_pppps_app_icon.webp"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/menu_log_crash_menu.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-debug-22:/menu/log_crash_menu.xml"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable-night_popupmenu_background.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable-night/popupmenu_background.xml"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable-xxxhdpi_ic_exclamation_notify.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable-xxxhdpi/ic_exclamation_notify.webp"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable-xxxhdpi_ic_pppps_app_icon.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable-xxxhdpi/ic_pppps_app_icon.webp"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/mipmap-xxxhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable-xhdpi_ic_exclamation_notify.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable-xhdpi/ic_exclamation_notify.webp"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/menu_main_menu.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/menu/main_menu.xml"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/color_text_view_color.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/color/text_view_color.xml"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/mipmap-hdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable-xxhdpi_ic_exclamation_notify.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable-xxhdpi/ic_exclamation_notify.webp"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/mipmap-xhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/color_action_button_text_color.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/color/action_button_text_color.xml"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/mipmap-xxhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/mipmap-mdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable-hdpi_ic_pppps_app_icon.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable-hdpi/ic_pppps_app_icon.webp"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable-mdpi_ic_pppps_app_icon.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable-mdpi/ic_pppps_app_icon.webp"
+    }
+]

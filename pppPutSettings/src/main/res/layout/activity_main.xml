@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aactivity_main_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/activity_margin_start"
+    android:layout_marginEnd="@dimen/activity_margin_end" >
+
+<ScrollView
+    android:id="@+id/activity_main_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="false"
+    tools:context="sk.henrichg.phoneprofilesplusextender.MainActivity"
+    tools:ignore="UselessParent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="15dp">
+
+        <ImageView
+            android:id="@+id/activity_main_application_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/empty_string"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_pppps_app_icon"/>
+
+        <TextView
+            android:id="@+id/activity_main_application_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/pppputsettings_app_name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/activity_main_application_releases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/pppputsettings_application_releases"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
