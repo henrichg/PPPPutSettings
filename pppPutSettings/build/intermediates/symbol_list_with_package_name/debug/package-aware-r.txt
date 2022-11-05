@@ -30,7 +30,6 @@ animator fragment_fade_enter
 animator fragment_fade_exit
 animator fragment_open_enter
 animator fragment_open_exit
-array chooseLanguageValues
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -375,7 +374,6 @@ color buttonBorderColor
 color buttonClickedBackgroundColor
 color button_material_dark
 color button_material_light
-color dialogBorderColor
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -426,9 +424,6 @@ color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color text_view_color
-color toastBackgroundColor
-color toastBorderColor
-color toastTextColor
 color tooltip_background_dark
 color tooltip_background_light
 dimen abc_action_bar_content_inset_material
@@ -522,9 +517,6 @@ dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
-dimen dialog_background_padding
-dimen dialog_corner_radius
-dimen dialog_transparent_padding
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
 dimen highlight_alpha_material_colored
@@ -665,6 +657,9 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable popup_menu_list_item_background
 drawable popupmenu_background
+drawable pp_button_background
+drawable pp_button_background_clicked
+drawable pp_button_background_selector
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -730,7 +725,9 @@ id activity_chooser_view_content
 id activity_main_application_icon
 id activity_main_application_releases
 id activity_main_application_version
+id activity_main_permission_write_settings
 id activity_main_scroll_view
+id activity_main_write_settings_button
 id add
 id alertTitle
 id always
@@ -952,14 +949,14 @@ string androidx_startup
 string empty_string
 string pppputsettings_about_application_version
 string pppputsettings_app_name
+string pppputsettings_app_name_write_settings_button
 string pppputsettings_application_releases
 string pppputsettings_enable_notificaitons_button
-string pppputsettings_menu_choose_language
-string pppputsettings_menu_choose_language_system_language
 string pppputsettings_notification_channel_grant_permission
 string pppputsettings_notification_channel_grant_permission_description
-string pppputsettings_notification_permission_title
 string pppputsettings_notifications_permission_text
+string pppputsettings_permission
+string pppputsettings_permissions_write_settings
 string pppputsettings_setting_screen_not_found_alert
 string pppputsettings_web_browser_chooser
 string search_menu_title

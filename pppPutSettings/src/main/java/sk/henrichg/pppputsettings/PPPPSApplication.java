@@ -5,14 +5,8 @@ import android.app.Application;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
-import android.content.Intent;
 import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.os.Build;
-import android.os.Handler;
-import android.os.PowerManager;
-import android.provider.Settings;
-import android.telephony.TelephonyManager;
 import android.util.Log;
 
 import androidx.core.app.NotificationManagerCompat;
@@ -22,10 +16,8 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.text.Collator;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Locale;
 
 public class PPPPSApplication extends Application {
 
@@ -33,7 +25,7 @@ public class PPPPSApplication extends Application {
 
     static final String PACKAGE_NAME = "sk.henrichg.pppputsettings";
 
-    static final String APPLICATION_PREFS_NAME = "ppp_put_settings_preferences";
+    //static final String APPLICATION_PREFS_NAME = "ppp_put_settings_preferences";
 
     //static final int pid = Process.myPid();
     //static final int uid = Process.myUid();
@@ -60,6 +52,13 @@ public class PPPPSApplication extends Application {
     static final String LOG_FILENAME = "log.txt";
 
     static final String GRANT_PERMISSION_NOTIFICATION_CHANNEL = "pppPutSettings_grant_permission";
+
+    static final String PPP_PUT_SETTINGS_PERMISSION = PPPPSApplication.PACKAGE_NAME + ".PPP_PUT_SETTINGS_PERMISSION";
+
+    static final String ACTION_PUT_SETTING_PARAMETER = PPPPSApplication.PACKAGE_NAME + ".ACTION_PUT_SETTING_PARAMETER";
+    static final String EXTRA_PUT_SETTING_PARAMETER_TYPE = "extra_put_setting_parameter_type";
+    static final String EXTRA_PUT_SETTING_PARAMETER_NAME = "extra_put_setting_parameter_name";
+    static final String EXTRA_PUT_SETTING_PARAMETER_VALUE = "extra_put_setting_parameter_value";
 
     static FromPhoneProfilesPlusBroadcastReceiver fromPhoneProfilesPlusBroadcastReceiver = null;
 
@@ -139,6 +138,7 @@ public class PPPPSApplication extends Application {
         //super.attachBaseContext(LocaleHelper.onAttach(base));
         //Reflection.unseal(base);
 
+        /*
         String packageVersion = "";
         try {
             PackageInfo pInfo = getPackageManager().getPackageInfo(PPPPSApplication.PACKAGE_NAME, 0);
@@ -146,6 +146,7 @@ public class PPPPSApplication extends Application {
         } catch (Exception e) {
             Log.e("PPPPSApplication.attachBaseContext", Log.getStackTraceString(e));
         }
+        */
 
         //if (BuildConfig.DEBUG) {
         long actualVersionCode = 0;
@@ -313,6 +314,7 @@ public class PPPPSApplication extends Application {
 
     //---------------------------------------------------------------------------------------------
 
+    /*
     static boolean hasSystemFeature(Context context, @SuppressWarnings("SameParameterValue") String feature) {
         try {
             PackageManager packageManager = context.getPackageManager();
@@ -330,6 +332,7 @@ public class PPPPSApplication extends Application {
         //return pInfo.versionCode;
         return (int) PackageInfoCompat.getLongVersionCode(pInfo);
     }
+    */
 
     static void createGrantPermissionNotificationChannel(Context context) {
         if (Build.VERSION.SDK_INT >= 26) {

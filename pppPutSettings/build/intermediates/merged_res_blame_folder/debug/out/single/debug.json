@@ -48,6 +48,10 @@
         "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable_pp_button_background_selector.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable/pp_button_background_selector.xml"
+    },
+    {
         "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/mipmap-hdpi_ic_launcher.png.flat",
         "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/mipmap-hdpi/ic_launcher.png"
     },
@@ -68,8 +72,16 @@
         "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable-night/popupmenu_background.xml"
     },
     {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable_pp_button_background_clicked.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable/pp_button_background_clicked.xml"
+    },
+    {
         "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable-xxxhdpi_ic_exclamation_notify.webp.flat",
         "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable-xxxhdpi/ic_exclamation_notify.webp"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable_pp_button_background.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable/pp_button_background.xml"
     },
     {
         "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable-xxxhdpi_ic_pppps_app_icon.webp.flat",

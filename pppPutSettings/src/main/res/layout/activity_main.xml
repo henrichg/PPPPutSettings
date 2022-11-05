@@ -54,6 +54,27 @@
             android:text="@string/pppputsettings_application_releases"
             android:textSize="14sp"/>
 
+        <TextView
+            android:id="@+id/activity_main_permission_write_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/pppputsettings_permissions_write_settings"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/activity_main_write_settings_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/pppputsettings_app_name_write_settings_button"
+            android:textColor="?attr/colorAccent"
+            android:textStyle="bold"
+            android:background="@drawable/pp_button_background_selector"
+            android:textAllCaps="false"
+            style="?android:attr/borderlessButtonStyle" />
+
     </LinearLayout>
 
 </ScrollView>

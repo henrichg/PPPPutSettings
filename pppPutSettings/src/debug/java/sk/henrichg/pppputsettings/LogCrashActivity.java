@@ -1,6 +1,5 @@
 package sk.henrichg.pppputsettings;
 
-import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.Menu;

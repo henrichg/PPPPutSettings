@@ -20,10 +20,4 @@
 
     <color name="notificationDecorationColor">#cc893e</color>
 
-    <color name="dialogBorderColor">#FF403430</color>
-
-    <color name="toastBackgroundColor">#FF3a3a3a</color>
-    <color name="toastTextColor">#FFFFFFFF</color>
-    <color name="toastBorderColor">#FF707070</color>
-
 </resources>

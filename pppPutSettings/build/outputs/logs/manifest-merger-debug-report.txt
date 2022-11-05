@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-55:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/henrisko/.gradle/caches/transforms-3/7330f6a21f82b95eb4f121b4f672e49f/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.5.1] /home/henrisko/.gradle/caches/transforms-3/034f511a629c0fda711794a09fef4382/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/henrisko/.gradle/caches/transforms-3/5c31521eb266c26ef211a1f53b56b07e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -33,27 +33,57 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/henrisko/.g
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/henrisko/.gradle/caches/transforms-3/86cac07897472df51478ab51cbbaba04/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/henrisko/.gradle/caches/transforms-3/b72326ebc58ae513a4b2ca23b3b41f53/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/henrisko/.gradle/caches/transforms-3/9d769e6f8c1cf14afd24d8935e171f47/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-55:12
 	package
 		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:11-47
 		INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml
 		INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml
-		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:4:11-57
 	android:versionCode
 		INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml
-		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:3:11-69
+supports-screens
+ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:6:5-11:39
+	android:largeScreens
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:8:9-36
+	android:smallScreens
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:10:9-36
+	android:normalScreens
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:9:9-37
+	android:xlargeScreens
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:11:9-37
+	android:anyDensity
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:7:9-34
+permission#sk.henrichg.pppputsettings.PPP_PUT_SETTINGS_PERMISSION
+ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:13:5-16:46
+	android:label
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:15:9-58
+	android:protectionLevel
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:16:9-44
+	android:name
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:14:9-78
+uses-permission#sk.henrichg.pppputsettings.PPP_PUT_SETTINGS_PERMISSION
+ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:18:5-93
+	android:name
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:18:22-91
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:20:5-108
+	tools:ignore
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:20:71-106
+	android:name
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:20:22-70
 application
-ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:9:5-29:19
+ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:24:5-53:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.8.0] /home/henrisko/.gradle/caches/transforms-3/87a796fe63836d99a2198ac6a6284cb3/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
@@ -67,37 +97,49 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/henri
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] /home/henrisko/.gradle/caches/transforms-3/87a796fe63836d99a2198ac6a6284cb3/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:29:9-35
 	android:label
-		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:11:9-56
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:26:9-56
 	tools:ignore
-		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:16:9-48
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:31:9-48
 	android:icon
-		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:13:9-43
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:28:9-43
 	android:allowBackup
-		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:12:9-36
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:27:9-36
 	android:theme
-		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:15:9-40
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:30:9-40
 	android:name
-		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:10:9-39
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:25:9-41
+meta-data#android.max_aspect
+ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:35:9-37:34
+	android:value
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:37:13-32
+	android:name
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:36:13-46
 activity#sk.henrichg.pppputsettings.MainActivity
-ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:19:9-27:20
+ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:39:9-47:20
 	android:label
-		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:20:13-60
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:40:13-60
 	tools:ignore
-		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:21:13-71
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:41:13-71
 	android:name
-		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:19:19-47
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:39:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:22:13-26:29
+ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:42:13-46:29
 action#android.intent.action.MAIN
-ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:23:17-68
+ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:43:17-68
 	android:name
-		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:43:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:25:17-76
+ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:45:17-76
 	android:name
-		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:45:27-74
+activity#sk.henrichg.pppputsettings.LogCrashActivity
+ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:48:9-51:20
+	android:label
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:50:13-49
+	android:name
+		ADDED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:49:13-45
 uses-sdk
 INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml

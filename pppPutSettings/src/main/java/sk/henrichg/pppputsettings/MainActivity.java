@@ -2,19 +2,14 @@ package sk.henrichg.pppputsettings;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.PowerManager;
-import android.provider.Settings;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.TextPaint;
@@ -26,36 +21,27 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.core.content.pm.PackageInfoCompat;
-import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
-import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final int RESULT_PERMISSIONS_SETTINGS = 1901;
+    //private static final int RESULT_PERMISSIONS_SETTINGS = 1901;
 
-    int selectedLanguage = 0;
-    String defaultLanguage = "";
-    String defaultCountry = "";
-    String defaultScript = "";
-
+    /*
     private final BroadcastReceiver refreshGUIBroadcastReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive( Context context, Intent intent ) {
-            MainActivity.this.displayAccessibilityServiceStatus();
             //PPPEApplication.logE("MainActivity.refreshGUIBroadcastReceiver", "xxx");
         }
     };
+    */
 
     @SuppressLint("SetTextI18n")
     @Override
@@ -111,11 +97,20 @@ public class MainActivity extends AppCompatActivity {
         text.setText(sbt);
         text.setMovementMethod(LinkMovementMethod.getInstance());
 
-        displayAccessibilityServiceStatus();
         displayPermmisionsGrantStatus();
 
-        LocalBroadcastManager.getInstance(this).registerReceiver(refreshGUIBroadcastReceiver,
-                new IntentFilter(PPPPSApplication.PACKAGE_NAME + ".RefreshGUIBroadcastReceiver"));
+        //LocalBroadcastManager.getInstance(this).registerReceiver(refreshGUIBroadcastReceiver,
+        //        new IntentFilter(PPPPSApplication.PACKAGE_NAME + ".RefreshGUIBroadcastReceiver"));
+
+        if (PPPPSApplication.fromPhoneProfilesPlusBroadcastReceiver == null) {
+            PPPPSApplication.fromPhoneProfilesPlusBroadcastReceiver = new FromPhoneProfilesPlusBroadcastReceiver();
+            IntentFilter intentFilter = new IntentFilter();
+            //intentFilter.addAction(PPPPSApplication.ACTION_REGISTER_PPPE_FUNCTION);
+            intentFilter.addAction(PPPPSApplication.ACTION_PUT_SETTING_PARAMETER);
+            registerReceiver(PPPPSApplication.fromPhoneProfilesPlusBroadcastReceiver, intentFilter,
+                    PPPPSApplication.PPP_PUT_SETTINGS_PERMISSION, null);
+        }
+
     }
 
     /*
@@ -174,6 +169,7 @@ public class MainActivity extends AppCompatActivity {
         Permissions.grantNotificationsPermission(this);
     }
 
+    /*
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data)
     {
@@ -198,10 +194,10 @@ public class MainActivity extends AppCompatActivity {
             }
             if (!allGranted) {
                 //if (!onlyNotification) {
-                /*PPPPSApplication.showToast(getApplicationContext(),
-                        getString(R.string.extender_app_name) + ": " +
-                                getString(R.string.extender_toast_permissions_not_granted),
-                        Toast.LENGTH_SHORT);*/
+                //PPPPSApplication.showToast(getApplicationContext(),
+                //        getString(R.string.extender_app_name) + ": " +
+                //                getString(R.string.extender_toast_permissions_not_granted),
+                //        Toast.LENGTH_SHORT);
                 //}
             }
             reloadActivity(this, false);
@@ -210,15 +206,46 @@ public class MainActivity extends AppCompatActivity {
             // permissions this app might request
         }
     }
-
-    @SuppressLint("SetTextI18n")
-    private void displayAccessibilityServiceStatus() {
-    }
+    */
 
     @SuppressLint({"SetTextI18n", "BatteryLife"})
     private void displayPermmisionsGrantStatus() {
+        final Activity activity = this;
+
+        TextView text;
+        String str1;
+
+        text = findViewById(R.id.activity_main_permission_write_settings);
+        str1 = getString(R.string.pppputsettings_permissions_write_settings);
+        //if (Permissions.checkSMSMMSPermissions(activity))
+        //    str2 = str1 + " [ " + getString(R.string.extender_permissions_granted) + " ]";
+        //else
+        //    str2 = str1 + " [ " + getString(R.string.extender_permissions_not_granted) + " ]";
+        //sbt = new SpannableString(str2);
+        //sbt.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), str1.length() + 1, str2.length(), 0);
+        //text.setText(sbt);
+        text.setText(str1);
+
+        Button writeSettingsButton = findViewById(R.id.activity_main_write_settings_button);
+        writeSettingsButton.setOnClickListener(view -> {
+            Intent intent = new Intent("android.settings.action.MANAGE_WRITE_SETTINGS");
+            intent.setData(Uri.parse("package:" + "sk.henrichg.pppputsettings"));
+            //intent.addCategory(Intent.CATEGORY_DEFAULT);
+            if (MainActivity.activityIntentExists(intent, activity)) {
+                //noinspection deprecation
+                startActivity(intent);
+            } else {
+                AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(activity);
+                dialogBuilder.setMessage(R.string.pppputsettings_setting_screen_not_found_alert);
+                //dialogBuilder.setIcon(android.R.drawable.ic_dialog_alert);
+                dialogBuilder.setPositiveButton(android.R.string.ok, null);
+                dialogBuilder.show();
+            }
+        });
+
     }
 
+    /*
     private static boolean activityActionExists(@SuppressWarnings("SameParameterValue") String action,
                                                 Context context) {
         try {
@@ -231,6 +258,7 @@ public class MainActivity extends AppCompatActivity {
             return false;
         }
     }
+    */
 
     static boolean activityIntentExists(Intent intent, Context context) {
         try {
@@ -243,6 +271,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /*
     private static void reloadActivity(Activity activity,
                                        @SuppressWarnings("SameParameterValue") boolean newIntent)
     {
@@ -263,21 +292,6 @@ public class MainActivity extends AppCompatActivity {
         }
         else
             activity.recreate();
-    }
-
-    private static class Language {
-        String language;
-        String country;
-        String script;
-        String name;
-    }
-
-    /*
-    private static class LanguagesComparator implements Comparator<Language> {
-
-        public int compare(Language lhs, Language rhs) {
-            return PPPPSApplication.collator.compare(lhs.name, rhs.name);
-        }
     }
     */
 

@@ -8,9 +8,24 @@
         android:minSdkVersion="22"
         android:targetSdkVersion="22" />
 
-    <!-- <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" /> -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <permission
+        android:name="sk.henrichg.pppputsettings.PPP_PUT_SETTINGS_PERMISSION"
+        android:label="@string/pppputsettings_permission"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="sk.henrichg.pppputsettings.PPP_PUT_SETTINGS_PERMISSION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
     <application
-        android:name="sk.henrichg.pppputsettings.PPPPutSettings"
+        android:name="sk.henrichg.pppputsettings.PPPPSApplication"
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -21,6 +36,12 @@
 
         <!-- android:roundIcon="@mipmap/ic_launcher_round" -->
 
+
+        <!-- support for 18.5:9 display (Samsung Galaxy S8, LG G6) -->
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4" />
+
         <activity
             android:name="sk.henrichg.pppputsettings.MainActivity"
             android:label="@string/pppputsettings_app_name" >
@@ -29,6 +50,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="sk.henrichg.pppputsettings.LogCrashActivity"
+            android:label="@string/empty_string" >
         </activity>
 
         <provider

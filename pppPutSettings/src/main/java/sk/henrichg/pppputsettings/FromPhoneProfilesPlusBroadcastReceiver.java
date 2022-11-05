@@ -1,17 +1,13 @@
 package sk.henrichg.pppputsettings;
 
-import android.accessibilityservice.AccessibilityService;
 import android.annotation.SuppressLint;
-import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
+import android.content.ContentResolver;
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
+import android.net.Uri;
 import android.util.Log;
-
-import androidx.core.app.NotificationCompat;
-import androidx.core.app.NotificationManagerCompat;
-import androidx.core.content.ContextCompat;
 
 class FromPhoneProfilesPlusBroadcastReceiver extends BroadcastReceiver {
 
@@ -24,8 +20,34 @@ class FromPhoneProfilesPlusBroadcastReceiver extends BroadcastReceiver {
 //        PPPEApplication.logE("FromPhoneProfilesPlusBroadcastReceiver.onReceive", "received broadcast action="+intent.getAction());
 
         String action = intent.getAction();
+        if (action.equals(PPPPSApplication.ACTION_PUT_SETTING_PARAMETER)) {
+            //if (!intent.getBooleanExtra(PPPEApplication.EXTRA_BLOCK_PROFILE_EVENT_ACTION, false)) {
+                //if (PPPEApplication.registeredLockDeviceFunctionPP ||
+                //        PPPEApplication.registeredLockDeviceFunctionPPP) {
+//                        PPPEApplication.logE("FromPhoneProfilesPlusBroadcastReceiver.onReceive", "put settings parameter");
+
+                        String settingsType = intent.getStringExtra(PPPPSApplication.EXTRA_PUT_SETTING_PARAMETER_TYPE);
+                        String parameterName = intent.getStringExtra(PPPPSApplication.EXTRA_PUT_SETTING_PARAMETER_NAME);
+                        String value = intent.getStringExtra(PPPPSApplication.EXTRA_PUT_SETTING_PARAMETER_VALUE);
+
+                        ContentResolver contentResolver = context.getContentResolver();
+                        try {
+                            ContentValues contentValues = new ContentValues(2);
+                            contentValues.put("name", parameterName);
+                            contentValues.put("value", value);
+                            // settingsType : "system", "secure", "global"
+                            contentResolver.insert(Uri.parse("content://settings/" + settingsType), contentValues);
+                        } catch (Exception e) {
+                            Log.e("FromPhoneProfilesPlusBroadcastReceiver.onReceive", Log.getStackTraceString(e));
+                        }
+
+//                }
+            //}
+        }
+
     }
 
+    /*
     static private void showPermissionNotification(Context context, String title, String text,
                                                     int notificationID, String notificationTag) {
         //noinspection UnnecessaryLocalVariable
@@ -58,5 +80,6 @@ class FromPhoneProfilesPlusBroadcastReceiver extends BroadcastReceiver {
             Log.e("FromPhoneProfilesPlusBroadcastReceiver.showPermissionNotification", Log.getStackTraceString(e));
         }
     }
+    */
 
 }
