@@ -16,10 +16,6 @@
         "source": "/home/henrisko/.gradle/daemon/7.4/sk.henrichg.pppputsettings.pppPutSettings-main-23:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
         "merged": "/home/henrisko/.gradle/daemon/7.4/sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable-xxxhdpi_ic_pppps_app_icon.webp.flat",
         "source": "/home/henrisko/.gradle/daemon/7.4/sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable-xxxhdpi/ic_pppps_app_icon.webp"
     },
@@ -74,6 +70,10 @@
     {
         "merged": "/home/henrisko/.gradle/daemon/7.4/sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
         "source": "/home/henrisko/.gradle/daemon/7.4/sk.henrichg.pppputsettings.pppPutSettings-main-23:/mipmap-hdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/drawable_ic_launcher_monochrome.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-23:/drawable/ic_launcher_monochrome.xml"
     },
     {
         "merged": "/home/henrisko/.gradle/daemon/7.4/sk.henrichg.pppputsettings.pppPutSettings-merged_res-21:/mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",

@@ -640,7 +640,6 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable ic_exclamation_notify
-drawable ic_launcher_foreground
 drawable ic_launcher_monochrome
 drawable ic_pppps_app_icon
 drawable notification_action_background
