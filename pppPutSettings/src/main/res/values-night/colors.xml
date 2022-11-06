@@ -18,6 +18,6 @@
     <color name="buttonBackgroundColor">#FF1a1513</color>
     <color name="buttonClickedBackgroundColor">#FF403430</color>
 
-    <color name="notificationDecorationColor">#cc893e</color>
+<!--    <color name="notificationDecorationColor">#cc893e</color>-->
 
 </resources>

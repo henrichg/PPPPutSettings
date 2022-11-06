@@ -1,3 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lint>
+    <issue id="IconDuplicates">
+        <ignore path="src/main/res/drawable-hdpi/ic_launcher.png" />
+        <ignore path="src/main/res/drawable-hdpi/ic_pppps_app_icon.png" />
+        <ignore path="src/main/res/drawable-mdpi/ic_launcher.png" />
+        <ignore path="src/main/res/drawable-mdpi/ic_pppps_app_icon.png" />
+        <ignore path="src/main/res/drawable-xhdpi/ic_launcher.png" />
+        <ignore path="src/main/res/drawable-xhdpi/ic_pppps_app_icon.png" />
+        <ignore path="src/main/res/drawable-xxhdpi/ic_launcher.png" />
+        <ignore path="src/main/res/drawable-xxhdpi/ic_pppps_app_icon.png" />
+        <ignore path="src/main/res/drawable-xxxhdpi/ic_launcher.png" />
+        <ignore path="src/main/res/drawable-xxxhdpi/ic_pppps_app_icon.png" />
+    </issue>
 </lint>

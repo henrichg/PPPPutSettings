@@ -21,7 +21,8 @@ import java.util.Calendar;
 
 public class PPPPSApplication extends Application {
 
-    private static PPPPSApplication instance;
+    @SuppressLint("StaticFieldLeak")
+    private static volatile PPPPSApplication instance;
 
     static final String PACKAGE_NAME = "sk.henrichg.pppputsettings";
 

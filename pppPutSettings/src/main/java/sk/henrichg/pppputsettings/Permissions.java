@@ -15,6 +15,7 @@ class Permissions {
     //static final int PERMISSIONS_REQUEST_CODE = 9091;
     static final int NOTIFICATIONS_PERMISSION_REQUEST_CODE = 9900;
 
+    @SuppressWarnings("UnusedReturnValue")
     static boolean grantNotificationsPermission(final Activity activity) {
         if (Build.VERSION.SDK_INT >= 33) {
             NotificationManager notificationManager = (NotificationManager) activity.getSystemService(Context.NOTIFICATION_SERVICE);
