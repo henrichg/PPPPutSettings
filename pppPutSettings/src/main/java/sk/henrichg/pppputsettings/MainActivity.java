@@ -102,15 +102,6 @@ public class MainActivity extends AppCompatActivity {
         //LocalBroadcastManager.getInstance(this).registerReceiver(refreshGUIBroadcastReceiver,
         //        new IntentFilter(PPPPSApplication.PACKAGE_NAME + ".RefreshGUIBroadcastReceiver"));
 
-        if (PPPPSApplication.fromPhoneProfilesPlusBroadcastReceiver == null) {
-            PPPPSApplication.fromPhoneProfilesPlusBroadcastReceiver = new FromPhoneProfilesPlusBroadcastReceiver();
-            IntentFilter intentFilter = new IntentFilter();
-            //intentFilter.addAction(PPPPSApplication.ACTION_REGISTER_PPPE_FUNCTION);
-            intentFilter.addAction(PPPPSApplication.ACTION_PUT_SETTING_PARAMETER);
-            registerReceiver(PPPPSApplication.fromPhoneProfilesPlusBroadcastReceiver, intentFilter,
-                    PPPPSApplication.PPP_PUT_SETTINGS_PERMISSION, null);
-        }
-
     }
 
     /*
