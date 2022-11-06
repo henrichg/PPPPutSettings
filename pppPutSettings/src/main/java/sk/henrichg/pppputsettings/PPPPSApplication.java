@@ -46,9 +46,6 @@ public class PPPPSApplication extends Application {
 
     static final String GRANT_PERMISSION_NOTIFICATION_CHANNEL = "pppPutSettings_grant_permission";
 
-    static final String PPP_PUT_SETTINGS_PERMISSION = PPPPSApplication.PACKAGE_NAME + ".PPP_PUT_SETTINGS_PERMISSION";
-
-    static final String ACTION_PUT_SETTING_PARAMETER = PPPPSApplication.PACKAGE_NAME + ".ACTION_PUT_SETTING_PARAMETER";
     static final String EXTRA_PUT_SETTING_PARAMETER_TYPE = "extra_put_setting_parameter_type";
     static final String EXTRA_PUT_SETTING_PARAMETER_NAME = "extra_put_setting_parameter_name";
     static final String EXTRA_PUT_SETTING_PARAMETER_VALUE = "extra_put_setting_parameter_value";

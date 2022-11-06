@@ -40,11 +40,9 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
     {
         super.onStart();
 
-        if (!Permissions.grantNotificationsPermission(this)) {
-            putSettingsParameter();
-            if (!isFinishing())
-                finish();
-        }
+        putSettingsParameter();
+        if (!isFinishing())
+            finish();
     }
 
     @Override
