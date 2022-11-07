@@ -1,38 +1,11 @@
 {
     "logs": [
         {
-            "outputFile": "/home/henrisko/.gradle/daemon/7.4/sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-19:/values-night-v29/values-night-v29.xml",
-            "map": [
-                {
-                    "source": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/values-night-v29/colors.xml",
-                    "from": {
-                        "startLines": "3,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "101,55",
-                        "endColumns": "61,45",
-                        "endOffsets": "158,96"
-                    },
-                    "to": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,117",
-                        "endColumns": "61,45",
-                        "endOffsets": "112,158"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-19:/values-night-v29/values-night-v29.xml",
             "map": [
                 {
                     "source": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/values-night-v29/colors.xml",
                     "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",

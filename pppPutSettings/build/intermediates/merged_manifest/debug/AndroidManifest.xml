@@ -32,7 +32,6 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/pppputsettings_app_name"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
 
         <!-- android:roundIcon="@mipmap/ic_launcher_round" -->

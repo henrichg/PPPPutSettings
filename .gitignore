@@ -1,9 +1,14 @@
 .gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-/.idea/caches
-/.idea/misc.xml
-/build
+local.properties
+.idea/workspace.xml
+.idea/libraries
+.idea/caches
+.idea/misc.xml
+.DS_Store
+build
+captures
+.idea/caches/build_file_checksums.ser
+.idea/caches/gradle_models.ser
+.externalNativeBuild
 
-/pppPutSettings/build
+pppPutSettings/build
