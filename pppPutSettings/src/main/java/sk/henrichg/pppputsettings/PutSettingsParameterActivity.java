@@ -56,10 +56,10 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
     }
 
     private void putSettingsParameter() {
-        Log.e("PutSettingsParameterActivity.putSettingsParameter", "settingsType="+settingsType);
-        Log.e("PutSettingsParameterActivity.putSettingsParameter", "parameterName="+parameterName);
-        Log.e("PutSettingsParameterActivity.putSettingsParameter", "parameterValue="+parameterValue);
-
+//        Log.e("PutSettingsParameterActivity.putSettingsParameter", "settingsType="+settingsType);
+//        Log.e("PutSettingsParameterActivity.putSettingsParameter", "parameterName="+parameterName);
+//        Log.e("PutSettingsParameterActivity.putSettingsParameter", "parameterValue="+parameterValue);
+//
         ContentResolver contentResolver = getApplicationContext().getContentResolver();
         try {
             ContentValues contentValues = new ContentValues(2);

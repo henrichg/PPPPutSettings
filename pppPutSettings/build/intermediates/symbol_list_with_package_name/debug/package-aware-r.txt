@@ -397,7 +397,6 @@ color material_grey_800
 color material_grey_850
 color material_grey_900
 color navigationBar
-color notificationDecorationColor
 color notification_action_color_filter
 color notification_icon_bg_color
 color popupMenuBorderColor
@@ -639,7 +638,6 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
-drawable ic_exclamation_notify
 drawable ic_launcher_monochrome
 drawable ic_pppps_app_icon
 drawable notification_action_background
