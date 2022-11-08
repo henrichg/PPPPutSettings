@@ -1,9 +1,10 @@
 .gradle
 /local.properties
-./idea/workspace.xml
-./idea/libraries
+/.idea/workspace.xml
+/.idea/libraries
 /.idea/caches
 /.idea/misc.xml
-/build
+/build/
 
-/pppPutSettings/build
+/pppPutSettings/build/
+
