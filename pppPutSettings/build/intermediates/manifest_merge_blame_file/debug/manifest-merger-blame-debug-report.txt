@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="sk.henrichg.pppputsettings"
-4    android:versionCode="1"
-5    android:versionName="0.1b" >
+4    android:versionCode="10"
+5    android:versionName="1.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
@@ -39,109 +39,112 @@
 24-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:20:5-108
 24-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:20:22-70
 25
-26    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
-27    <application
-27-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:24:5-67:19
-28        android:name="sk.henrichg.pppputsettings.PPPPSApplication"
-28-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:25:9-41
-29        android:allowBackup="false"
-29-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:27:9-36
-30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-30-->[androidx.core:core:1.8.0] /home/henrisko/.gradle/caches/transforms-3/87a796fe63836d99a2198ac6a6284cb3/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
-31        android:debuggable="true"
-32        android:icon="@mipmap/ic_launcher"
-32-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:28:9-43
-33        android:label="@string/pppputsettings_app_name"
-33-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:26:9-56
-34        android:supportsRtl="true"
-34-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:29:9-35
-35        android:theme="@style/AppTheme" >
-35-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:30:9-40
-36
-37        <!-- android:roundIcon="@mipmap/ic_launcher_round" -->
-38
+26    <!-- <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" tools:ignore="ProtectedPermissions"/> -->
+27    <!-- <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" tools:ignore="ProtectedPermissions"/> -->
+28    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
+29    <application
+29-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:27:5-70:19
+30        android:name="sk.henrichg.pppputsettings.PPPPSApplication"
+30-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:28:9-41
+31        android:allowBackup="false"
+31-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:30:9-36
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.8.0] /home/henrisko/.gradle/caches/transforms-3/87a796fe63836d99a2198ac6a6284cb3/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:31:9-43
+35        android:label="@string/pppputsettings_app_name"
+35-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:29:9-56
+36        android:supportsRtl="true"
+36-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:32:9-35
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:33:9-40
 39
-40        <!-- support for 18.5:9 display (Samsung Galaxy S8, LG G6) -->
-41        <meta-data
-41-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:35:9-37:34
-42            android:name="android.max_aspect"
-42-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:36:13-46
-43            android:value="2.4" />
-43-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:37:13-32
-44
-45        <activity
-45-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:39:9-47:20
-46            android:name="sk.henrichg.pppputsettings.MainActivity"
-46-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:39:19-47
-47            android:label="@string/pppputsettings_app_name" >
-47-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:40:13-60
-48            <intent-filter>
-48-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:42:13-46:29
-49                <action android:name="android.intent.action.MAIN" />
-49-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:43:17-68
-49-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:43:25-66
-50
-51                <category android:name="android.intent.category.LAUNCHER" />
-51-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:45:17-76
-51-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:45:27-74
-52            </intent-filter>
-53        </activity>
-54        <activity
-54-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:48:9-51:20
-55            android:name="sk.henrichg.pppputsettings.LogCrashActivity"
-55-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:49:13-45
-56            android:label="@string/empty_string" >
-56-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:50:13-49
-57        </activity>
-58        <activity
-58-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:53:9-65:20
-59            android:name="sk.henrichg.pppputsettings.PutSettingsParameterActivity"
-59-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:54:13-57
-60            android:excludeFromRecents="true"
-60-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:55:13-46
-61            android:exported="true"
-61-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:58:13-36
-62            android:label="@string/empty_string"
-62-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:56:13-49
-63            android:launchMode="singleInstance"
-63-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:59:13-48
-64            android:permission="sk.henrichg.pppputsettings.PPP_PUT_SETTINGS_PERMISSION"
-64-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:60:13-88
-65            android:theme="@style/EmptyAppCompatActivity" >
-65-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:57:13-58
-66            <intent-filter>
-66-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:61:13-64:29
-67                <action android:name="sk.henrichg.pppputsettings.LAUNCH_IT" />
-67-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:62:17-78
-67-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:62:25-76
-68
-69                <category android:name="android.intent.category.DEFAULT" />
-69-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:63:17-75
-69-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:63:27-73
-70            </intent-filter>
-71        </activity>
-72
-73        <provider
-73-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-74            android:name="androidx.startup.InitializationProvider"
-74-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-75            android:authorities="sk.henrichg.pppputsettings.androidx-startup"
-75-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-76            android:exported="false" >
-76-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-77            <meta-data
-77-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-78-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-79                android:value="androidx.startup" />
-79-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+40        <!-- android:roundIcon="@mipmap/ic_launcher_round" -->
+41
+42
+43        <!-- support for 18.5:9 display (Samsung Galaxy S8, LG G6) -->
+44        <meta-data
+44-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:38:9-40:34
+45            android:name="android.max_aspect"
+45-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:39:13-46
+46            android:value="2.4" />
+46-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:40:13-32
+47
+48        <activity
+48-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:42:9-50:20
+49            android:name="sk.henrichg.pppputsettings.MainActivity"
+49-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:42:19-47
+50            android:label="@string/pppputsettings_app_name" >
+50-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:43:13-60
+51            <intent-filter>
+51-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:45:13-49:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:46:17-68
+52-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:46:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:48:17-76
+54-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:48:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:51:9-54:20
+58            android:name="sk.henrichg.pppputsettings.LogCrashActivity"
+58-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:52:13-45
+59            android:label="@string/empty_string" >
+59-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:53:13-49
+60        </activity>
+61        <activity
+61-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:56:9-68:20
+62            android:name="sk.henrichg.pppputsettings.PutSettingsParameterActivity"
+62-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:57:13-57
+63            android:excludeFromRecents="true"
+63-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:58:13-46
+64            android:exported="true"
+64-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:61:13-36
+65            android:label="@string/empty_string"
+65-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:59:13-49
+66            android:launchMode="singleInstance"
+66-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:62:13-48
+67            android:permission="sk.henrichg.pppputsettings.PPP_PUT_SETTINGS_PERMISSION"
+67-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:63:13-88
+68            android:theme="@style/EmptyAppCompatActivity" >
+68-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:60:13-58
+69            <intent-filter>
+69-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:64:13-67:29
+70                <action android:name="sk.henrichg.pppputsettings.LAUNCH_IT" />
+70-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:65:17-78
+70-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:65:25-76
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:66:17-75
+72-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:66:27-73
+73            </intent-filter>
+74        </activity>
+75
+76        <provider
+76-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+77            android:name="androidx.startup.InitializationProvider"
+77-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+78            android:authorities="sk.henrichg.pppputsettings.androidx-startup"
+78-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+79            android:exported="false" >
+79-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
 80            <meta-data
-80-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-81-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+80-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+81-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
 82                android:value="androidx.startup" />
-82-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-83        </provider>
-84    </application>
-85
-86</manifest>
+82-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+83            <meta-data
+83-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+84-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+85                android:value="androidx.startup" />
+85-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+86        </provider>
+87    </application>
+88
+89</manifest>
