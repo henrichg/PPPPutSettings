@@ -30,6 +30,7 @@ animator fragment_fade_enter
 animator fragment_fade_exit
 animator fragment_open_enter
 animator fragment_open_exit
+array chooseLanguageValues
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -774,6 +775,7 @@ id log_crash_list_go_to_bottom
 id log_crash_list_go_to_top
 id log_crash_list_item_root
 id log_crash_list_item_text
+id menu_choose_language
 id menu_debug
 id menu_show_crash
 id menu_show_log
@@ -950,6 +952,8 @@ string pppputsettings_app_name
 string pppputsettings_app_name_write_settings_button
 string pppputsettings_application_releases
 string pppputsettings_enable_notificaitons_button
+string pppputsettings_menu_choose_language
+string pppputsettings_menu_choose_language_system_language
 string pppputsettings_notification_channel_grant_permission
 string pppputsettings_notification_channel_grant_permission_description
 string pppputsettings_notifications_permission_text

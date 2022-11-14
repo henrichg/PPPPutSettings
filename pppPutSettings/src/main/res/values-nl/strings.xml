@@ -3,4 +3,15 @@
 <!--suppress XmlUnusedNamespaceDeclaration -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
     <!--suppress CheckTagEmptyBody -->
+    <string name="pppputsettings_permission">PPPPutSettings toepassing machtigingen</string>
+    <string name="pppputsettings_application_releases">Uitgave:</string>
+    <string name="pppputsettings_about_application_version">Versie:</string>
+    <string name="pppputsettings_notification_channel_grant_permission">Toestemming verlenen</string>
+    <string name="pppputsettings_notification_channel_grant_permission_description">Toont toestemming die nodig is.</string>
+    <string name="pppputsettings_notifications_permission_text">Meldingsmachtiging is niet verleend.\n\nSchakel meldingen in voor PPPPutSettings. Zonder dit aan te zetten worden de meldingen van PPPPutSettings niet weergegeven.</string>
+    <string name="pppputsettings_web_browser_chooser">Bekijk weblink met</string>
+    <string name="pppputsettings_enable_notificaitons_button">Inschakelen</string>
+    <string name="pppputsettings_setting_screen_not_found_alert">Scherminstellingen niet gevonden.</string>
+    <string name="pppputsettings_permissions_write_settings">Schakel \"Systeeminstellingen wijzigen\" in. Zonder dit lukt het schrijven van de instellingen niet naar de instellingen database.</string>
+    <string name="pppputsettings_app_name_write_settings_button">Systeeminstellingen wijzigen</string>
 </resources>

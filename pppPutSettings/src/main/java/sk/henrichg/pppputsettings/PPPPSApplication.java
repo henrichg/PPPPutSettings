@@ -16,8 +16,10 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.Collator;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Locale;
 
 public class PPPPSApplication extends Application {
 
@@ -26,7 +28,7 @@ public class PPPPSApplication extends Application {
 
     static final String PACKAGE_NAME = "sk.henrichg.pppputsettings";
 
-    //static final String APPLICATION_PREFS_NAME = "ppp_put_settings_preferences";
+    static final String APPLICATION_PREFS_NAME = "ppp_put_settings_preferences";
 
     //static final int pid = Process.myPid();
     //static final int uid = Process.myUid();
@@ -50,6 +52,8 @@ public class PPPPSApplication extends Application {
     static final String EXTRA_PUT_SETTING_PARAMETER_TYPE = "extra_put_setting_parameter_type";
     static final String EXTRA_PUT_SETTING_PARAMETER_NAME = "extra_put_setting_parameter_name";
     static final String EXTRA_PUT_SETTING_PARAMETER_VALUE = "extra_put_setting_parameter_value";
+
+    static volatile Collator collator = null;
 
     @Override
     public void onCreate() {
@@ -123,8 +127,8 @@ public class PPPPSApplication extends Application {
 
     @Override
     protected void attachBaseContext(Context base) {
-        super.attachBaseContext(base);
-        //super.attachBaseContext(LocaleHelper.onAttach(base));
+        //super.attachBaseContext(base);
+        super.attachBaseContext(LocaleHelper.onAttach(base));
         //Reflection.unseal(base);
 
         /*
@@ -322,6 +326,17 @@ public class PPPPSApplication extends Application {
         return (int) PackageInfoCompat.getLongVersionCode(pInfo);
     }
     */
+
+    static Collator getCollator()
+    {
+        Locale appLocale;
+
+        // application locale
+        appLocale = Locale.getDefault();
+
+        // get collator for application locale
+        return Collator.getInstance(appLocale);
+    }
 
     static void createGrantPermissionNotificationChannel(Context context) {
         if (Build.VERSION.SDK_INT >= 26) {

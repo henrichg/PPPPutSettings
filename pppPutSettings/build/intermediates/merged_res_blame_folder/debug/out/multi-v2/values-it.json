@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-19:/values-it/values-it.xml",
+            "outputFile": "/home/henrisko/.gradle/daemon/7.4/sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-19:/values-it/values-it.xml",
             "map": [
                 {
                     "source": "/home/henrisko/.gradle/caches/transforms-3/034f511a629c0fda711794a09fef4382/transformed/appcompat-1.5.1/res/values-it/values-it.xml",
@@ -28,6 +28,58 @@
                         "startOffsets": "2881",
                         "endColumns": "100",
                         "endOffsets": "2977"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-19:/values-it/values-it.xml",
+            "map": [
+                {
+                    "source": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/values-it/strings.xml",
+                    "from": {
+                        "startLines": "7,15,6,12,8,9,10,5,14,13,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "445,1453,371,1084,523,621,757,279,1262,1162,1001",
+                        "endColumns": "77,96,73,77,97,135,243,91,190,99,82",
+                        "endOffsets": "518,1545,440,1157,616,752,996,366,1448,1257,1079"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,37,38,39",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2799,2877,2974,3048,3126,3224,3360,3604,3696,3887,3987",
+                        "endColumns": "77,96,73,77,97,135,243,91,190,99,82",
+                        "endOffsets": "2872,2969,3043,3121,3219,3355,3599,3691,3882,3982,4065"
+                    }
+                },
+                {
+                    "source": "/home/henrisko/.gradle/caches/transforms-3/034f511a629c0fda711794a09fef4382/transformed/appcompat-1.5.1/res/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,40",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,313,422,506,611,730,808,883,975,1069,1162,1256,1357,1451,1548,1643,1735,1827,1908,2014,2121,2219,2323,2429,2536,2699,4070",
+                        "endColumns": "104,102,108,83,104,118,77,74,91,93,92,93,100,93,96,94,91,91,80,105,106,97,103,105,106,162,99,81",
+                        "endOffsets": "205,308,417,501,606,725,803,878,970,1064,1157,1251,1352,1446,1543,1638,1730,1822,1903,2009,2116,2214,2318,2424,2531,2694,2794,4147"
+                    }
+                },
+                {
+                    "source": "/home/henrisko/.gradle/caches/transforms-3/87a796fe63836d99a2198ac6a6284cb3/transformed/core-1.8.0/res/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "41",
+                        "startColumns": "4",
+                        "startOffsets": "4152",
+                        "endColumns": "100",
+                        "endOffsets": "4248"
                     }
                 }
             ]

@@ -3,4 +3,15 @@
 <!--suppress XmlUnusedNamespaceDeclaration -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
     <!--suppress CheckTagEmptyBody -->
+    <string name="pppputsettings_permission">PPPPutSettings 应用程序权限</string>
+    <string name="pppputsettings_application_releases">发布版本:</string>
+    <string name="pppputsettings_about_application_version">版本：</string>
+    <string name="pppputsettings_notification_channel_grant_permission">授予权限</string>
+    <string name="pppputsettings_notification_channel_grant_permission_description">显示需要授予的权限。</string>
+    <string name="pppputsettings_notifications_permission_text">未授予通知权限。\n\n请为PPPutSetting启用通知。没有启用此功能，PPPPut设置的通知将不会显示。</string>
+    <string name="pppputsettings_web_browser_chooser">查看Web链接用</string>
+    <string name="pppputsettings_enable_notificaitons_button">启用</string>
+    <string name="pppputsettings_setting_screen_not_found_alert">屏幕设置未找到。</string>
+    <string name="pppputsettings_permissions_write_settings">请开启\"修改系统设置\"权限。否则无法将设置参数放入系统数据库。</string>
+    <string name="pppputsettings_app_name_write_settings_button">修改系统设置</string>
 </resources>

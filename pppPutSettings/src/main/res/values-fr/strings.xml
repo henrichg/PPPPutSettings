@@ -3,4 +3,15 @@
 <!--suppress XmlUnusedNamespaceDeclaration -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
     <!--suppress CheckTagEmptyBody -->
+    <string name="pppputsettings_permission">Permissions de l\'application PPPPutSettings</string>
+    <string name="pppputsettings_application_releases">Versions :</string>
+    <string name="pppputsettings_about_application_version">Version :</string>
+    <string name="pppputsettings_notification_channel_grant_permission">Accorder la permission</string>
+    <string name="pppputsettings_notification_channel_grant_permission_description">Affiche les permissions à donner.</string>
+    <string name="pppputsettings_notifications_permission_text">L\'autorisation de notification n\'est pas accordée.\n\nVeuillez activer les notifications pour PPPPutSettings. Sans cette option activée, les notifications de PPPPutSettings ne seront pas affichées.</string>
+    <string name="pppputsettings_web_browser_chooser">Voir le lien web en utilisant</string>
+    <string name="pppputsettings_enable_notificaitons_button">Activer</string>
+    <string name="pppputsettings_setting_screen_not_found_alert">Écran de paramétrage introuvable.</string>
+    <string name="pppputsettings_permissions_write_settings">Veuillez activer \"Modifier les paramètres système\". Sans cela, la mise en place de paramètres dans la base de données système ne fonctionnera pas.</string>
+    <string name="pppputsettings_app_name_write_settings_button">Changer les réglages système</string>
 </resources>

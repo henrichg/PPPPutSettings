@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-19:/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "/home/henrisko/.gradle/daemon/7.4/sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-19:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
                     "source": "/home/henrisko/.gradle/caches/transforms-3/034f511a629c0fda711794a09fef4382/transformed/appcompat-1.5.1/res/values-zh-rTW/values-zh-rTW.xml",
@@ -28,6 +28,58 @@
                         "startOffsets": "2750",
                         "endColumns": "100",
                         "endOffsets": "2846"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-19:/values-zh-rTW/values-zh-rTW.xml",
+            "map": [
+                {
+                    "source": "/home/henrisko/.gradle/caches/transforms-3/034f511a629c0fda711794a09fef4382/transformed/appcompat-1.5.1/res/values-zh-rTW/values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,40",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,293,393,475,572,680,757,832,924,1018,1115,1211,1306,1400,1496,1588,1680,1772,1850,1946,2041,2136,2233,2329,2427,2577,3942",
+                        "endColumns": "94,92,99,81,96,107,76,74,91,93,96,95,94,93,95,91,91,91,77,95,94,94,96,95,97,149,93,78",
+                        "endOffsets": "195,288,388,470,567,675,752,827,919,1013,1110,1206,1301,1395,1491,1583,1675,1767,1845,1941,2036,2131,2228,2324,2422,2572,2666,4016"
+                    }
+                },
+                {
+                    "source": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/values-zh-rTW/strings.xml",
+                    "from": {
+                        "startLines": "7,15,6,12,8,9,10,5,14,13,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "445,1453,371,1084,523,621,757,279,1262,1162,1001",
+                        "endColumns": "77,96,73,77,97,135,243,91,190,99,82",
+                        "endOffsets": "518,1545,440,1157,616,752,996,366,1448,1257,1079"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,37,38,39",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2671,2749,2846,2920,2998,3096,3232,3476,3568,3759,3859",
+                        "endColumns": "77,96,73,77,97,135,243,91,190,99,82",
+                        "endOffsets": "2744,2841,2915,2993,3091,3227,3471,3563,3754,3854,3937"
+                    }
+                },
+                {
+                    "source": "/home/henrisko/.gradle/caches/transforms-3/87a796fe63836d99a2198ac6a6284cb3/transformed/core-1.8.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "41",
+                        "startColumns": "4",
+                        "startOffsets": "4021",
+                        "endColumns": "100",
+                        "endOffsets": "4117"
                     }
                 }
             ]

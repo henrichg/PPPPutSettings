@@ -3,4 +3,15 @@
 <!--suppress XmlUnusedNamespaceDeclaration -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
     <!--suppress CheckTagEmptyBody -->
+    <string name="pppputsettings_permission">Дозвіл застосунку PPPPutSettings</string>
+    <string name="pppputsettings_application_releases">Версії:</string>
+    <string name="pppputsettings_about_application_version">Версія:</string>
+    <string name="pppputsettings_notification_channel_grant_permission">Надати дозвіл</string>
+    <string name="pppputsettings_notification_channel_grant_permission_description">Показує дозвіл, який потрібно надати.</string>
+    <string name="pppputsettings_notifications_permission_text">Дозвіл на сповіщення не надано.\n\nБудь ласка, увімкніть сповіщення для PPPPutSettings. Без цього сповіщення з PPPPutSettings не показуватимуться.</string>
+    <string name="pppputsettings_web_browser_chooser">Перегляд вебпосилання за допомогою</string>
+    <string name="pppputsettings_enable_notificaitons_button">Увімкнути</string>
+    <string name="pppputsettings_setting_screen_not_found_alert">Налаштування екрану не знайдено.</string>
+    <string name="pppputsettings_permissions_write_settings">Будь ласка, увімкніть \"Змінити налаштування системи\". Без цього налаштування параметра не буде внесено в систему.</string>
+    <string name="pppputsettings_app_name_write_settings_button">Змінити налаштування системи</string>
 </resources>

@@ -3,4 +3,15 @@
 <!--suppress XmlUnusedNamespaceDeclaration -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
     <!--suppress CheckTagEmptyBody -->
+    <string name="pppputsettings_permission">Разрешение приложения PPPPutSettings</string>
+    <string name="pppputsettings_application_releases">Релизы:</string>
+    <string name="pppputsettings_about_application_version">Версия:</string>
+    <string name="pppputsettings_notification_channel_grant_permission">Предоставление разрешения</string>
+    <string name="pppputsettings_notification_channel_grant_permission_description">Показывает разрешение, которое нужно предоставить.</string>
+    <string name="pppputsettings_notifications_permission_text">Разрешение на показ уведомлений не предоставлено.\n\nРазрешите, пожалуйста, уведомления от PPPPutSettings, иначе они не будут отображаться.</string>
+    <string name="pppputsettings_web_browser_chooser">Открыть ссылку с помощью</string>
+    <string name="pppputsettings_enable_notificaitons_button">Разрешить</string>
+    <string name="pppputsettings_setting_screen_not_found_alert">Экран настройки не найден.</string>
+    <string name="pppputsettings_permissions_write_settings">Разрешите, пожалуйста, \"Изменять настройки системы\". Без этого сохранение настроек в базу данных системы работать не будет.</string>
+    <string name="pppputsettings_app_name_write_settings_button">Изменить настройки системы</string>
 </resources>
