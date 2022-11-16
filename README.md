@@ -9,13 +9,13 @@ PPPPutSettings (aka PPPPS)
 [![Crowdin](https://badges.crowdin.net/phoneprofilesplus/localized.svg)](https://crowdin.com/project/phoneprofilesplus)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AF5QK49DMAL2U&currency_code=EUR)
 
-### Sources of PhoneProfilesPlusExtender:
+### Sources of PPPPutSettings:
 
 __[GitHub PPPPS release (direct download)](https://github.com/henrichg/PPPPutSettings/releases/latest/download/PPPPutSettings.apk)__
 
 
 ---
-__What is PhoneProfilesPlus:__
+__What is PPPPutSettings:__
 
 Android application for put settings parameter to system database without root. It is helper application for PhoneProfilesPlus.
 
