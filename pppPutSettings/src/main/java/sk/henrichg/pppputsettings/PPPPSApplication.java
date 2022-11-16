@@ -45,6 +45,8 @@ public class PPPPSApplication extends Application {
                                                 //+ "|MainActivity"
             ;
 
+    static final boolean deviceIsOnePlus = isOnePlus();
+
     // for new log.txt and crash.txt is in /Android/data/sk.henrichg.phoneprofilesplusextender/files
     //public static final String EXPORT_PATH = "/PhoneProfilesPlusExtender";
     static final String LOG_FILENAME = "log.txt";
@@ -154,6 +156,14 @@ public class PPPPSApplication extends Application {
         Thread.setDefaultUncaughtExceptionHandler(new TopExceptionHandler(getApplicationContext(), actualVersionCode));
         //}
 
+    }
+
+    //--------------------------------------------------------------
+
+    private static boolean isOnePlus() {
+        return Build.BRAND.equalsIgnoreCase("oneplus") ||
+                Build.MANUFACTURER.equalsIgnoreCase("oneplus") ||
+                Build.FINGERPRINT.toLowerCase().contains("oneplus");
     }
 
     //--------------------------------------------------------------

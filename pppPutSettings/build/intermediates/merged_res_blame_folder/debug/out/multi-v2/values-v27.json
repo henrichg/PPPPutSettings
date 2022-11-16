@@ -9,30 +9,6 @@
                         "startLines": "3",
                         "startColumns": "4",
                         "startOffsets": "56",
-                        "endLines": "32",
-                        "endColumns": "12",
-                        "endOffsets": "1541"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "31",
-                        "endColumns": "12",
-                        "endOffsets": "1444"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-19:/values-v27/values-v27.xml",
-            "map": [
-                {
-                    "source": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/values-v27/styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "56",
                         "endLines": "33",
                         "endColumns": "12",
                         "endOffsets": "1627"
@@ -44,6 +20,30 @@
                         "endLines": "32",
                         "endColumns": "12",
                         "endOffsets": "1530"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-19:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/values-v27/styles.xml",
+                    "from": {
+                        "startLines": "3,37",
+                        "startColumns": "4,4",
+                        "startOffsets": "56,1741",
+                        "endLines": "35,69",
+                        "endColumns": "12,12",
+                        "endOffsets": "1735,3449"
+                    },
+                    "to": {
+                        "startLines": "2,35",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,1643",
+                        "endLines": "34,67",
+                        "endColumns": "12,12",
+                        "endOffsets": "1638,3255"
                     }
                 }
             ]

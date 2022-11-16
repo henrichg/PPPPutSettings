@@ -228,6 +228,7 @@ attr paddingTopNoTitle
 attr panelBackground
 attr panelMenuListTheme
 attr panelMenuListWidth
+attr popupMenuItemBackground
 attr popupMenuStyle
 attr popupTheme
 attr popupWindowStyle
@@ -358,6 +359,7 @@ color action_button_text_color
 color activityBackgroundColor
 color activityDisabledTextColor
 color activityPopupMenuBackgroundColor
+color activityPopupMenuClickedItemBackgroundColor
 color activitySecondaryTextColor
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
@@ -653,6 +655,9 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable ic_launcher_monochrome
 drawable ic_pppps_app_icon
 drawable listview_item_background
+drawable listview_item_background_no_ripple
+drawable listview_item_background_selector
+drawable listview_item_background_selector_no_ripple
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -665,6 +670,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable popup_menu_item_background
+drawable popup_menu_item_background_no_ripple
+drawable popup_menu_item_background_selector
+drawable popup_menu_item_background_selector_no_ripple
 drawable popup_menu_list_item_background
 drawable popupmenu_background
 drawable pp_alert_button_background
@@ -999,6 +1008,7 @@ style Animation_AppCompat_Dialog
 style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style AppTheme
+style AppTheme_noRipple
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
