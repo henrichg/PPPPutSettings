@@ -20,4 +20,7 @@
 
 <!--    <color name="notificationDecorationColor">#cc893e</color>-->
 
+    <color name="dialog_divider">#21000000</color>
+    <color name="dialogBorderColor">#FFFFFFFF</color>
+
 </resources>

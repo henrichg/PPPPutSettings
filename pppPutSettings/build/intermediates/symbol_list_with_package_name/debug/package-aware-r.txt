@@ -135,6 +135,7 @@ attr controlBackground
 attr customNavigationLayout
 attr defaultQueryHint
 attr dialogCornerRadius
+attr dialogDivider
 attr dialogPreferredPadding
 attr dialogTheme
 attr displayOptions
@@ -375,6 +376,8 @@ color buttonBorderColor
 color buttonClickedBackgroundColor
 color button_material_dark
 color button_material_light
+color dialogBorderColor
+color dialog_divider
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -509,7 +512,9 @@ dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen activity_margin_end
 dimen activity_margin_start
+dimen alert_dialog_top_padding
 dimen button_corner_radius
+dimen chackBox_radioButton_spacing_for_list_items
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -517,8 +522,13 @@ dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
+dimen dialog_background_padding
+dimen dialog_corner_radius
+dimen dialog_transparent_padding
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen divider_height
+dimen divider_margin
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -544,6 +554,7 @@ dimen notification_top_pad_large_text
 dimen popup_menu_corner_radius
 dimen popup_menu_transparent_padding_height
 dimen popup_menu_transparent_padding_width
+dimen popup_window_corner_radius
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -641,6 +652,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable ic_launcher_monochrome
 drawable ic_pppps_app_icon
+drawable listview_item_background
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -655,9 +667,13 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable popup_menu_list_item_background
 drawable popupmenu_background
+drawable pp_alert_button_background
+drawable pp_alert_button_background_clicked
+drawable pp_alert_button_background_selector
 drawable pp_button_background
 drawable pp_button_background_clicked
 drawable pp_button_background_selector
+drawable pp_dialog_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -737,6 +753,15 @@ id buttonPanel
 id center_vertical
 id checkbox
 id checked
+id choose_language_dlg_buttonBarDivider
+id choose_language_dlg_help
+id choose_language_dlg_help_linla
+id choose_language_dlg_item_label
+id choose_language_dlg_item_radio_button
+id choose_language_dlg_item_root
+id choose_language_dlg_listview
+id choose_language_dlg_root
+id choose_language_dlg_titleBarDivider
 id chronometer
 id collapseActionView
 id content
@@ -901,7 +926,9 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_log_crash
 layout activity_main
+layout choose_language_list_item
 layout custom_dialog
+layout dialog_choose_language
 layout log_crash_list_item
 layout notification_action
 layout notification_action_tombstone
@@ -951,6 +978,7 @@ string pppputsettings_about_application_version
 string pppputsettings_app_name
 string pppputsettings_app_name_write_settings_button
 string pppputsettings_application_releases
+string pppputsettings_application_translations
 string pppputsettings_enable_notificaitons_button
 string pppputsettings_menu_choose_language
 string pppputsettings_menu_choose_language_system_language
@@ -963,8 +991,10 @@ string pppputsettings_setting_screen_not_found_alert
 string pppputsettings_web_browser_chooser
 string search_menu_title
 string status_bar_notification_info_overflow
+style AlertButtonStyle
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
+style AlertDialogStyleDayNight
 style Animation_AppCompat_Dialog
 style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
@@ -1125,6 +1155,7 @@ style Base_Widget_AppCompat_TextView
 style Base_Widget_AppCompat_TextView_SpinnerItem
 style Base_Widget_AppCompat_Toolbar
 style Base_Widget_AppCompat_Toolbar_Button_Navigation
+style DialogStyleDayNight
 style EmptyAppCompatActivity
 style Platform_AppCompat
 style Platform_AppCompat_Light

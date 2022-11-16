@@ -30,6 +30,8 @@ public class PPPPSApplication extends Application {
 
     static final String APPLICATION_PREFS_NAME = "ppp_put_settings_preferences";
 
+    static final String CROWDIN_URL = "https://crowdin.com/project/phoneprofilesplus";
+
     //static final int pid = Process.myPid();
     //static final int uid = Process.myUid();
 

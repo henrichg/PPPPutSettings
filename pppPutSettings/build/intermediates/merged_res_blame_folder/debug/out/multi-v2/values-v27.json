@@ -1,6 +1,30 @@
 {
     "logs": [
         {
+            "outputFile": "/home/henrisko/.gradle/daemon/7.4/sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-19:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/values-v27/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endLines": "32",
+                        "endColumns": "12",
+                        "endOffsets": "1541"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "31",
+                        "endColumns": "12",
+                        "endOffsets": "1444"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-19:/values-v27/values-v27.xml",
             "map": [
                 {
@@ -9,17 +33,17 @@
                         "startLines": "3",
                         "startColumns": "4",
                         "startOffsets": "56",
-                        "endLines": "28",
+                        "endLines": "33",
                         "endColumns": "12",
-                        "endOffsets": "1332"
+                        "endOffsets": "1627"
                     },
                     "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endLines": "27",
+                        "endLines": "32",
                         "endColumns": "12",
-                        "endOffsets": "1235"
+                        "endOffsets": "1530"
                     }
                 }
             ]

@@ -20,10 +20,15 @@
 
         <item name="activityDisabledTextColor">@color/activityDisabledTextColor</item>
 
+        <item name="dialogDivider">@color/dialog_divider</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyleDayNight</item>
+        <item name="dialogTheme">@style/DialogStyleDayNight</item>
+
         <item name="android:popupMenuStyle">@style/PopupMenu_dayNight</item>
         <item name="actionOverflowMenuStyle">@style/PopupMenu_dayNight</item>
         <item name="android:dropDownListViewStyle">@style/PopupMenuItemStyle</item>
         <item name="dropDownListViewStyle">@style/PopupMenuItemStyle</item>
+        <item name="listViewItemBackground">@drawable/listview_item_background</item>
 
     </style>
 
@@ -40,6 +45,36 @@
 
     <style name="TextViewTheme" parent="android:Widget.TextView">
         <item name="android:textColor">@color/text_view_color</item>
+    </style>
+
+    <style name="AlertDialogStyleDayNight" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:background">@color/activityBackgroundColor</item>
+        <item name="android:windowBackground">@drawable/pp_dialog_background</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="buttonBarNegativeButtonStyle">@style/AlertButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/AlertButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/AlertButtonStyle</item>
+    </style>
+
+    <style name="DialogStyleDayNight" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:background">@color/activityBackgroundColor</item>
+        <item name="android:windowBackground">@drawable/pp_dialog_background</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="buttonBarNegativeButtonStyle">@style/AlertButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/AlertButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/AlertButtonStyle</item>
+    </style>
+
+    <style name="AlertButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:background">@drawable/pp_alert_button_background_selector</item>
+        <item name="android:textColor">@color/action_button_text_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
     </style>
 
 </resources>
