@@ -18,3 +18,15 @@ __[GitHub PPPPS release (direct download)](https://github.com/henrichg/PPPPutSet
 __What is PhoneProfilesPlus:__
 
 Android application for put settings parameter to system database without root. It is helper application for PhoneProfilesPlus.
+
+##### Supported Android versions
+
+- From Android 5.1
+- minSdkVersion = 22
+- targetSdkVersion = 22
+- compiledSdkVersion = 32
+
+##### Required external libs - open-source
+
+- AndroidX library: appcompat - https://developer.android.com/jetpack/androidx/versions
+- Multi-language_App (only modified class LocaleHelper.java) https://github.com/anurajr1/Multi-language_App
