@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -410,7 +408,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668596177729</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Change: Updated README.md. (4)">
+      <created>1668596421017</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1668596421017</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Change: Updated README.md. (5)">
+      <created>1668596681012</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1668596681012</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -442,6 +454,8 @@
     <MESSAGE value="Change: Updated README.md." />
     <MESSAGE value="Change: Updated README.md. (2)" />
     <MESSAGE value="Change: Updated README.md. (3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Updated README.md. (3)" />
+    <MESSAGE value="Change: Updated README.md. (4)" />
+    <MESSAGE value="Change: Updated README.md. (5)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Updated README.md. (5)" />
   </component>
 </project>
