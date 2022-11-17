@@ -326,6 +326,8 @@ attr windowMinWidthMinor
 attr windowNoTitle
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
+bool acra_enable_job_service
+bool acra_enable_legacy_service
 bool windowLightStatusBar
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
@@ -652,6 +654,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable ic_exclamation_notify
 drawable ic_launcher_monochrome
 drawable ic_pppps_app_icon
 drawable listview_item_background
@@ -759,6 +762,8 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id button_discard
+id button_send
 id center_vertical
 id checkbox
 id checked
@@ -814,6 +819,8 @@ id menu_debug
 id menu_show_crash
 id menu_show_log
 id menu_show_log_file
+id menu_test_crash
+id menu_test_nonFatal
 id message
 id middle
 id multiply
@@ -941,6 +948,8 @@ layout dialog_choose_language
 layout log_crash_list_item
 layout notification_action
 layout notification_action_tombstone
+layout notification_big
+layout notification_small
 layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
@@ -984,6 +993,12 @@ string abc_toolbar_collapse_description
 string androidx_startup
 string empty_string
 string pppputsettings_about_application_version
+string pppputsettings_acra_email_body_android_version
+string pppputsettings_acra_email_body_device
+string pppputsettings_acra_email_body_text
+string pppputsettings_acra_email_subject_text
+string pppputsettings_acra_notification_text
+string pppputsettings_acra_notification_title
 string pppputsettings_app_name
 string pppputsettings_app_name_write_settings_button
 string pppputsettings_application_releases
@@ -991,6 +1006,7 @@ string pppputsettings_application_translations
 string pppputsettings_enable_notificaitons_button
 string pppputsettings_menu_choose_language
 string pppputsettings_menu_choose_language_system_language
+string pppputsettings_notification_channel_crash_report
 string pppputsettings_notification_channel_grant_permission
 string pppputsettings_notification_channel_grant_permission_description
 string pppputsettings_notifications_permission_text

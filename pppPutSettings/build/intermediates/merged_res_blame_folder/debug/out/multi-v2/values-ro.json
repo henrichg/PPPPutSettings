@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-19:/values-ro/values-ro.xml",
+            "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-21:/values-ro/values-ro.xml",
             "map": [
                 {
                     "source": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/values-ro/strings.xml",
