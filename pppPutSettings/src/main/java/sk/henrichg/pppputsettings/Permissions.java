@@ -39,7 +39,7 @@ class Permissions {
                                 activity.startActivityForResult(intent, NOTIFICATIONS_PERMISSION_REQUEST_CODE);
                                 ok = true;
                             } catch (Exception e) {
-                                Log.e("Permissions.grantNotificationsPermission", Log.getStackTraceString(e));
+                                PPPPSApplication.recordException(e);
                             }
                         }
                         if (!ok) {

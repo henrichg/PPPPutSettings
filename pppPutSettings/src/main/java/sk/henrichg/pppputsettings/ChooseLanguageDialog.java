@@ -87,8 +87,7 @@ class ChooseLanguageDialog
                 try {
                     activity.startActivity(Intent.createChooser(i, activity.getString(R.string.pppputsettings_web_browser_chooser)));
                 } catch (Exception e) {
-                    //PPPEApplication.recordException(e);
-                    Log.e("ChooseLanguageDialog.onClick", Log.getStackTraceString(e));
+                    PPPPSApplication.recordException(e);
                 }
             }
         };

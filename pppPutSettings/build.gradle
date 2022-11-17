@@ -48,6 +48,16 @@ android {
 }
 
 dependencies {
+    // https://developer.android.com/guide/background/listenablefuture
+    implementation "com.google.guava:guava:31.0.1-android"
+    implementation "ch.acra:acra-mail:$ppVersions.acra"
+    implementation "ch.acra:acra-notification:$ppVersions.acra"
+
+//    //noinspection GradleDependency
+//    implementation 'ch.acra:acra-mail:5.8.4'
+//    //noinspection GradleDependency
+//    implementation 'ch.acra:acra-notification:5.8.4'
+
     implementation "androidx.appcompat:appcompat:$ppVersions.appcompatXLib"
     implementation "androidx.appcompat:appcompat-resources:$ppVersions.appcompatXLib"
 

@@ -5,7 +5,6 @@ import android.content.ContentValues;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -68,7 +67,7 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
             // settingsType : "system", "secure", "global"
             contentResolver.insert(Uri.parse("content://settings/" + settingsType), contentValues);
         } catch (Exception e) {
-            Log.e("PutSettingsParameterActivity.putSettingsParameter", Log.getStackTraceString(e));
+            PPPPSApplication.recordException(e);
         }
 
     }

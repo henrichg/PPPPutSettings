@@ -7,10 +7,17 @@ import android.app.NotificationManager;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.os.Build;
+import android.provider.Settings;
 import android.util.Log;
 
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.pm.PackageInfoCompat;
+
+import org.acra.ACRA;
+import org.acra.config.CoreConfigurationBuilder;
+import org.acra.config.MailSenderConfigurationBuilder;
+import org.acra.config.NotificationConfigurationBuilder;
+import org.acra.data.StringFormat;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -63,12 +70,49 @@ public class PPPPSApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
+        // This is required : https://www.acra.ch/docs/Troubleshooting-Guide#applicationoncreate
+        if (ACRA.isACRASenderServiceProcess()) {
+            Log.e("################# PPPPSApplication.onCreate", "ACRA.isACRASenderServiceProcess()");
+            return;
+        }
+
+/*        CoreConfigurationBuilder builder = new CoreConfigurationBuilder(this)
+                .setBuildConfigClass(BuildConfig.class)
+                .setReportFormat(StringFormat.KEY_VALUE_LIST);
+        //builder.getPluginConfigurationBuilder(ToastConfigurationBuilder.class)
+        //        .setResText(R.string.acra_toast_text)
+        //        .setEnabled(true);
+        builder.getPluginConfigurationBuilder(NotificationConfigurationBuilder.class)
+                .setResChannelName(R.string.extender_notification_channel_crash_report)
+                .setResChannelImportance(NotificationManager.IMPORTANCE_DEFAULT)
+                .setResIcon(R.drawable.ic_exclamation_notify)
+                .setResTitle(R.string.extender_acra_notification_title)
+                .setResText(R.string.extender_acra_notification_text)
+                .setResSendButtonIcon(0)
+                .setResDiscardButtonIcon(0)
+                .setSendOnClick(true)
+                .setEnabled(true);
+        builder.getPluginConfigurationBuilder(MailSenderConfigurationBuilder.class)
+                .setMailTo("henrich.gron@gmail.com")
+                .setResSubject(R.string.extender_acra_email_subject_text)
+                .setResBody(R.string.extender_acra_email_body_text)
+                .setReportAsFile(true)
+                .setReportFileName("crash_report.txt")
+                .setEnabled(true);
+
+        ACRA.init(this, builder);
+
+        // don't schedule anything in crash reporter process
+        if (ACRA.isACRASenderServiceProcess())
+            return;
+*/
+
         instance = this;
 
         if (checkAppReplacingState())
             return;
 
-        //Log.e("##### PPPEApplication.onCreate", "Start  uid="+uid);
+        //Log.e("##### PPPPSApplication.onCreate", "Start  uid="+uid);
 
         PPPPSApplication.createGrantPermissionNotificationChannel(this);
 
@@ -114,6 +158,11 @@ public class PPPPSApplication extends Application {
         });
         anrWatchDog.start();
         */
+
+        try {
+            PPPPSApplication.setCustomKey("DEBUG", BuildConfig.DEBUG);
+        } catch (Exception ignored) {}
+
     }
 
     // workaround for: java.lang.NullPointerException: Attempt to invoke virtual method
@@ -135,15 +184,94 @@ public class PPPPSApplication extends Application {
         super.attachBaseContext(LocaleHelper.onAttach(base));
         //Reflection.unseal(base);
 
-        /*
+        collator = getCollator();
+
+        // This is required : https://www.acra.ch/docs/Troubleshooting-Guide#applicationoncreate
+        if (ACRA.isACRASenderServiceProcess()) {
+            Log.e("################# PPPPSApplication.attachBaseContext", "ACRA.isACRASenderServiceProcess()");
+            return;
+        }
+
         String packageVersion = "";
         try {
             PackageInfo pInfo = getPackageManager().getPackageInfo(PPPPSApplication.PACKAGE_NAME, 0);
             packageVersion = " - v" + pInfo.versionName + " (" + PPPPSApplication.getVersionCode(pInfo) + ")";
-        } catch (Exception e) {
-            Log.e("PPPPSApplication.attachBaseContext", Log.getStackTraceString(e));
+        } catch (Exception ignored) {
         }
-        */
+
+        String body;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N_MR1)
+            body = getString(R.string.pppputsettings_acra_email_body_device) + " " +
+                    Settings.Global.getString(getContentResolver(), Settings.Global.DEVICE_NAME) +
+                    " (" + Build.MODEL + ")" + " \n";
+        else {
+            String manufacturer = Build.MANUFACTURER;
+            String model = Build.MODEL;
+            if (model.startsWith(manufacturer))
+                body = getString(R.string.pppputsettings_acra_email_body_device) + " " + model + " \n";
+            else
+                body = getString(R.string.pppputsettings_acra_email_body_device) + " " + manufacturer + " " + model + " \n";
+        }
+        body = body + getString(R.string.pppputsettings_acra_email_body_android_version) + " " + Build.VERSION.RELEASE + " \n\n";
+        body = body + getString(R.string.pppputsettings_acra_email_body_text);
+
+        Log.e("##### PPPPSApplication.attachBaseContext", "ACRA inittialization");
+
+/*
+        CoreConfigurationBuilder builder = new CoreConfigurationBuilder(this)
+                .withBuildConfigClass(BuildConfig.class)
+                .withReportFormat(StringFormat.KEY_VALUE_LIST);
+        //builder.getPluginConfigurationBuilder(ToastConfigurationBuilder.class)
+        //        .setResText(R.string.acra_toast_text)
+        //        .setEnabled(true);
+        builder.getPluginConfigurationBuilder(NotificationConfigurationBuilder.class)
+                .withResChannelName(R.string.extender_notification_channel_crash_report)
+                .withResChannelImportance(NotificationManager.IMPORTANCE_HIGH)
+                .withResIcon(R.drawable.ic_exclamation_notify)
+                .withResTitle(R.string.extender_acra_notification_title)
+                .withResText(R.string.extender_acra_notification_text)
+                .withResSendButtonIcon(0)
+                .withResDiscardButtonIcon(0)
+                .withSendOnClick(true)
+                .withEnabled(true);
+        builder.getPluginConfigurationBuilder(MailSenderConfigurationBuilder.class)
+                .withMailTo("henrich.gron@gmail.com")
+                .withSubject("PhoneProfilesPlusExtender" + packageVersion + " - " + getString(R.string.extender_acra_email_subject_text))
+                .withBody(body)
+                .withReportAsFile(true)
+                .withReportFileName("crash_report.txt")
+                .withEnabled(true);
+*/
+
+        CoreConfigurationBuilder builder = new CoreConfigurationBuilder()
+                .withBuildConfigClass(BuildConfig.class)
+                .withReportFormat(StringFormat.KEY_VALUE_LIST);
+
+        builder.withPluginConfigurations(
+                new NotificationConfigurationBuilder()
+                        .withChannelName(getString(R.string.pppputsettings_notification_channel_crash_report))
+                        //.withChannelImportance(NotificationManager.IMPORTANCE_HIGH)
+                        .withResIcon(R.drawable.ic_exclamation_notify)
+                        .withTitle(getString(R.string.pppputsettings_acra_notification_title))
+                        .withText(getString(R.string.pppputsettings_acra_notification_text))
+                        .withResSendButtonIcon(0)
+                        .withResDiscardButtonIcon(0)
+                        .withSendOnClick(true)
+                        .withEnabled(true)
+                        .build(),
+                new MailSenderConfigurationBuilder()
+                        .withMailTo("henrich.gron@gmail.com")
+                        .withSubject("PPPPutSettings" + packageVersion + " - " + getString(R.string.pppputsettings_acra_email_subject_text))
+                        .withBody(body)
+                        .withReportAsFile(true)
+                        .withReportFileName("crash_report.txt")
+                        .withEnabled(true)
+                        .build()
+        );
+
+        //ACRA.DEV_LOGGING = true;
+
+        ACRA.init(this, builder);
 
         //if (BuildConfig.DEBUG) {
         long actualVersionCode = 0;
@@ -153,9 +281,8 @@ public class PPPPSApplication extends Application {
             actualVersionCode = PackageInfoCompat.getLongVersionCode(pInfo);
         } catch (Exception ignored) {}
 
-        Thread.setDefaultUncaughtExceptionHandler(new TopExceptionHandler(getApplicationContext(), actualVersionCode));
+        Thread.setDefaultUncaughtExceptionHandler(new TopExceptionHandler(base, actualVersionCode));
         //}
-
     }
 
     //--------------------------------------------------------------
@@ -305,6 +432,47 @@ public class PPPPSApplication extends Application {
         }
     }
 
+    // ACRA -------------------------------------------------------------------------
+
+    static void recordException(Throwable ex) {
+        try {
+            //FirebaseCrashlytics.getInstance().recordException(ex);
+            ACRA.getErrorReporter().handleException(ex);
+        } catch (Exception ignored) {}
+    }
+
+    @SuppressWarnings("unused")
+    static void logToACRA(String s) {
+        try {
+            //FirebaseCrashlytics.getInstance().log(s);
+            ACRA.getErrorReporter().putCustomData("Log", s);
+        } catch (Exception ignored) {}
+    }
+
+    @SuppressWarnings("unused")
+    static void setCustomKey(String key, int value) {
+        try {
+            //FirebaseCrashlytics.getInstance().setCustomKey(key, value);
+            ACRA.getErrorReporter().putCustomData(key, String.valueOf(value));
+        } catch (Exception ignored) {}
+    }
+
+    @SuppressWarnings("unused")
+    static void setCustomKey(String key, String value) {
+        try {
+            //FirebaseCrashlytics.getInstance().setCustomKey(key, value);
+            ACRA.getErrorReporter().putCustomData(key, value);
+        } catch (Exception ignored) {}
+    }
+
+    @SuppressWarnings("SameParameterValue")
+    static void setCustomKey(String key, boolean value) {
+        try {
+            //FirebaseCrashlytics.getInstance().setCustomKey(key, value);
+            ACRA.getErrorReporter().putCustomData(key, String.valueOf(value));
+        } catch (Exception ignored) {}
+    }
+
     // Google Analytics ----------------------------------------------------------------------------
 
     /*
@@ -350,6 +518,11 @@ public class PPPPSApplication extends Application {
         return Collator.getInstance(appLocale);
     }
 
+    static int getVersionCode(PackageInfo pInfo) {
+        //return pInfo.versionCode;
+        return (int) PackageInfoCompat.getLongVersionCode(pInfo);
+    }
+
     static void createGrantPermissionNotificationChannel(Context context) {
         if (Build.VERSION.SDK_INT >= 26) {
             try {
@@ -377,7 +550,8 @@ public class PPPPSApplication extends Application {
 
                 notificationManager.createNotificationChannel(channel);
             } catch (Exception e) {
-                Log.e("PPPPSApplication.createGrantPermissionNotificationChannel", Log.getStackTraceString(e));
+                //Log.e("PPPPSApplication.createGrantPermissionNotificationChannel", Log.getStackTraceString(e));
+                PPPPSApplication.recordException(e);
             }
         }
     }
