@@ -106,6 +106,7 @@ public class LocaleHelper {
         return localizedContext;
     }
 
+    @SuppressWarnings("unused")
     static void setApplicationLocale(Context context) {
 //        String language;
 //        String country;
