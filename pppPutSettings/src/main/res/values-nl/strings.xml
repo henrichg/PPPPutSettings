@@ -14,4 +14,14 @@
     <string name="pppputsettings_setting_screen_not_found_alert">Scherminstellingen niet gevonden.</string>
     <string name="pppputsettings_permissions_write_settings">Schakel \"Systeeminstellingen wijzigen\" in. Zonder dit lukt het schrijven van de instellingen niet naar de instellingen database.</string>
     <string name="pppputsettings_app_name_write_settings_button">Systeeminstellingen wijzigen</string>
+    <string name="pppputsettings_menu_choose_language">Taal kiezen</string>
+    <string name="pppputsettings_menu_choose_language_system_language">[System]</string>
+    <string name="pppputsettings_application_translations">Vertalingen:</string>
+    <string name="pppputsettings_acra_email_body_device">Apparaat:</string>
+    <string name="pppputsettings_acra_email_body_android_version">Android versie:</string>
+    <string name="pppputsettings_acra_email_subject_text">crash rapport</string>
+    <string name="pppputsettings_acra_email_body_text">PPPPutSettings zijn gecrasht. Bijgevoegd het crashrapport.</string>
+    <string name="pppputsettings_acra_notification_title">Sorry, PPPPutSettings gecrasht</string>
+    <string name="pppputsettings_acra_notification_text">Klik hier om een crashrapport te verzenden naar de auteur. Dank je wel.</string>
+    <string name="pppputsettings_notification_channel_crash_report">Crashrapport</string>
 </resources>

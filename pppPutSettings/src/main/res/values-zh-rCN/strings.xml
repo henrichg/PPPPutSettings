@@ -14,4 +14,14 @@
     <string name="pppputsettings_setting_screen_not_found_alert">屏幕设置未找到。</string>
     <string name="pppputsettings_permissions_write_settings">请开启\"修改系统设置\"权限。否则无法将设置参数放入系统数据库。</string>
     <string name="pppputsettings_app_name_write_settings_button">修改系统设置</string>
+    <string name="pppputsettings_menu_choose_language">选择语言</string>
+    <string name="pppputsettings_menu_choose_language_system_language">[System]</string>
+    <string name="pppputsettings_application_translations">Translations:</string>
+    <string name="pppputsettings_acra_email_body_device">Device:</string>
+    <string name="pppputsettings_acra_email_body_android_version">Android version:</string>
+    <string name="pppputsettings_acra_email_subject_text">crash report</string>
+    <string name="pppputsettings_acra_email_body_text">PPPPutSettings was crashed. Attached is the crash report.</string>
+    <string name="pppputsettings_acra_notification_title">Sorry, PPPPutSettings crashed</string>
+    <string name="pppputsettings_acra_notification_text">Please click here, to send crash report to author. Thank you very much.</string>
+    <string name="pppputsettings_notification_channel_crash_report">Crash report</string>
 </resources>
