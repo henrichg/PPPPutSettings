@@ -32,6 +32,7 @@
         <item name="listViewItemBackground">@drawable/listview_item_background_selector</item>
         <item name="popupMenuItemBackground">@drawable/popup_menu_item_background_selector</item>
 
+        <item name="android:scrollbarThumbVertical">@color/scrollbar_color</item>
     </style>
 
     <style name="AppTheme_noRipple" parent="Theme.AppCompat.DayNight">
@@ -65,6 +66,7 @@
         <item name="listViewItemBackground">@drawable/listview_item_background_selector_no_ripple</item>
         <item name="popupMenuItemBackground">@drawable/popup_menu_item_background_selector_no_ripple</item>
 
+        <item name="android:scrollbarThumbVertical">@color/scrollbar_color</item>
     </style>
 
 

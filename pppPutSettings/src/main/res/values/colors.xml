@@ -24,4 +24,6 @@
     <color name="dialog_divider">#21000000</color>
     <color name="dialogBorderColor">#FFFFFFFF</color>
 
+    <color name="scrollbar_color">#37000000</color>
+
 </resources>
