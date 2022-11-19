@@ -6,20 +6,20 @@
                 {
                     "source": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/values-v27/styles.xml",
                     "from": {
-                        "startLines": "3,37",
+                        "startLines": "3,39",
                         "startColumns": "4,4",
-                        "startOffsets": "56,1741",
-                        "endLines": "35,69",
+                        "startOffsets": "56,1824",
+                        "endLines": "37,73",
                         "endColumns": "12,12",
-                        "endOffsets": "1735,3449"
+                        "endOffsets": "1818,3615"
                     },
                     "to": {
-                        "startLines": "2,35",
+                        "startLines": "2,37",
                         "startColumns": "4,4",
-                        "startOffsets": "55,1643",
-                        "endLines": "34,67",
+                        "startOffsets": "55,1726",
+                        "endLines": "36,71",
                         "endColumns": "12,12",
-                        "endOffsets": "1638,3255"
+                        "endOffsets": "1721,3421"
                     }
                 }
             ]
