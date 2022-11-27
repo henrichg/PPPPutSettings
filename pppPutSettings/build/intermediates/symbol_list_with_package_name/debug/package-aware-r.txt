@@ -753,6 +753,7 @@ id activity_main_application_releases
 id activity_main_application_version
 id activity_main_permission_write_settings
 id activity_main_scroll_view
+id activity_main_titleBarDivider
 id activity_main_write_settings_button
 id add
 id alertTitle
