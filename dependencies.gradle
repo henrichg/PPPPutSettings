@@ -1,6 +1,6 @@
 ext.ppVersions = [
-    publishVersion: '1.0.1',
-    publishVersionCode: 25,
+    publishVersion: '1.0.1.1b',
+    publishVersionCode: 26,
 
     minSdk: 22,
 
@@ -8,10 +8,10 @@ ext.ppVersions = [
     // 22 is required for:
     // - put settings parameter to system db without root ;-)
 
-    compileSdk: 32,
+    compileSdk: 33,
     buildTools: '33.0.0',
 
     appcompatXLib: '1.5.1', //'1.4.2',
 
-    acra: '5.9.6'
+    acra: '5.9.7'
 ]

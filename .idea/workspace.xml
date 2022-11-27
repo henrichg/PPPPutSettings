@@ -11,13 +11,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/henrisko/.android/avd/7.6_Fold-in_with_outer_display_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[22231FDF600373]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -164,20 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Change: Major updates.">
-      <created>1667653379503</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1667653379503</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Change: Major updates.">
-      <created>1667653400439</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1667653400439</updated>
     </task>
     <task id="LOCAL-00010" summary="Change: Major updates.">
       <created>1667653418322</created>
@@ -508,7 +495,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669056082540</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Change: Added title divider into main activity.">
+      <created>1669551741304</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1669551741304</updated>
+    </task>
+    <task id="LOCAL-00058" summary="...">
+      <created>1669551758378</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1669551758378</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -524,13 +525,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Application icon." />
     <MESSAGE value="Change: Added permission for PutSettingsParameterActivity." />
     <MESSAGE value="Change: Deleted broadcast from PPP." />
     <MESSAGE value="Change: Do not show notification permission dialog in PutSettingsParameterActivity." />
     <MESSAGE value="Remove logs." />
     <MESSAGE value="Updated .gitignore" />
-    <MESSAGE value="..." />
     <MESSAGE value="Added &quot;Choose language&quot;." />
     <MESSAGE value="Change: Updated README.md." />
     <MESSAGE value="Change: Updated README.md. (2)" />
@@ -549,6 +548,8 @@
     <MESSAGE value="Change: Better button border color in night theme." />
     <MESSAGE value="Updated translations." />
     <MESSAGE value="Change: Title for notification permission dialog." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Title for notification permission dialog." />
+    <MESSAGE value="Change: Added title divider into main activity." />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
 </project>
