@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,20 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Change: Final work. All working as expected.">
-      <created>1667667579095</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1667667579095</updated>
-    </task>
-    <task id="LOCAL-00013" summary="...">
-      <created>1667672292286</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1667672292286</updated>
     </task>
     <task id="LOCAL-00014" summary="Change: Application icon.">
       <created>1667677933389</created>
@@ -508,7 +494,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669583632545</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="New version 1.0.1.1.">
+      <created>1669583698217</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1669583698217</updated>
+    </task>
+    <task id="LOCAL-00062" summary="New version 1.0.1.1.">
+      <created>1669583711573</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1669583711573</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -524,7 +524,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Deleted broadcast from PPP." />
     <MESSAGE value="Change: Do not show notification permission dialog in PutSettingsParameterActivity." />
     <MESSAGE value="Remove logs." />
     <MESSAGE value="Updated .gitignore" />
@@ -549,6 +548,7 @@
     <MESSAGE value="Change: Added title divider into main activity." />
     <MESSAGE value="..." />
     <MESSAGE value="Fix: Fixed not working send crash report mail via GMal in Android 13. Required is: ACRA 5.9.7 and compiledSDK=33." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Fixed not working send crash report mail via GMal in Android 13. Required is: ACRA 5.9.7 and compiledSDK=33." />
+    <MESSAGE value="New version 1.0.1.1." />
+    <option name="LAST_COMMIT_MESSAGE" value="New version 1.0.1.1." />
   </component>
 </project>

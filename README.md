@@ -3,7 +3,7 @@
 PPPPutSettings (aka PPPPS)
 ====================================
 
-[![version](https://img.shields.io/badge/version-1.0-blue)](https://github.com/henrichg/PPPPutSettings/releases/tag/1.0)
+[![version](https://img.shields.io/badge/version-1.0.1.1-blue)](https://github.com/henrichg/PPPPutSettings/releases/tag/1.0.1.1)
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 [![License](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/henrichg/PPPPutSettings/blob/master/LICENSE)
 [![Crowdin](https://badges.crowdin.net/phoneprofilesplus/localized.svg)](https://crowdin.com/project/phoneprofilesplus)
@@ -24,9 +24,11 @@ Android application for put settings parameter to system database without root. 
 - From Android 5.1
 - minSdkVersion = 22
 - targetSdkVersion = 22
-- compiledSdkVersion = 32
+- compiledSdkVersion = 33
 
 ##### Required external libs - open-source
 
 - AndroidX library: appcompat - https://developer.android.com/jetpack/androidx/versions
+- ACRA - https://github.com/ACRA/acra
+- guava - https://github.com/google/guava
 - Multi-language_App (only modified class LocaleHelper.java) https://github.com/anurajr1/Multi-language_App
