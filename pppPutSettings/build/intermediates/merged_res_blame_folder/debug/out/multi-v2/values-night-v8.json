@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/henrisko/.gradle/daemon/7.4/sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-21:/values-night-v8/values-night-v8.xml",
+            "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-21:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/home/henrisko/.gradle/caches/transforms-3/034f511a629c0fda711794a09fef4382/transformed/appcompat-1.5.1/res/values-night-v8/values-night-v8.xml",
@@ -38,58 +38,6 @@
                         "startOffsets": "143,292,476,539,608,413,800,746,858,1049,998,243,688,55,97,1104",
                         "endColumns": "40,59,61,68,79,62,57,53,64,53,50,47,56,41,45,51",
                         "endOffsets": "179,347,533,603,683,471,853,795,918,1098,1044,286,740,92,138,1151"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "106,147,207,269,338,418,481,539,593,658,712,763,811,868,910,956",
-                        "endColumns": "40,59,61,68,79,62,57,53,64,53,50,47,56,41,45,51",
-                        "endOffsets": "142,202,264,333,413,476,534,588,653,707,758,806,863,905,951,1003"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-21:/values-night-v8/values-night-v8.xml",
-            "map": [
-                {
-                    "source": "/home/henrisko/.gradle/caches/transforms-3/034f511a629c0fda711794a09fef4382/transformed/appcompat-1.5.1/res/values-night-v8/values-night-v8.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "19,20,21,22,23,24,25,26",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "1008,1078,1162,1246,1342,1444,1546,1640",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "1073,1157,1241,1337,1439,1541,1635,1724"
-                    }
-                },
-                {
-                    "source": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/values-night/constants.xml",
-                    "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "50",
-                        "endOffsets": "101"
-                    }
-                },
-                {
-                    "source": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/values-night/colors.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,17,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,4,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,746,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "endColumns": "-1,-1,-1,-1,-1,-1,-1,53,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "endOffsets": "-1,-1,-1,-1,-1,-1,-1,795,-1,-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",

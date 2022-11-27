@@ -4,16 +4,6 @@
             "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-21:/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/res/values-v22/values-v22.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,108",
-                        "endColumns": "52,56",
-                        "endOffsets": "103,160"
-                    }
-                },
-                {
                     "source": "/home/henrisko/.gradle/caches/transforms-3/034f511a629c0fda711794a09fef4382/transformed/appcompat-1.5.1/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
@@ -30,6 +20,16 @@
                         "endLines": "4,5,10,15",
                         "endColumns": "74,86,12,12",
                         "endOffsets": "235,322,592,874"
+                    }
+                },
+                {
+                    "source": "/home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/res/values-v22/values-v22.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,108",
+                        "endColumns": "52,56",
+                        "endOffsets": "103,160"
                     }
                 }
             ]

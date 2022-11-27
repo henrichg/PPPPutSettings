@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="sk.henrichg.pppputsettings"
-4    android:versionCode="25"
-5    android:versionName="1.0.1" >
+4    android:versionCode="26"
+5    android:versionName="1.0.1.1b" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
@@ -40,187 +40,198 @@
 24-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:20:22-70
 25
 26    <queries>
-26-->[ch.acra:acra-mail:5.9.6] /home/henrisko/.gradle/caches/transforms-3/59ad393e279e5e1f341766e7ebadfdfb/transformed/jetified-acra-mail-5.9.6/AndroidManifest.xml:22:5-36:15
+26-->[ch.acra:acra-mail:5.9.7] /home/henrisko/.gradle/caches/transforms-3/72c6781d1057477f71821998ead0a331/transformed/jetified-acra-mail-5.9.7/AndroidManifest.xml:22:5-36:15
 27        <intent>
-27-->[ch.acra:acra-mail:5.9.6] /home/henrisko/.gradle/caches/transforms-3/59ad393e279e5e1f341766e7ebadfdfb/transformed/jetified-acra-mail-5.9.6/AndroidManifest.xml:23:9-27:18
+27-->[ch.acra:acra-mail:5.9.7] /home/henrisko/.gradle/caches/transforms-3/72c6781d1057477f71821998ead0a331/transformed/jetified-acra-mail-5.9.7/AndroidManifest.xml:23:9-27:18
 28            <action android:name="android.intent.action.SEND" />
-28-->[ch.acra:acra-mail:5.9.6] /home/henrisko/.gradle/caches/transforms-3/59ad393e279e5e1f341766e7ebadfdfb/transformed/jetified-acra-mail-5.9.6/AndroidManifest.xml:24:13-65
-28-->[ch.acra:acra-mail:5.9.6] /home/henrisko/.gradle/caches/transforms-3/59ad393e279e5e1f341766e7ebadfdfb/transformed/jetified-acra-mail-5.9.6/AndroidManifest.xml:24:21-62
+28-->[ch.acra:acra-mail:5.9.7] /home/henrisko/.gradle/caches/transforms-3/72c6781d1057477f71821998ead0a331/transformed/jetified-acra-mail-5.9.7/AndroidManifest.xml:24:13-65
+28-->[ch.acra:acra-mail:5.9.7] /home/henrisko/.gradle/caches/transforms-3/72c6781d1057477f71821998ead0a331/transformed/jetified-acra-mail-5.9.7/AndroidManifest.xml:24:21-62
 29
 30            <data android:mimeType="message/rfc822" />
-30-->[ch.acra:acra-mail:5.9.6] /home/henrisko/.gradle/caches/transforms-3/59ad393e279e5e1f341766e7ebadfdfb/transformed/jetified-acra-mail-5.9.6/AndroidManifest.xml:26:13-55
-30-->[ch.acra:acra-mail:5.9.6] /home/henrisko/.gradle/caches/transforms-3/59ad393e279e5e1f341766e7ebadfdfb/transformed/jetified-acra-mail-5.9.6/AndroidManifest.xml:26:19-52
+30-->[ch.acra:acra-mail:5.9.7] /home/henrisko/.gradle/caches/transforms-3/72c6781d1057477f71821998ead0a331/transformed/jetified-acra-mail-5.9.7/AndroidManifest.xml:26:13-55
+30-->[ch.acra:acra-mail:5.9.7] /home/henrisko/.gradle/caches/transforms-3/72c6781d1057477f71821998ead0a331/transformed/jetified-acra-mail-5.9.7/AndroidManifest.xml:26:19-52
 31        </intent>
 32        <intent>
-32-->[ch.acra:acra-mail:5.9.6] /home/henrisko/.gradle/caches/transforms-3/59ad393e279e5e1f341766e7ebadfdfb/transformed/jetified-acra-mail-5.9.6/AndroidManifest.xml:28:9-32:18
+32-->[ch.acra:acra-mail:5.9.7] /home/henrisko/.gradle/caches/transforms-3/72c6781d1057477f71821998ead0a331/transformed/jetified-acra-mail-5.9.7/AndroidManifest.xml:28:9-32:18
 33            <action android:name="android.intent.action.SEND_MULTIPLE" />
-33-->[ch.acra:acra-mail:5.9.6] /home/henrisko/.gradle/caches/transforms-3/59ad393e279e5e1f341766e7ebadfdfb/transformed/jetified-acra-mail-5.9.6/AndroidManifest.xml:29:13-74
-33-->[ch.acra:acra-mail:5.9.6] /home/henrisko/.gradle/caches/transforms-3/59ad393e279e5e1f341766e7ebadfdfb/transformed/jetified-acra-mail-5.9.6/AndroidManifest.xml:29:21-71
+33-->[ch.acra:acra-mail:5.9.7] /home/henrisko/.gradle/caches/transforms-3/72c6781d1057477f71821998ead0a331/transformed/jetified-acra-mail-5.9.7/AndroidManifest.xml:29:13-74
+33-->[ch.acra:acra-mail:5.9.7] /home/henrisko/.gradle/caches/transforms-3/72c6781d1057477f71821998ead0a331/transformed/jetified-acra-mail-5.9.7/AndroidManifest.xml:29:21-71
 34
 35            <data android:mimeType="message/rfc822" />
-35-->[ch.acra:acra-mail:5.9.6] /home/henrisko/.gradle/caches/transforms-3/59ad393e279e5e1f341766e7ebadfdfb/transformed/jetified-acra-mail-5.9.6/AndroidManifest.xml:26:13-55
-35-->[ch.acra:acra-mail:5.9.6] /home/henrisko/.gradle/caches/transforms-3/59ad393e279e5e1f341766e7ebadfdfb/transformed/jetified-acra-mail-5.9.6/AndroidManifest.xml:26:19-52
+35-->[ch.acra:acra-mail:5.9.7] /home/henrisko/.gradle/caches/transforms-3/72c6781d1057477f71821998ead0a331/transformed/jetified-acra-mail-5.9.7/AndroidManifest.xml:26:13-55
+35-->[ch.acra:acra-mail:5.9.7] /home/henrisko/.gradle/caches/transforms-3/72c6781d1057477f71821998ead0a331/transformed/jetified-acra-mail-5.9.7/AndroidManifest.xml:26:19-52
 36        </intent>
 37        <intent>
-37-->[ch.acra:acra-mail:5.9.6] /home/henrisko/.gradle/caches/transforms-3/59ad393e279e5e1f341766e7ebadfdfb/transformed/jetified-acra-mail-5.9.6/AndroidManifest.xml:33:9-35:18
+37-->[ch.acra:acra-mail:5.9.7] /home/henrisko/.gradle/caches/transforms-3/72c6781d1057477f71821998ead0a331/transformed/jetified-acra-mail-5.9.7/AndroidManifest.xml:33:9-35:18
 38            <action android:name="android.intent.action.SENDTO" />
-38-->[ch.acra:acra-mail:5.9.6] /home/henrisko/.gradle/caches/transforms-3/59ad393e279e5e1f341766e7ebadfdfb/transformed/jetified-acra-mail-5.9.6/AndroidManifest.xml:34:13-67
-38-->[ch.acra:acra-mail:5.9.6] /home/henrisko/.gradle/caches/transforms-3/59ad393e279e5e1f341766e7ebadfdfb/transformed/jetified-acra-mail-5.9.6/AndroidManifest.xml:34:21-64
+38-->[ch.acra:acra-mail:5.9.7] /home/henrisko/.gradle/caches/transforms-3/72c6781d1057477f71821998ead0a331/transformed/jetified-acra-mail-5.9.7/AndroidManifest.xml:34:13-67
+38-->[ch.acra:acra-mail:5.9.7] /home/henrisko/.gradle/caches/transforms-3/72c6781d1057477f71821998ead0a331/transformed/jetified-acra-mail-5.9.7/AndroidManifest.xml:34:21-64
 39        </intent>
 40    </queries>
 41
-42    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" tools:ignore="ProtectedPermissions"/> -->
-42-->[ch.acra:acra-notification:5.9.6] /home/henrisko/.gradle/caches/transforms-3/29678d8c4a9903a09a76e308b567b183/transformed/jetified-acra-notification-5.9.6/AndroidManifest.xml:22:5-77
-42-->[ch.acra:acra-notification:5.9.6] /home/henrisko/.gradle/caches/transforms-3/29678d8c4a9903a09a76e308b567b183/transformed/jetified-acra-notification-5.9.6/AndroidManifest.xml:22:22-74
-43    <!-- <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" tools:ignore="ProtectedPermissions"/> -->
-44    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
-45    <application
-45-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:27:5-70:19
-46        android:name="sk.henrichg.pppputsettings.PPPPSApplication"
-46-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:28:9-41
-47        android:allowBackup="false"
-47-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:30:9-36
-48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-48-->[androidx.core:core:1.8.0] /home/henrisko/.gradle/caches/transforms-3/87a796fe63836d99a2198ac6a6284cb3/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
-49        android:debuggable="true"
-50        android:icon="@mipmap/ic_launcher"
-50-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:31:9-43
-51        android:label="@string/pppputsettings_app_name"
-51-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:29:9-56
-52        android:supportsRtl="true"
-52-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:32:9-35
-53        android:testOnly="true"
-54        android:theme="@style/AppTheme" >
-54-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:33:9-40
-55
-56        <!-- android:roundIcon="@mipmap/ic_launcher_round" -->
-57
-58
-59        <!-- support for 18.5:9 display (Samsung Galaxy S8, LG G6) -->
-60        <meta-data
-60-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:38:9-40:34
-61            android:name="android.max_aspect"
-61-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:39:13-46
-62            android:value="2.4" />
-62-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:40:13-32
+42    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+42-->[ch.acra:acra-notification:5.9.7] /home/henrisko/.gradle/caches/transforms-3/19a209a4e6442680c3aec330d30246e1/transformed/jetified-acra-notification-5.9.7/AndroidManifest.xml:22:5-77
+42-->[ch.acra:acra-notification:5.9.7] /home/henrisko/.gradle/caches/transforms-3/19a209a4e6442680c3aec330d30246e1/transformed/jetified-acra-notification-5.9.7/AndroidManifest.xml:22:22-74
+43
+44    <permission
+44-->[androidx.core:core:1.9.0] /home/henrisko/.gradle/caches/transforms-3/9811bf6e0ea8002748e1a5d1e9eb40bd/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+45        android:name="sk.henrichg.pppputsettings.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+45-->[androidx.core:core:1.9.0] /home/henrisko/.gradle/caches/transforms-3/9811bf6e0ea8002748e1a5d1e9eb40bd/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+46        android:protectionLevel="signature" />
+46-->[androidx.core:core:1.9.0] /home/henrisko/.gradle/caches/transforms-3/9811bf6e0ea8002748e1a5d1e9eb40bd/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+47
+48    <uses-permission android:name="sk.henrichg.pppputsettings.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" tools:ignore="ProtectedPermissions"/> -->
+48-->[androidx.core:core:1.9.0] /home/henrisko/.gradle/caches/transforms-3/9811bf6e0ea8002748e1a5d1e9eb40bd/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+48-->[androidx.core:core:1.9.0] /home/henrisko/.gradle/caches/transforms-3/9811bf6e0ea8002748e1a5d1e9eb40bd/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+49    <!-- <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" tools:ignore="ProtectedPermissions"/> -->
+50    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
+51    <application
+51-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:27:5-70:19
+52        android:name="sk.henrichg.pppputsettings.PPPPSApplication"
+52-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:28:9-41
+53        android:allowBackup="false"
+53-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:30:9-36
+54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+54-->[androidx.core:core:1.9.0] /home/henrisko/.gradle/caches/transforms-3/9811bf6e0ea8002748e1a5d1e9eb40bd/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+55        android:debuggable="true"
+56        android:icon="@mipmap/ic_launcher"
+56-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:31:9-43
+57        android:label="@string/pppputsettings_app_name"
+57-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:29:9-56
+58        android:supportsRtl="true"
+58-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:32:9-35
+59        android:testOnly="true"
+60        android:theme="@style/AppTheme" >
+60-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:33:9-40
+61
+62        <!-- android:roundIcon="@mipmap/ic_launcher_round" -->
 63
-64        <activity
-64-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:42:9-50:20
-65            android:name="sk.henrichg.pppputsettings.MainActivity"
-65-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:42:19-47
-66            android:label="@string/pppputsettings_app_name" >
-66-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:43:13-60
-67            <intent-filter>
-67-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:45:13-49:29
-68                <action android:name="android.intent.action.MAIN" />
-68-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:46:17-68
-68-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:46:25-66
+64
+65        <!-- support for 18.5:9 display (Samsung Galaxy S8, LG G6) -->
+66        <meta-data
+66-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:38:9-40:34
+67            android:name="android.max_aspect"
+67-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:39:13-46
+68            android:value="2.4" />
+68-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:40:13-32
 69
-70                <category android:name="android.intent.category.LAUNCHER" />
-70-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:48:17-76
-70-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:48:27-74
-71            </intent-filter>
-72        </activity>
-73        <activity
-73-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:51:9-54:20
-74            android:name="sk.henrichg.pppputsettings.LogCrashActivity"
-74-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:52:13-45
-75            android:label="@string/empty_string" >
-75-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:53:13-49
-76        </activity>
-77        <activity
-77-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:56:9-68:20
-78            android:name="sk.henrichg.pppputsettings.PutSettingsParameterActivity"
-78-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:57:13-57
-79            android:excludeFromRecents="true"
-79-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:58:13-46
-80            android:exported="true"
-80-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:61:13-36
-81            android:label="@string/empty_string"
-81-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:59:13-49
-82            android:launchMode="singleInstance"
-82-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:62:13-48
-83            android:permission="sk.henrichg.pppputsettings.PPP_PUT_SETTINGS_PERMISSION"
-83-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:63:13-88
-84            android:theme="@style/EmptyAppCompatActivity" >
-84-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:60:13-58
-85            <intent-filter>
-85-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:64:13-67:29
-86                <action android:name="sk.henrichg.pppputsettings.LAUNCH_IT" />
-86-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:65:17-78
-86-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:65:25-76
-87
-88                <category android:name="android.intent.category.DEFAULT" />
-88-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:66:17-75
-88-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:66:27-73
-89            </intent-filter>
-90        </activity>
-91
-92        <receiver
-92-->[ch.acra:acra-notification:5.9.6] /home/henrisko/.gradle/caches/transforms-3/29678d8c4a9903a09a76e308b567b183/transformed/jetified-acra-notification-5.9.6/AndroidManifest.xml:25:9-28:39
-93            android:name="org.acra.receiver.NotificationBroadcastReceiver"
-93-->[ch.acra:acra-notification:5.9.6] /home/henrisko/.gradle/caches/transforms-3/29678d8c4a9903a09a76e308b567b183/transformed/jetified-acra-notification-5.9.6/AndroidManifest.xml:26:13-75
-94            android:exported="false"
-94-->[ch.acra:acra-notification:5.9.6] /home/henrisko/.gradle/caches/transforms-3/29678d8c4a9903a09a76e308b567b183/transformed/jetified-acra-notification-5.9.6/AndroidManifest.xml:27:13-37
-95            android:process=":acra" />
-95-->[ch.acra:acra-notification:5.9.6] /home/henrisko/.gradle/caches/transforms-3/29678d8c4a9903a09a76e308b567b183/transformed/jetified-acra-notification-5.9.6/AndroidManifest.xml:28:13-36
-96
-97        <service
-97-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:24:9-28:39
-98            android:name="org.acra.sender.LegacySenderService"
-98-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:25:13-63
-99            android:enabled="@bool/acra_enable_legacy_service"
-99-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:26:13-63
+70        <activity
+70-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:42:9-50:20
+71            android:name="sk.henrichg.pppputsettings.MainActivity"
+71-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:42:19-47
+72            android:label="@string/pppputsettings_app_name" >
+72-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:43:13-60
+73            <intent-filter>
+73-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:45:13-49:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:46:17-68
+74-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:46:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:48:17-76
+76-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:48:27-74
+77            </intent-filter>
+78        </activity>
+79        <activity
+79-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:51:9-54:20
+80            android:name="sk.henrichg.pppputsettings.LogCrashActivity"
+80-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:52:13-45
+81            android:label="@string/empty_string" >
+81-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:53:13-49
+82        </activity>
+83        <activity
+83-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:56:9-68:20
+84            android:name="sk.henrichg.pppputsettings.PutSettingsParameterActivity"
+84-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:57:13-57
+85            android:excludeFromRecents="true"
+85-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:58:13-46
+86            android:exported="true"
+86-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:61:13-36
+87            android:label="@string/empty_string"
+87-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:59:13-49
+88            android:launchMode="singleInstance"
+88-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:62:13-48
+89            android:permission="sk.henrichg.pppputsettings.PPP_PUT_SETTINGS_PERMISSION"
+89-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:63:13-88
+90            android:theme="@style/EmptyAppCompatActivity" >
+90-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:60:13-58
+91            <intent-filter>
+91-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:64:13-67:29
+92                <action android:name="sk.henrichg.pppputsettings.LAUNCH_IT" />
+92-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:65:17-78
+92-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:65:25-76
+93
+94                <category android:name="android.intent.category.DEFAULT" />
+94-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:66:17-75
+94-->/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/AndroidManifest.xml:66:27-73
+95            </intent-filter>
+96        </activity>
+97
+98        <receiver
+98-->[ch.acra:acra-notification:5.9.7] /home/henrisko/.gradle/caches/transforms-3/19a209a4e6442680c3aec330d30246e1/transformed/jetified-acra-notification-5.9.7/AndroidManifest.xml:25:9-28:39
+99            android:name="org.acra.receiver.NotificationBroadcastReceiver"
+99-->[ch.acra:acra-notification:5.9.7] /home/henrisko/.gradle/caches/transforms-3/19a209a4e6442680c3aec330d30246e1/transformed/jetified-acra-notification-5.9.7/AndroidManifest.xml:26:13-75
 100            android:exported="false"
-100-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:27:13-37
+100-->[ch.acra:acra-notification:5.9.7] /home/henrisko/.gradle/caches/transforms-3/19a209a4e6442680c3aec330d30246e1/transformed/jetified-acra-notification-5.9.7/AndroidManifest.xml:27:13-37
 101            android:process=":acra" />
-101-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:28:13-36
-102        <service
-102-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:29:9-34:39
-103            android:name="org.acra.sender.JobSenderService"
-103-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:30:13-60
-104            android:enabled="@bool/acra_enable_job_service"
-104-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:31:13-60
-105            android:exported="false"
-105-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:32:13-37
-106            android:permission="android.permission.BIND_JOB_SERVICE"
-106-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:33:13-69
+101-->[ch.acra:acra-notification:5.9.7] /home/henrisko/.gradle/caches/transforms-3/19a209a4e6442680c3aec330d30246e1/transformed/jetified-acra-notification-5.9.7/AndroidManifest.xml:28:13-36
+102
+103        <service
+103-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:24:9-28:39
+104            android:name="org.acra.sender.LegacySenderService"
+104-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:25:13-63
+105            android:enabled="@bool/acra_enable_legacy_service"
+105-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:26:13-63
+106            android:exported="false"
+106-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:27:13-37
 107            android:process=":acra" />
-107-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:34:13-36
-108
-109        <provider
-109-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:36:9-42:51
-110            android:name="org.acra.attachment.AcraContentProvider"
-110-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:37:13-67
-111            android:authorities="sk.henrichg.pppputsettings.acra"
-111-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:38:13-56
-112            android:exported="false"
-112-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:39:13-37
-113            android:grantUriPermissions="true"
-113-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:40:13-47
-114            android:process=":acra" />
-114-->[ch.acra:acra-core:5.9.6] /home/henrisko/.gradle/caches/transforms-3/dbb2c56da627b604bde3ec96b5e4cd8a/transformed/jetified-acra-core-5.9.6/AndroidManifest.xml:41:13-36
+107-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:28:13-36
+108        <service
+108-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:29:9-34:39
+109            android:name="org.acra.sender.JobSenderService"
+109-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:30:13-60
+110            android:enabled="@bool/acra_enable_job_service"
+110-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:31:13-60
+111            android:exported="false"
+111-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:32:13-37
+112            android:permission="android.permission.BIND_JOB_SERVICE"
+112-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:33:13-69
+113            android:process=":acra" />
+113-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:34:13-36
+114
 115        <provider
-115-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-116            android:name="androidx.startup.InitializationProvider"
-116-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-117            android:authorities="sk.henrichg.pppputsettings.androidx-startup"
-117-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-118            android:exported="false" >
-118-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-119            <meta-data
-119-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-120                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-120-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-121                android:value="androidx.startup" />
-121-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
-122            <meta-data
-122-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-123                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-123-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-124                android:value="androidx.startup" />
-124-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-125        </provider>
-126    </application>
-127
-128</manifest>
+115-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:36:9-42:51
+116            android:name="org.acra.attachment.AcraContentProvider"
+116-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:37:13-67
+117            android:authorities="sk.henrichg.pppputsettings.acra"
+117-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:38:13-56
+118            android:exported="false"
+118-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:39:13-37
+119            android:grantUriPermissions="true"
+119-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:40:13-47
+120            android:process=":acra" />
+120-->[ch.acra:acra-core:5.9.7] /home/henrisko/.gradle/caches/transforms-3/316dccdbd144636a8646c52d310b5256/transformed/jetified-acra-core-5.9.7/AndroidManifest.xml:41:13-36
+121        <provider
+121-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+122            android:name="androidx.startup.InitializationProvider"
+122-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+123            android:authorities="sk.henrichg.pppputsettings.androidx-startup"
+123-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+124            android:exported="false" >
+124-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+125            <meta-data
+125-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+126                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+126-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+127                android:value="androidx.startup" />
+127-->[androidx.emoji2:emoji2:1.2.0] /home/henrisko/.gradle/caches/transforms-3/1f2ec24e04aa7670dbdd4e904437e8bf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+128            <meta-data
+128-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+129                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+129-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+130                android:value="androidx.startup" />
+130-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/henrisko/.gradle/caches/transforms-3/2843dd8f352d29054991aa53179df82d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+131        </provider>
+132    </application>
+133
+134</manifest>
