@@ -9,13 +9,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RFCNC13XY1Z]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/henrisko/.android/avd/7.6_Fold-in_with_outer_display_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -162,13 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Change: Major updates.">
-      <created>1667652192250</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1667652192250</updated>
     </task>
     <task id="LOCAL-00008" summary="Change: Major updates.">
       <created>1667653379503</created>
@@ -506,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669039147380</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Change: Title for notification permission dialog.">
+      <created>1669056082540</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1669056082540</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -522,7 +524,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Final work. All working as expected." />
     <MESSAGE value="Change: Application icon." />
     <MESSAGE value="Change: Added permission for PutSettingsParameterActivity." />
     <MESSAGE value="Change: Deleted broadcast from PPP." />
@@ -547,6 +548,7 @@
     <MESSAGE value="New version 1.0.1." />
     <MESSAGE value="Change: Better button border color in night theme." />
     <MESSAGE value="Updated translations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated translations." />
+    <MESSAGE value="Change: Title for notification permission dialog." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Title for notification permission dialog." />
   </component>
 </project>
