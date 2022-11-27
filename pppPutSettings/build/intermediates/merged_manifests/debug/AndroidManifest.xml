@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="sk.henrichg.pppputsettings"
-    android:versionCode="26"
-    android:versionName="1.0.1.1b" >
+    android:versionCode="30"
+    android:versionName="1.0.1.1" >
 
     <uses-sdk
         android:minSdkVersion="22"
@@ -56,7 +56,6 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/pppputsettings_app_name"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
 
         <!-- android:roundIcon="@mipmap/ic_launcher_round" -->
