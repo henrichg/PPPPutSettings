@@ -11,15 +11,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/ChooseLanguageDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/ChooseLanguageDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/LocaleHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/LocaleHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-tr/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-tr/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RFCNC13XY1Z]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RF8M22C9Q6L]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -166,13 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Change: Added permission for PutSettingsParameterActivity.">
-      <created>1667752128097</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1667752128097</updated>
     </task>
     <task id="LOCAL-00018" summary="Change: Deleted broadcast from PPP.">
       <created>1667764718093</created>
@@ -510,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670361026845</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Fix: Fixed set [System] language. Change of language on device Settings, follows language also in PPP.">
+      <created>1670973860843</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1670973860843</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -526,7 +525,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Remove logs." />
     <MESSAGE value="Updated .gitignore" />
     <MESSAGE value="Added &quot;Choose language&quot;." />
     <MESSAGE value="Change: Updated README.md." />
@@ -551,6 +549,7 @@
     <MESSAGE value="Fix: Fixed not working send crash report mail via GMal in Android 13. Required is: ACRA 5.9.7 and compiledSDK=33." />
     <MESSAGE value="New version 1.0.1.1." />
     <MESSAGE value="Change: Better choose language item layout." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Better choose language item layout." />
+    <MESSAGE value="Fix: Fixed set [System] language. Change of language on device Settings, follows language also in PPP." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Fixed set [System] language. Change of language on device Settings, follows language also in PPP." />
   </component>
 </project>
