@@ -50,4 +50,6 @@
 <!--    <color name="dialog_divider">#25ffffff</color>-->
 <!--    <color name="dialogBorderColor">#FF403430</color>-->
 
+    <color name="notificationDecorationColor">#cc893e</color>
+
 </resources>

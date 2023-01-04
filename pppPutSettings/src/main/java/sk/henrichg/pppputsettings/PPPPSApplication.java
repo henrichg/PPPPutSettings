@@ -66,6 +66,13 @@ public class PPPPSApplication extends Application {
 
     static volatile Collator collator = null;
 
+    //static final int pid = Process.myPid();
+    //static final int uid = Process.myUid();
+
+    static final String EXCLAMATION_NOTIFICATION_CHANNEL = "pppPutSettings_exclamation";
+    static final int NOT_GRANTED_WRITE_SETTINGS_NOTIFICATION_ID = 111;
+    static final String NOT_GRANTED_WRITE_SETTINGS_NOTIFICATION_TAG = PACKAGE_NAME+"_NOT_GRANTED_WRITE_SETTINGS_NOTIFICATION";
+
     @Override
     public void onCreate() {
         super.onCreate();
@@ -551,6 +558,35 @@ public class PPPPSApplication extends Application {
                 notificationManager.createNotificationChannel(channel);
             } catch (Exception e) {
                 //Log.e("PPPPSApplication.createGrantPermissionNotificationChannel", Log.getStackTraceString(e));
+                PPPPSApplication.recordException(e);
+            }
+        }
+    }
+
+    static void createExclamationNotificationChannel(Context context) {
+        if (Build.VERSION.SDK_INT >= 26) {
+            try {
+                NotificationManagerCompat notificationManager = NotificationManagerCompat.from(context.getApplicationContext());
+                if (notificationManager.getNotificationChannel(EXCLAMATION_NOTIFICATION_CHANNEL) != null)
+                    return;
+
+                // The user-visible name of the channel.
+                CharSequence name = context.getString(R.string.pppputsettings_notification_channel_exclamation);
+                // The user-visible description of the channel.
+                String description = context.getString(R.string.empty_string);
+
+                NotificationChannel channel = new NotificationChannel(EXCLAMATION_NOTIFICATION_CHANNEL, name, NotificationManager.IMPORTANCE_HIGH);
+
+                // Configure the notification channel.
+                channel.setDescription(description);
+                channel.enableLights(true);
+                channel.enableVibration(true);
+                //channel.setSound(null, null);
+                //channel.setShowBadge(false);
+                channel.setBypassDnd(true);
+
+                notificationManager.createNotificationChannel(channel);
+            } catch (Exception e) {
                 PPPPSApplication.recordException(e);
             }
         }

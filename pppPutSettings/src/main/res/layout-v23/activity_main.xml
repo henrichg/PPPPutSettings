@@ -64,7 +64,6 @@
             android:text="@string/pppputsettings_application_releases"
             android:textSize="14sp"/>
 
-        <!--
         <TextView
             android:id="@+id/activity_main_permission_write_settings"
             android:layout_width="wrap_content"
@@ -85,7 +84,6 @@
             android:background="@drawable/pp_button_background_selector"
             android:textAllCaps="false"
             style="?android:attr/borderlessButtonStyle" />
-        -->
 
     </LinearLayout>
 

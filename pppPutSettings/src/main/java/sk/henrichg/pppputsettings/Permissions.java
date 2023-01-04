@@ -1,13 +1,19 @@
 package sk.henrichg.pppputsettings;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
 
 import androidx.appcompat.app.AlertDialog;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
+import androidx.core.content.ContextCompat;
 
 class Permissions {
 
@@ -78,6 +84,51 @@ class Permissions {
             }
         }
         return false;
+    }
+
+    /*
+    static boolean hasPermission(Context context, String permission) {
+        return context.checkPermission(permission, PPPPSApplication.pid, PPPPSApplication.uid) == PackageManager.PERMISSION_GRANTED;
+    }
+    */
+
+    static void writeSettingsNotGranted(Context context) {
+        if (Build.VERSION.SDK_INT >= 23) {
+            Intent intent = new Intent("android.settings.action.MANAGE_WRITE_SETTINGS");
+            intent.setData(Uri.parse("package:" + "sk.henrichg.pppputsettings"));
+            //intent.addCategory(Intent.CATEGORY_DEFAULT);
+            if (MainActivity.activityIntentExists(intent, context)) {
+                PPPPSApplication.createExclamationNotificationChannel(context);
+                NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context, PPPPSApplication.EXCLAMATION_NOTIFICATION_CHANNEL)
+                        .setColor(ContextCompat.getColor(context, R.color.notificationDecorationColor))
+                        .setSmallIcon(R.drawable.ic_exclamation_notify) // notification icon
+                        .setContentTitle(context.getString(R.string.pppputsettings_not_granted_write_settings_title)) // title for notification
+                        .setContentText(context.getString(R.string.pppputsettings_not_granted_write_settings_text)) // message for notification
+                        .setAutoCancel(true); // clear notification after click
+                mBuilder.setStyle(new NotificationCompat.BigTextStyle().bigText(context.getString(R.string.pppputsettings_not_granted_write_settings_text)));
+                mBuilder.setPriority(NotificationCompat.PRIORITY_MAX);
+                mBuilder.setCategory(NotificationCompat.CATEGORY_RECOMMENDATION);
+                mBuilder.setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
+
+                //mBuilder.setGroup(PPApplication.ACTION_FOR_EXTERNAL_APPLICATION_NOTIFICATION_GROUP);
+
+                @SuppressLint("UnspecifiedImmutableFlag")
+                PendingIntent pi = PendingIntent.getActivity(context, 100, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+                mBuilder.setContentIntent(pi);
+                mBuilder.setOnlyAlertOnce(true);
+
+                NotificationManagerCompat mNotificationManager = NotificationManagerCompat.from(context);
+                try {
+                    mNotificationManager.notify(
+                            PPPPSApplication.NOT_GRANTED_WRITE_SETTINGS_NOTIFICATION_TAG,
+                            PPPPSApplication.NOT_GRANTED_WRITE_SETTINGS_NOTIFICATION_ID, mBuilder.build());
+                } catch (Exception e) {
+                    //Log.e("ActionForExternalApplicationActivity.showNotification", Log.getStackTraceString(e));
+                    PPPPSApplication.recordException(e);
+                }
+
+            }
+        }
     }
 
 }

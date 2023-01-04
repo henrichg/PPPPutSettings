@@ -348,39 +348,40 @@ public class MainActivity extends AppCompatActivity {
 
     @SuppressLint({"SetTextI18n", "BatteryLife"})
     private void displayPermmisionsGrantStatus() {
-        final Activity activity = this;
+        if (Build.VERSION.SDK_INT >= 23) {
+            final Activity activity = this;
 
-        TextView text;
-        String str1;
+            TextView text;
+            String str1;
 
-        text = findViewById(R.id.activity_main_permission_write_settings);
-        str1 = getString(R.string.pppputsettings_permissions_write_settings);
-        //if (Permissions.checkSMSMMSPermissions(activity))
-        //    str2 = str1 + " [ " + getString(R.string.extender_permissions_granted) + " ]";
-        //else
-        //    str2 = str1 + " [ " + getString(R.string.extender_permissions_not_granted) + " ]";
-        //sbt = new SpannableString(str2);
-        //sbt.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), str1.length() + 1, str2.length(), 0);
-        //text.setText(sbt);
-        text.setText(str1);
+            text = findViewById(R.id.activity_main_permission_write_settings);
+            str1 = getString(R.string.pppputsettings_permissions_write_settings);
+            //if (Permissions.checkSMSMMSPermissions(activity))
+            //    str2 = str1 + " [ " + getString(R.string.extender_permissions_granted) + " ]";
+            //else
+            //    str2 = str1 + " [ " + getString(R.string.extender_permissions_not_granted) + " ]";
+            //sbt = new SpannableString(str2);
+            //sbt.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), str1.length() + 1, str2.length(), 0);
+            //text.setText(sbt);
+            text.setText(str1);
 
-        Button writeSettingsButton = findViewById(R.id.activity_main_write_settings_button);
-        writeSettingsButton.setOnClickListener(view -> {
-            Intent intent = new Intent("android.settings.action.MANAGE_WRITE_SETTINGS");
-            intent.setData(Uri.parse("package:" + "sk.henrichg.pppputsettings"));
-            //intent.addCategory(Intent.CATEGORY_DEFAULT);
-            if (MainActivity.activityIntentExists(intent, activity)) {
-                //noinspection deprecation
-                startActivity(intent);
-            } else {
-                AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(activity);
-                dialogBuilder.setMessage(R.string.pppputsettings_setting_screen_not_found_alert);
-                //dialogBuilder.setIcon(android.R.drawable.ic_dialog_alert);
-                dialogBuilder.setPositiveButton(android.R.string.ok, null);
-                dialogBuilder.show();
-            }
-        });
-
+            Button writeSettingsButton = findViewById(R.id.activity_main_write_settings_button);
+            writeSettingsButton.setOnClickListener(view -> {
+                Intent intent = new Intent("android.settings.action.MANAGE_WRITE_SETTINGS");
+                intent.setData(Uri.parse("package:" + "sk.henrichg.pppputsettings"));
+                //intent.addCategory(Intent.CATEGORY_DEFAULT);
+                if (MainActivity.activityIntentExists(intent, activity)) {
+                    //noinspection deprecation
+                    startActivity(intent);
+                } else {
+                    AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(activity);
+                    dialogBuilder.setMessage(R.string.pppputsettings_setting_screen_not_found_alert);
+                    //dialogBuilder.setIcon(android.R.drawable.ic_dialog_alert);
+                    dialogBuilder.setPositiveButton(android.R.string.ok, null);
+                    dialogBuilder.show();
+                }
+            });
+        }
     }
 
     /*
