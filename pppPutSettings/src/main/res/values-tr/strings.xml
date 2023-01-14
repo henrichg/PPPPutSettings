@@ -15,7 +15,7 @@
     <string name="pppputsettings_permissions_write_settings">Lütfen \"Sistem ayarlarını değiştir\" tercihine izin verin. Bu olmadan, sistem veritabanına ayar değerlerini koyma çalışmaz.</string>
     <string name="pppputsettings_app_name_write_settings_button">Sistem ayarlarını değiştir</string>
     <string name="pppputsettings_menu_choose_language">Lisan seç</string>
-    <string name="pppputsettings_menu_choose_language_system_language">[System]</string>
+    <string name="pppputsettings_menu_choose_language_system_language">[ System ]</string>
     <string name="pppputsettings_application_translations">Tercümeler:</string>
     <string name="pppputsettings_acra_email_body_device">Cihaz:</string>
     <string name="pppputsettings_acra_email_body_android_version">Android sürümü:</string>
@@ -24,4 +24,7 @@
     <string name="pppputsettings_acra_notification_title">Maalesef, PPPAyarlarıYap çöktü</string>
     <string name="pppputsettings_acra_notification_text">Lutfen, çökme raporunu yazara göndermek için buraya dokunun. Çok teşekkür ederiz.</string>
     <string name="pppputsettings_notification_channel_crash_report">Çökme raporu</string>
+    <string name="pppputsettings_notification_channel_exclamation">Ünlem</string>
+    <string name="pppputsettings_not_granted_write_settings_title">\"Sistem ayarlarını değiştir\" izni verilmedi</string>
+    <string name="pppputsettings_not_granted_write_settings_text">\"Sistem ayarlarını değiştir\" izni PPPAyarlarıYap için verilmedi. İzni vermek için buraya dokununuz.</string>
 </resources>

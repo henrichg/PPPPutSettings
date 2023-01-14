@@ -15,7 +15,7 @@
     <string name="pppputsettings_permissions_write_settings">Aktivujte \"Úprava nastavení systému\". Bez toho nebude fungovať vkladanie parametrov nastavení do systémovej databázy.</string>
     <string name="pppputsettings_app_name_write_settings_button">Úprava nastavení systému</string>
     <string name="pppputsettings_menu_choose_language">Vybrať jazyk</string>
-    <string name="pppputsettings_menu_choose_language_system_language">[Systémový]</string>
+    <string name="pppputsettings_menu_choose_language_system_language">[ Systémový ]</string>
     <string name="pppputsettings_application_translations">Preklady:</string>
     <string name="pppputsettings_acra_email_body_device">Zariadenie:</string>
     <string name="pppputsettings_acra_email_body_android_version">Verzia Android:</string>
@@ -24,4 +24,7 @@
     <string name="pppputsettings_acra_notification_title">Je mi ľúto, PPPPutSettings zlyhal</string>
     <string name="pppputsettings_acra_notification_text">Kliknutím sem, odošlete autorovi správu o zlyhaní. Ďakujem veľmi pekne.</string>
     <string name="pppputsettings_notification_channel_crash_report">Správa o zlyhaní</string>
+    <string name="pppputsettings_notification_channel_exclamation">Upozornenie</string>
+    <string name="pppputsettings_not_granted_write_settings_title">\"Úprava nastavení systému\" nie je povolené</string>
+    <string name="pppputsettings_not_granted_write_settings_text">\"Úprava nastavení systému\" nie je povolené pre PPPPutSettings. Kliknutím na toto upozornenie ho udelíte.</string>
 </resources>

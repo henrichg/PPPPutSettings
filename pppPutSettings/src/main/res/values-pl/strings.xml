@@ -3,25 +3,28 @@
 <!--suppress XmlUnusedNamespaceDeclaration -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
     <!--suppress CheckTagEmptyBody -->
-    <string name="pppputsettings_permission">PPPPutSettings application permisison</string>
-    <string name="pppputsettings_application_releases">Releases:</string>
-    <string name="pppputsettings_about_application_version">Version:</string>
-    <string name="pppputsettings_notification_channel_grant_permission">Grant permission</string>
-    <string name="pppputsettings_notification_channel_grant_permission_description">Shows permission which is needed grant it.</string>
-    <string name="pppputsettings_notifications_permission_text">Notifications permission is not granted.\n\nPlease enable notifications for PPPPutSettings. Without this enabled, notifications from PPPPutSettings will not be displayed.</string>
-    <string name="pppputsettings_web_browser_chooser">View web link using</string>
-    <string name="pppputsettings_enable_notificaitons_button">Enable</string>
-    <string name="pppputsettings_setting_screen_not_found_alert">Setting screen not found.</string>
-    <string name="pppputsettings_permissions_write_settings">Please enable \"Modify system settings\". Without this will not be working put of settings parameter to system database.</string>
-    <string name="pppputsettings_app_name_write_settings_button">Modify system settings</string>
-    <string name="pppputsettings_menu_choose_language">Choose language</string>
-    <string name="pppputsettings_menu_choose_language_system_language">[System]</string>
-    <string name="pppputsettings_application_translations">Translations:</string>
-    <string name="pppputsettings_acra_email_body_device">Device:</string>
-    <string name="pppputsettings_acra_email_body_android_version">Android version:</string>
-    <string name="pppputsettings_acra_email_subject_text">crash report</string>
-    <string name="pppputsettings_acra_email_body_text">PPPPutSettings was crashed. Attached is the crash report.</string>
-    <string name="pppputsettings_acra_notification_title">Sorry, PPPPutSettings crashed</string>
-    <string name="pppputsettings_acra_notification_text">Please click here, to send crash report to author. Thank you very much.</string>
-    <string name="pppputsettings_notification_channel_crash_report">Crash report</string>
+    <string name="pppputsettings_permission">Uprawnienia aplikacji PPPPutSettings</string>
+    <string name="pppputsettings_application_releases">Wydania:</string>
+    <string name="pppputsettings_about_application_version">Wersja:</string>
+    <string name="pppputsettings_notification_channel_grant_permission">Przyznaj uprawnienia</string>
+    <string name="pppputsettings_notification_channel_grant_permission_description">Pokazuje, które uprawnienia musisz przyznać.</string>
+    <string name="pppputsettings_notifications_permission_text">Nie przyznano uprawnień dla powiadomień.\n\nProszę włączyć powiadomienia dla PPPPutSettings. W przeciwnym razie powiadomienia z PPPPutSettings nie będą wyświetlane.</string>
+    <string name="pppputsettings_web_browser_chooser">Wyświetl link web używając</string>
+    <string name="pppputsettings_enable_notificaitons_button">Włącz</string>
+    <string name="pppputsettings_setting_screen_not_found_alert">Nie znaleziono ekranu ustawień.</string>
+    <string name="pppputsettings_permissions_write_settings">Proszę włączyć dostęp do \"Modyfikuj ustawienia systemowe\". Bez tego nie będzie działać wprowadzanie parametrów ustawień do bazy danych systemu.</string>
+    <string name="pppputsettings_app_name_write_settings_button">Modyfikowanie ustawień systemu</string>
+    <string name="pppputsettings_menu_choose_language">Wybierz język</string>
+    <string name="pppputsettings_menu_choose_language_system_language">[ Systemowy ]</string>
+    <string name="pppputsettings_application_translations">Tłumaczenia:</string>
+    <string name="pppputsettings_acra_email_body_device">Urządzenie:</string>
+    <string name="pppputsettings_acra_email_body_android_version">Wersja Androida:</string>
+    <string name="pppputsettings_acra_email_subject_text">raport awarii</string>
+    <string name="pppputsettings_acra_email_body_text">PPPPutSettings uległ awarii. Załączono raport awarii.</string>
+    <string name="pppputsettings_acra_notification_title">Przepraszamy, PPPPutSettings uległy awarii</string>
+    <string name="pppputsettings_acra_notification_text">Kliknij tutaj, aby wysłać zgłoszenie awarii do autora. Dziękujemy.</string>
+    <string name="pppputsettings_notification_channel_crash_report">Raport awarii</string>
+    <string name="pppputsettings_notification_channel_exclamation">Exclamation</string>
+    <string name="pppputsettings_not_granted_write_settings_title">\"Modify system settings\" not granted</string>
+    <string name="pppputsettings_not_granted_write_settings_text">\"Modify system settings\" is not granted for PPPPutSettings. Click this notification to grant it.</string>
 </resources>

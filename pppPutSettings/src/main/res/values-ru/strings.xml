@@ -12,10 +12,10 @@
     <string name="pppputsettings_web_browser_chooser">Открыть ссылку с помощью</string>
     <string name="pppputsettings_enable_notificaitons_button">Разрешить</string>
     <string name="pppputsettings_setting_screen_not_found_alert">Экран настройки не найден.</string>
-    <string name="pppputsettings_permissions_write_settings">Разрешите, пожалуйста, \"Изменять настройки системы\". Без этого сохранение настроек в базу данных системы работать не будет.</string>
-    <string name="pppputsettings_app_name_write_settings_button">Изменить настройки системы</string>
+    <string name="pppputsettings_permissions_write_settings">Предоставьте, пожалуйста, разрешение \"Изменение системных настроек\". Без этого сохранение настроек в базу данных системы работать не будет.</string>
+    <string name="pppputsettings_app_name_write_settings_button">Изменение системных настроек</string>
     <string name="pppputsettings_menu_choose_language">Выбрать язык</string>
-    <string name="pppputsettings_menu_choose_language_system_language">[Системный]</string>
+    <string name="pppputsettings_menu_choose_language_system_language">[ Системный ]</string>
     <string name="pppputsettings_application_translations">Переводы:</string>
     <string name="pppputsettings_acra_email_body_device">Устройство:</string>
     <string name="pppputsettings_acra_email_body_android_version">Версия Android:</string>
@@ -24,4 +24,7 @@
     <string name="pppputsettings_acra_notification_title">К сожалению, в PPPPutSettings произошла ошибка</string>
     <string name="pppputsettings_acra_notification_text">Нажмите, пожалуйста, сюда, чтобы отправить автору отчёт об ошибке. Большое спасибо.</string>
     <string name="pppputsettings_notification_channel_crash_report">Отчёт об ошибке</string>
+    <string name="pppputsettings_notification_channel_exclamation">Предупреждение</string>
+    <string name="pppputsettings_not_granted_write_settings_title">Разрешение \"Изменение системных настроек\" не предоставлено</string>
+    <string name="pppputsettings_not_granted_write_settings_text">PPPPutSettings не предоставлено разрешение \"Изменение системных настроек\". Нажмите на это уведомление, чтобы предоставить его.</string>
 </resources>

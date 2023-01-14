@@ -15,7 +15,7 @@
     <string name="pppputsettings_permissions_write_settings">Por favor, habilita \"Modificar la configuración del sistema\". Sin esto no funcionará el parámetro de configuración para la base de datos del sistema.</string>
     <string name="pppputsettings_app_name_write_settings_button">Modificar ajustes del sistema</string>
     <string name="pppputsettings_menu_choose_language">Elegir idioma</string>
-    <string name="pppputsettings_menu_choose_language_system_language">[System]</string>
+    <string name="pppputsettings_menu_choose_language_system_language">[ System ]</string>
     <string name="pppputsettings_application_translations">Traducciones:</string>
     <string name="pppputsettings_acra_email_body_device">Dispositivo:</string>
     <string name="pppputsettings_acra_email_body_android_version">Versión de Android:</string>
@@ -24,4 +24,7 @@
     <string name="pppputsettings_acra_notification_title">Lo sentimos, PPPPutSettings falló</string>
     <string name="pppputsettings_acra_notification_text">Haz clic aquí, por favor, para enviar un informe de error al autor. Muchas gracias.</string>
     <string name="pppputsettings_notification_channel_crash_report">Informe de error</string>
+    <string name="pppputsettings_notification_channel_exclamation">Exclamación</string>
+    <string name="pppputsettings_not_granted_write_settings_title">No se ha concedido \"Modificar ajustes del sistema\"</string>
+    <string name="pppputsettings_not_granted_write_settings_text">No se ha concedido \"Modificar ajustes del sistema\" para PPPPutSettings. Haz clic en esta notificación para concederlo.</string>
 </resources>

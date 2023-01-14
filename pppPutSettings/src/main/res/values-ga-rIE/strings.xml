@@ -15,7 +15,7 @@
     <string name="pppputsettings_permissions_write_settings">Please enable \"Modify system settings\". Without this will not be working put of settings parameter to system database.</string>
     <string name="pppputsettings_app_name_write_settings_button">Modify system settings</string>
     <string name="pppputsettings_menu_choose_language">Choose language</string>
-    <string name="pppputsettings_menu_choose_language_system_language">[System]</string>
+    <string name="pppputsettings_menu_choose_language_system_language">[ System ]</string>
     <string name="pppputsettings_application_translations">Translations:</string>
     <string name="pppputsettings_acra_email_body_device">Device:</string>
     <string name="pppputsettings_acra_email_body_android_version">Android version:</string>
@@ -24,4 +24,7 @@
     <string name="pppputsettings_acra_notification_title">Sorry, PPPPutSettings crashed</string>
     <string name="pppputsettings_acra_notification_text">Please click here, to send crash report to author. Thank you very much.</string>
     <string name="pppputsettings_notification_channel_crash_report">Crash report</string>
+    <string name="pppputsettings_notification_channel_exclamation">Exclamation</string>
+    <string name="pppputsettings_not_granted_write_settings_title">\"Modify system settings\" not granted</string>
+    <string name="pppputsettings_not_granted_write_settings_text">\"Modify system settings\" is not granted for PPPPutSettings. Click this notification to grant it.</string>
 </resources>

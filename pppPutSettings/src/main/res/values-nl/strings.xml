@@ -15,7 +15,7 @@
     <string name="pppputsettings_permissions_write_settings">Schakel \"Systeeminstellingen wijzigen\" in. Zonder dit lukt het schrijven van de instellingen niet naar de instellingen database.</string>
     <string name="pppputsettings_app_name_write_settings_button">Systeeminstellingen wijzigen</string>
     <string name="pppputsettings_menu_choose_language">Taal kiezen</string>
-    <string name="pppputsettings_menu_choose_language_system_language">[System]</string>
+    <string name="pppputsettings_menu_choose_language_system_language">[ System ]</string>
     <string name="pppputsettings_application_translations">Vertalingen:</string>
     <string name="pppputsettings_acra_email_body_device">Apparaat:</string>
     <string name="pppputsettings_acra_email_body_android_version">Android versie:</string>
@@ -24,4 +24,7 @@
     <string name="pppputsettings_acra_notification_title">Sorry, PPPPutSettings gecrasht</string>
     <string name="pppputsettings_acra_notification_text">Klik hier om een crashrapport te verzenden naar de auteur. Dank je wel.</string>
     <string name="pppputsettings_notification_channel_crash_report">Crashrapport</string>
+    <string name="pppputsettings_notification_channel_exclamation">Uitroep</string>
+    <string name="pppputsettings_not_granted_write_settings_title">\"Systeeminstellingen aanpassen\" niet toegestaan</string>
+    <string name="pppputsettings_not_granted_write_settings_text">\"Systeeminstellingen wijzigen\" is niet toegestaan voor PPPPutInstellingen. Klik op notificatie om het toe te staan.</string>
 </resources>
