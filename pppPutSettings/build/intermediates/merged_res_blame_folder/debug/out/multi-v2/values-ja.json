@@ -4,7 +4,24 @@
             "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-21:/values-ja/values-ja.xml",
             "map": [
                 {
-                    "source": "/home/henrisko/.gradle/caches/transforms-3/7ed91a81cd748d26ba2e9dab993b46a1/transformed/appcompat-1.6.0/res/values-ja/values-ja.xml",
+                    "source": "/home/henrisko/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "51",
+                        "startColumns": "4",
+                        "startOffsets": "4985",
+                        "endColumns": "100",
+                        "endOffsets": "5081"
+                    }
+                },
+                {
+                    "source": "/home/henrisko/.gradle/caches/transforms-3/5521fd259f8332737a22b3743c01d4b7/transformed/appcompat-1.6.0/res/values-ja/values-ja.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,23 +52,6 @@
                         "startOffsets": "2691,2769,2861,2935,3057,3137,3275,3372,3469,3543,3625,3703,3783,3872,3962,4060,4196,4440,4532,4723,4823",
                         "endColumns": "77,91,73,121,79,137,96,96,73,81,77,79,88,89,97,135,243,91,190,99,82",
                         "endOffsets": "2764,2856,2930,3052,3132,3270,3367,3464,3538,3620,3698,3778,3867,3957,4055,4191,4435,4527,4718,4818,4901"
-                    }
-                },
-                {
-                    "source": "/home/henrisko/.gradle/caches/transforms-3/a9e09cf33bececeae292378538080ba2/transformed/core-1.9.0/res/values-ja/values-ja.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "51",
-                        "startColumns": "4",
-                        "startOffsets": "4985",
-                        "endColumns": "100",
-                        "endOffsets": "5081"
                     }
                 }
             ]
