@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/henrisko/.gradle/caches/transforms-3/9811bf6e0ea8002748e1a5d1e9eb40bd/transformed/core-1.9.0/res/values-fa/values-fa.xml",
+                    "source": "/home/henrisko/.gradle/caches/transforms-3/a9e09cf33bececeae292378538080ba2/transformed/core-1.9.0/res/values-fa/values-fa.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/henrisko/.gradle/caches/transforms-3/6a84a918060e8c38e717edbe7590145c/transformed/appcompat-1.6.0/res/values-fa/values-fa.xml",
+                    "source": "/home/henrisko/.gradle/caches/transforms-3/7ed91a81cd748d26ba2e9dab993b46a1/transformed/appcompat-1.6.0/res/values-fa/values-fa.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

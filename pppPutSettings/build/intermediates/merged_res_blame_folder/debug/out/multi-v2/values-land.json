@@ -4,6 +4,16 @@
             "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-21:/values-land/values-land.xml",
             "map": [
                 {
+                    "source": "/home/henrisko/.gradle/caches/transforms-3/7ed91a81cd748d26ba2e9dab993b46a1/transformed/appcompat-1.6.0/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
                     "source": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/values-land/dimens.xml",
                     "from": {
                         "startLines": "3,2",
@@ -18,16 +28,6 @@
                         "startOffsets": "264,314",
                         "endColumns": "49,51",
                         "endOffsets": "309,361"
-                    }
-                },
-                {
-                    "source": "/home/henrisko/.gradle/caches/transforms-3/6a84a918060e8c38e717edbe7590145c/transformed/appcompat-1.6.0/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
                     }
                 }
             ]

@@ -4,6 +4,16 @@
             "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-21:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
+                    "source": "/home/henrisko/.gradle/caches/transforms-3/7ed91a81cd748d26ba2e9dab993b46a1/transformed/appcompat-1.6.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
                     "source": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/values-sw600dp/dimens.xml",
                     "from": {
                         "startLines": "3,2",
@@ -18,16 +28,6 @@
                         "startOffsets": "611,661",
                         "endColumns": "49,51",
                         "endOffsets": "656,708"
-                    }
-                },
-                {
-                    "source": "/home/henrisko/.gradle/caches/transforms-3/6a84a918060e8c38e717edbe7590145c/transformed/appcompat-1.6.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
                     }
                 }
             ]

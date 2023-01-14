@@ -4,17 +4,7 @@
             "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-21:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/values-night/constants.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "50",
-                        "endOffsets": "101"
-                    }
-                },
-                {
-                    "source": "/home/henrisko/.gradle/caches/transforms-3/6a84a918060e8c38e717edbe7590145c/transformed/appcompat-1.6.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/home/henrisko/.gradle/caches/transforms-3/7ed91a81cd748d26ba2e9dab993b46a1/transformed/appcompat-1.6.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -28,6 +18,16 @@
                         "startOffsets": "1070,1140,1224,1308,1404,1506,1608,1702",
                         "endColumns": "69,83,83,95,101,101,93,88",
                         "endOffsets": "1135,1219,1303,1399,1501,1603,1697,1786"
+                    }
+                },
+                {
+                    "source": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/values-night/constants.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "50",
+                        "endOffsets": "101"
                     }
                 },
                 {
