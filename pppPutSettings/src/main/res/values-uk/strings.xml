@@ -15,7 +15,7 @@
     <string name="pppputsettings_permissions_write_settings">Будь ласка, увімкніть \"Змінити налаштування системи\". Без цього налаштування параметра не буде внесено в систему.</string>
     <string name="pppputsettings_app_name_write_settings_button">Змінити налаштування системи</string>
     <string name="pppputsettings_menu_choose_language">Оберіть мову</string>
-    <string name="pppputsettings_menu_choose_language_system_language">[Системна]  </string>
+    <string name="pppputsettings_menu_choose_language_system_language">[ Системна ]</string>
     <string name="pppputsettings_application_translations">Переклади:</string>
     <string name="pppputsettings_acra_email_body_device">Пристрій:</string>
     <string name="pppputsettings_acra_email_body_android_version">Версія Android:</string>
