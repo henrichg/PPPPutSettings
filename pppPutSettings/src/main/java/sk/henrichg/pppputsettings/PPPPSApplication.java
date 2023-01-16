@@ -144,7 +144,7 @@ public class PPPPSApplication extends Application {
                         setHiddenApiExemptions.invoke(vmRuntime, new Object[]{new String[]{"L"}});
                 }
             } catch (Exception e) {
-                //Log.e("PPApplication.onCreate", Log.getStackTraceString(e));
+                //Log.e("PPPPSApplication.onCreate", Log.getStackTraceString(e));
                 PPPEApplication.recordException(e);
             }
         }*/
@@ -361,7 +361,7 @@ public class PPPPSApplication extends Application {
             buf.close();
         }
         catch (IOException ignored) {
-            //Log.e("PPPEApplication.logIntoFile", Log.getStackTraceString(e));
+            //Log.e("PPPPSApplication.logIntoFile", Log.getStackTraceString(e));
         }
     }
 

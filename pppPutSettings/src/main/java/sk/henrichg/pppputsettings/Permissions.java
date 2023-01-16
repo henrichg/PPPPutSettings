@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
+import android.util.Log;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.NotificationCompat;
@@ -122,8 +123,10 @@ class Permissions {
                     mNotificationManager.notify(
                             PPPPSApplication.NOT_GRANTED_WRITE_SETTINGS_NOTIFICATION_TAG,
                             PPPPSApplication.NOT_GRANTED_WRITE_SETTINGS_NOTIFICATION_ID, mBuilder.build());
+                } catch (SecurityException en) {
+                    Log.e("Permissions.writeSettingsNotGranted", Log.getStackTraceString(en));
                 } catch (Exception e) {
-                    //Log.e("ActionForExternalApplicationActivity.showNotification", Log.getStackTraceString(e));
+                    //Log.e("Permissions.writeSettingsNotGranted", Log.getStackTraceString(e));
                     PPPPSApplication.recordException(e);
                 }
 
