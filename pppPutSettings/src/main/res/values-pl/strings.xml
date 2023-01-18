@@ -24,7 +24,7 @@
     <string name="pppputsettings_acra_notification_title">Przepraszamy, PPPPutSettings uległy awarii</string>
     <string name="pppputsettings_acra_notification_text">Kliknij tutaj, aby wysłać zgłoszenie awarii do autora. Dziękujemy.</string>
     <string name="pppputsettings_notification_channel_crash_report">Raport awarii</string>
-    <string name="pppputsettings_notification_channel_exclamation">Exclamation</string>
-    <string name="pppputsettings_not_granted_write_settings_title">\"Modify system settings\" not granted</string>
-    <string name="pppputsettings_not_granted_write_settings_text">\"Modify system settings\" is not granted for PPPPutSettings. Click this notification to grant it.</string>
+    <string name="pppputsettings_notification_channel_exclamation">Ostrzeżenie</string>
+    <string name="pppputsettings_not_granted_write_settings_title">Uprawnienie \"Modyfikuj ustawienia systemowe\" nie zostało przyznane</string>
+    <string name="pppputsettings_not_granted_write_settings_text">\"Modyfikuj ustawienia systemowe\" nie są przyznane dla PPPPutSettings. Kliknij to powiadomienie, aby je przyznać.</string>
 </resources>
