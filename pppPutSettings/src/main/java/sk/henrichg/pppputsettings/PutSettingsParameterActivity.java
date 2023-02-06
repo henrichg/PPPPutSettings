@@ -47,6 +47,7 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
             finish();
     }
 
+    /*
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -56,6 +57,7 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
                 finish();
         }
     }
+    */
 
     private void putSettingsParameter() {
 //        Log.e("PutSettingsParameterActivity.putSettingsParameter", "settingsType="+settingsType);
@@ -67,18 +69,20 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
             canWrite = Settings.System.canWrite(getApplicationContext());
 
         if (canWrite) {
-            ContentResolver contentResolver = getApplicationContext().getContentResolver();
-            try {
-                ContentValues contentValues = new ContentValues(2);
-                contentValues.put("name", parameterName);
-                contentValues.put("value", parameterValue);
-                // settingsType : "system", "secure", "global"
-                contentResolver.insert(Uri.parse("content://settings/" + settingsType), contentValues);
-            } catch (SecurityException e1) {
-                Log.e("PutSettingsParameterActivity.putSettingsParameter", "not granted WRITE_SETTINGS ??");
-                Permissions.writeSettingsNotGranted(getApplicationContext());
-            } catch (Exception e2) {
-                //PPPPSApplication.recordException(e2);
+            if ((settingsType != null) && (parameterName != null) && (parameterValue != null)) {
+                ContentResolver contentResolver = getApplicationContext().getContentResolver();
+                try {
+                    ContentValues contentValues = new ContentValues(2);
+                    contentValues.put("name", parameterName);
+                    contentValues.put("value", parameterValue);
+                    // settingsType : "system", "secure", "global"
+                    contentResolver.insert(Uri.parse("content://settings/" + settingsType), contentValues);
+                } catch (SecurityException e1) {
+                    Log.e("PutSettingsParameterActivity.putSettingsParameter", "not granted WRITE_SETTINGS ??");
+                    Permissions.writeSettingsNotGranted(getApplicationContext());
+                } catch (Exception e2) {
+                    //PPPPSApplication.recordException(e2);
+                }
             }
         } else {
             Log.e("PutSettingsParameterActivity.putSettingsParameter", "not granted WRITE_SETTINGS");
