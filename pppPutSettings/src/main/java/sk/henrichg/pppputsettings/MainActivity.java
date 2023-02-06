@@ -10,6 +10,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.provider.Settings;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.TextPaint;
@@ -32,7 +33,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    //private static final int RESULT_PERMISSIONS_SETTINGS = 1901;
+    private static final int RESULT_PERMISSIONS_SETTINGS = 1901;
 
     int selectedLanguage = 0;
     String defaultLanguage = "";
@@ -307,7 +308,6 @@ public class MainActivity extends AppCompatActivity {
         Permissions.grantNotificationsPermission(this);
     }
 
-    /*
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data)
     {
@@ -316,6 +316,7 @@ public class MainActivity extends AppCompatActivity {
             reloadActivity(this, false);
     }
 
+    /*
     @Override
     public void onRequestPermissionsResult(int requestCode,
                                            @NonNull String[] permissions,
@@ -372,7 +373,7 @@ public class MainActivity extends AppCompatActivity {
                 //intent.addCategory(Intent.CATEGORY_DEFAULT);
                 if (MainActivity.activityIntentExists(intent, activity)) {
                     //noinspection deprecation
-                    startActivity(intent);
+                    startActivityForResult(intent, RESULT_PERMISSIONS_SETTINGS);
                 } else {
                     AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(activity);
                     dialogBuilder.setMessage(R.string.pppputsettings_setting_screen_not_found_alert);
@@ -381,6 +382,13 @@ public class MainActivity extends AppCompatActivity {
                     dialogBuilder.show();
                 }
             });
+
+            text = findViewById(R.id.activity_main_write_settings_status);
+            if (Settings.System.canWrite(getApplicationContext()))
+                text.setText("[ " + getString(R.string.pppputsettings_modify_system_settings_granted) + " ]");
+            else
+                text.setText("[ " + getString(R.string.pppputsettings_modify_system_settings_not_granted) + " ]");
+
         }
     }
 
