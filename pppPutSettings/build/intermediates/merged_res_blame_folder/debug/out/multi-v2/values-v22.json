@@ -4,7 +4,7 @@
             "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-21:/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/home/henrisko/.gradle/caches/transforms-3/5521fd259f8332737a22b3743c01d4b7/transformed/appcompat-1.6.0/res/values-v22/values-v22.xml",
+                    "source": "/home/henrisko/.gradle/caches/transforms-3/109aa9ae3ac6fa58b77f47c09197b4e9/transformed/appcompat-1.6.0/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/henrisko/.gradle/caches/transforms-3/3c95dba494c113ef1b5909bc70b9d039/transformed/jetified-acra-core-5.9.7/res/values-v22/values-v22.xml",
+                    "source": "/home/henrisko/.gradle/caches/transforms-3/b05decf92638260bc6029b31f3bb703b/transformed/jetified-acra-core-5.9.7/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

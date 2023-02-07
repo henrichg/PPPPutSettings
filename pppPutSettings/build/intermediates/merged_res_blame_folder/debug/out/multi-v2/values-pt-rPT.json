@@ -4,7 +4,7 @@
             "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-21:/values-pt-rPT/values-pt-rPT.xml",
             "map": [
                 {
-                    "source": "/home/henrisko/.gradle/caches/transforms-3/5521fd259f8332737a22b3743c01d4b7/transformed/appcompat-1.6.0/res/values-pt-rPT/values-pt-rPT.xml",
+                    "source": "/home/henrisko/.gradle/caches/transforms-3/109aa9ae3ac6fa58b77f47c09197b4e9/transformed/appcompat-1.6.0/res/values-pt-rPT/values-pt-rPT.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -18,6 +18,23 @@
                         "startOffsets": "105,213,319,426,515,616,734,819,899,991,1085,1182,1276,1375,1469,1565,1660,1752,1844,1929,2036,2147,2249,2357,2465,2572,2737,5430",
                         "endColumns": "107,105,106,88,100,117,84,79,91,93,96,93,98,93,95,94,91,91,84,106,110,101,107,107,106,164,98,85",
                         "endOffsets": "208,314,421,510,611,729,814,894,986,1080,1177,1271,1370,1464,1560,1655,1747,1839,1924,2031,2142,2244,2352,2460,2567,2732,2831,5511"
+                    }
+                },
+                {
+                    "source": "/home/henrisko/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/res/values-pt-rPT/values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "54",
+                        "startColumns": "4",
+                        "startOffsets": "5516",
+                        "endColumns": "100",
+                        "endOffsets": "5612"
                     }
                 },
                 {
@@ -35,23 +52,6 @@
                         "startOffsets": "2836,2914,3006,3080,3202,3282,3420,3517,3614,3688,3770,3848,3928,4019,4193,4308,4398,4486,4584,4720,4964,5056,5247,5347",
                         "endColumns": "77,91,73,121,79,137,96,96,73,81,77,79,90,173,114,89,87,97,135,243,91,190,99,82",
                         "endOffsets": "2909,3001,3075,3197,3277,3415,3512,3609,3683,3765,3843,3923,4014,4188,4303,4393,4481,4579,4715,4959,5051,5242,5342,5425"
-                    }
-                },
-                {
-                    "source": "/home/henrisko/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/res/values-pt-rPT/values-pt-rPT.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "54",
-                        "startColumns": "4",
-                        "startOffsets": "5516",
-                        "endColumns": "100",
-                        "endOffsets": "5612"
                     }
                 }
             ]
