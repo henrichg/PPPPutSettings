@@ -81,7 +81,8 @@
             android:layout_gravity="center_horizontal"
             android:text="@string/pppputsettings_modify_system_settings_not_granted"
             android:textSize="16sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            tools:ignore="InconsistentLayout" />
 
         <Button
             android:id="@+id/activity_main_write_settings_button"
