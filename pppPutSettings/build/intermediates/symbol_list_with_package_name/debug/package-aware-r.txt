@@ -360,6 +360,7 @@ color accent_material_light
 color action_button_text_color
 color activityBackgroundColor
 color activityDisabledTextColor
+color activityNormalTextColor
 color activityPopupMenuBackgroundColor
 color activityPopupMenuClickedItemBackgroundColor
 color activitySecondaryTextColor
