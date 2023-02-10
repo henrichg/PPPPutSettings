@@ -433,7 +433,8 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
-color text_view_color
+color text_view_color_primary
+color text_view_color_secondary
 color tooltip_background_dark
 color tooltip_background_light
 dimen abc_action_bar_content_inset_material

@@ -13,7 +13,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/build/intermediates/merged_res/debug/color_text_view_color.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/build/intermediates/merged_res/debug/values-v27_values-v27.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/build/intermediates/merged_res/debug/values-v27_values-v27.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/build/intermediates/merged_res/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/build/intermediates/merged_res/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v27.json" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v27.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,24 +85,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ApkExportedModule&quot;: &quot;PPPPutSettings.pppPutSettings&quot;,
-    &quot;ExportApk.ApkPathForPPPPutSettings.pppPutSettings&quot;: &quot;/home/henrisko/Projekty/AndroidReleases&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/henrisko/Projekty/AndroidReleases&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.analyzer&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ApkExportedModule": "PPPPutSettings.pppPutSettings",
+    "ExportApk.ApkPathForPPPPutSettings.pppPutSettings": "/home/henrisko/Projekty/AndroidReleases",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/color",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "build.analyzer"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ExportApk.BuildVariants&quot;: [
-      &quot;release&quot;
+  "keyToStringList": {
+    "ExportApk.BuildVariants": [
+      "release"
     ]
   }
-}</component>
+}]]></component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Default Config" />
     <option name="BUILD_VARIANTS_TAB" value="Build Types" />
@@ -100,6 +111,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pppPutSettings/src/main/res/color" />
       <recent name="$PROJECT_DIR$/pppPutSettings/src/main/res/layout-v23" />
     </key>
   </component>
@@ -172,13 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Added &quot;Choose language&quot;. (2)">
-      <created>1668613867644</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1668613867644</updated>
     </task>
     <task id="LOCAL-00040" summary="Added &quot;Choose language&quot;. (3)">
       <created>1668618358425</created>
@@ -516,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676025626721</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Change: Increased contrast. (3)">
+      <created>1676029794804</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1676029794804</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -532,7 +544,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Fixed string." />
     <MESSAGE value="New version 1.0." />
     <MESSAGE value="Change: Changed background color to gray." />
     <MESSAGE value="New version 1.0.1." />
@@ -557,6 +568,7 @@
     <MESSAGE value="Fixed version name in README.md" />
     <MESSAGE value="Change: Increased contrast." />
     <MESSAGE value="Change: Increased contrast. (2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Increased contrast. (2)" />
+    <MESSAGE value="Change: Increased contrast. (3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Increased contrast. (3)" />
   </component>
 </project>
