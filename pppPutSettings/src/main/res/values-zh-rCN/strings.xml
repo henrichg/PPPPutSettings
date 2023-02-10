@@ -27,4 +27,6 @@
     <string name="pppputsettings_notification_channel_exclamation">警告</string>
     <string name="pppputsettings_not_granted_write_settings_title">“修改系统设置”未授权</string>
     <string name="pppputsettings_not_granted_write_settings_text">PPPPutSetting 未允许“修改系统设置”。点此通知授权。</string>
+    <string name="pppputsettings_modify_system_settings_granted">Granted</string>
+    <string name="pppputsettings_modify_system_settings_not_granted">Not granted</string>
 </resources>

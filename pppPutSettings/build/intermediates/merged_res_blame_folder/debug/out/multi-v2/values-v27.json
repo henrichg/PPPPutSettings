@@ -1,30 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-21:/values-v27/values-v27.xml",
-            "map": [
-                {
-                    "source": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/values-v27/styles.xml",
-                    "from": {
-                        "startLines": "3,43",
-                        "startColumns": "4,4",
-                        "startOffsets": "56,2108",
-                        "endLines": "41,77",
-                        "endColumns": "12,12",
-                        "endOffsets": "2102,3899"
-                    },
-                    "to": {
-                        "startLines": "2,41",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,1738",
-                        "endLines": "40,75",
-                        "endColumns": "12,12",
-                        "endOffsets": "1733,3433"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "sk.henrichg.pppputsettings.pppPutSettings-mergeDebugResources-21:/values-v27/values-v27.xml",
             "map": [
                 {

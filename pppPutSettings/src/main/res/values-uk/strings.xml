@@ -27,4 +27,6 @@
     <string name="pppputsettings_notification_channel_exclamation">Попередження</string>
     <string name="pppputsettings_not_granted_write_settings_title">Немає дозволу на \"Зміна системних налаштувань\"</string>
     <string name="pppputsettings_not_granted_write_settings_text">PPPPutSettings немає дозволу на зміну системних налаштувань. Натисніть на сповіщення, щоб надати.</string>
+    <string name="pppputsettings_modify_system_settings_granted">Granted</string>
+    <string name="pppputsettings_modify_system_settings_not_granted">Not granted</string>
 </resources>

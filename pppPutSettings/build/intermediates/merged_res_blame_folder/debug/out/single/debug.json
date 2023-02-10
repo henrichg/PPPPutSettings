@@ -1,226 +1,226 @@
 [
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_pp_button_background_selector.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/pp_button_background_selector.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-hdpi_ic_pppps_app_icon.webp.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-hdpi/ic_pppps_app_icon.webp"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/menu_log_crash_menu.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-debug-24:/menu/log_crash_menu.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-xxxhdpi_ic_exclamation_notify.webp.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-xxxhdpi/ic_exclamation_notify.webp"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-hdpi/ic_launcher_adaptive_back.png"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_popupmenu_background.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/popupmenu_background.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/layout-v23_activity_main.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/layout-v23/activity_main.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-mdpi_ic_exclamation_notify.webp.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-mdpi/ic_exclamation_notify.webp"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_pp_button_background_selector.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/pp_button_background_selector.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_pp_button_background.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/pp_button_background.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xxxhdpi/ic_launcher_adaptive_back.png"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-hdpi/ic_launcher.png"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_listview_item_background_selector_no_ripple.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/listview_item_background_selector_no_ripple.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/layout_choose_language_list_item.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/layout/choose_language_list_item.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-xhdpi_ic_exclamation_notify.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-xhdpi/ic_exclamation_notify.webp"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xhdpi/ic_launcher_adaptive_back.png"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xhdpi/ic_launcher_adaptive_back.png"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_popup_menu_item_background_no_ripple.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/popup_menu_item_background_no_ripple.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-hdpi/ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-xhdpi_ic_pppps_app_icon.webp.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-xhdpi/ic_pppps_app_icon.webp"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xhdpi/ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_pp_alert_button_background_clicked.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/pp_alert_button_background_clicked.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_pp_dialog_background.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/pp_dialog_background.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_listview_item_background.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/listview_item_background.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/layout_activity_log_crash.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-debug-24:/layout/activity_log_crash.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_listview_item_background_selector_no_ripple.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/listview_item_background_selector_no_ripple.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-hdpi_ic_pppps_app_icon.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-hdpi/ic_pppps_app_icon.webp"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-xxxhdpi_ic_pppps_app_icon.webp.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-xxxhdpi/ic_pppps_app_icon.webp"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-mdpi_ic_pppps_app_icon.webp.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-mdpi/ic_pppps_app_icon.webp"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-xxhdpi_ic_exclamation_notify.webp.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-xxhdpi/ic_exclamation_notify.webp"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_listview_item_background_selector.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/listview_item_background_selector.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_pp_dialog_background.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/pp_dialog_background.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-mdpi/ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-xxhdpi_ic_exclamation_notify.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-xxhdpi/ic_exclamation_notify.webp"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/color_text_view_color.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/color/text_view_color.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xxhdpi/ic_launcher_adaptive_fore.png"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-mdpi/ic_launcher_adaptive_fore.png"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xxhdpi/ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-mdpi_ic_exclamation_notify.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-mdpi/ic_exclamation_notify.webp"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/layout-v23_activity_main.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/layout-v23/activity_main.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/color_action_button_text_color.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/color/action_button_text_color.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-xxhdpi_ic_pppps_app_icon.webp.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-xxhdpi/ic_pppps_app_icon.webp"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-xxxhdpi_ic_pppps_app_icon.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-xxxhdpi/ic_pppps_app_icon.webp"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_ic_launcher_monochrome.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/ic_launcher_monochrome.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_popup_menu_item_background_selector.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/popup_menu_item_background_selector.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_listview_item_background_no_ripple.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/listview_item_background_no_ripple.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_popup_menu_item_background_selector_no_ripple.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/popup_menu_item_background_selector_no_ripple.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/layout_log_crash_list_item.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-debug-24:/layout/log_crash_list_item.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_popup_menu_item_background_selector.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/popup_menu_item_background_selector.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_pp_button_background_clicked.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/pp_button_background_clicked.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-hdpi/ic_launcher_adaptive_fore.png"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-xxhdpi_ic_pppps_app_icon.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-xxhdpi/ic_pppps_app_icon.webp"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_popup_menu_item_background_no_ripple.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/popup_menu_item_background_no_ripple.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/menu_log_crash_menu.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-debug-24:/menu/log_crash_menu.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-hdpi_ic_exclamation_notify.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-hdpi/ic_exclamation_notify.webp"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/menu_main_menu.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/menu/main_menu.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-mdpi/ic_launcher_adaptive_back.png"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_listview_item_background_selector.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/listview_item_background_selector.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-xhdpi_ic_pppps_app_icon.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-xhdpi/ic_pppps_app_icon.webp"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xhdpi/ic_launcher_adaptive_fore.png"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_listview_item_background.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/listview_item_background.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-hdpi_ic_exclamation_notify.webp.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-hdpi/ic_exclamation_notify.webp"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-xxxhdpi_ic_exclamation_notify.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-xxxhdpi/ic_exclamation_notify.webp"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_pp_alert_button_background.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/pp_alert_button_background.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_pp_alert_button_background_clicked.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/pp_alert_button_background_clicked.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/layout_dialog_choose_language.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/layout/dialog_choose_language.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_popupmenu_background.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/popupmenu_background.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-night_popupmenu_background.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-night/popupmenu_background.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/layout_activity_main.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/layout/activity_main.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_popup_menu_item_background.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/popup_menu_item_background.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/color_action_button_text_color.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/color/action_button_text_color.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/layout_choose_language_list_item.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/layout/choose_language_list_item.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/layout_activity_log_crash.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-debug-24:/layout/activity_log_crash.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/color_checkbox_radiobutton_color.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/color/checkbox_radiobutton_color.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_pp_button_background_clicked.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/pp_button_background_clicked.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_pp_button_background.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/pp_button_background.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-hdpi/ic_launcher_adaptive_back.png"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/layout_dialog_choose_language.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/layout/dialog_choose_language.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xxxhdpi/ic_launcher_adaptive_back.png"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_pp_alert_button_background.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/pp_alert_button_background.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-xhdpi_ic_exclamation_notify.webp.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-xhdpi/ic_exclamation_notify.webp"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xxhdpi/ic_launcher_adaptive_back.png"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_listview_item_background_no_ripple.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/listview_item_background_no_ripple.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/layout_activity_main.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/layout/activity_main.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/menu_main_menu.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/menu/main_menu.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-mdpi/ic_launcher.png"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_pp_alert_button_background_selector.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/pp_alert_button_background_selector.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-mdpi/ic_launcher_adaptive_back.png"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_ic_launcher_monochrome.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/ic_launcher_monochrome.xml"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_popup_menu_item_background_selector_no_ripple.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/popup_menu_item_background_selector_no_ripple.xml"
     },
     {
         "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/color_text_view_color_primary.xml.flat",
         "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/color/text_view_color_primary.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/layout_log_crash_list_item.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-debug-24:/layout/log_crash_list_item.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-night_popupmenu_background.xml.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-night/popupmenu_background.xml"
     },
     {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/mipmap-xxhdpi/ic_launcher_adaptive_back.png"
-    },
-    {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_pp_alert_button_background_selector.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/pp_alert_button_background_selector.xml"
+        "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable-mdpi_ic_pppps_app_icon.webp.flat",
+        "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable-mdpi/ic_pppps_app_icon.webp"
     },
     {
         "merged": "sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/color_text_view_color_secondary.xml.flat",
         "source": "sk.henrichg.pppputsettings.pppPutSettings-main-25:/color/text_view_color_secondary.xml"
-    },
-    {
-        "merged": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-merged_res-23:/drawable_popup_menu_item_background.xml.flat",
-        "source": "/home/henrisko/.gradle/daemon/7.5/sk.henrichg.pppputsettings.pppPutSettings-main-25:/drawable/popup_menu_item_background.xml"
     }
 ]

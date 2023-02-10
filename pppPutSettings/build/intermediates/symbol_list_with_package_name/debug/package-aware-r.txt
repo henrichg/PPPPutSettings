@@ -381,6 +381,7 @@ color buttonBorderColor
 color buttonClickedBackgroundColor
 color button_material_dark
 color button_material_light
+color checkbox_radiobutton_color
 color dialogBorderColor
 color dialog_divider
 color dim_foreground_disabled_material_dark

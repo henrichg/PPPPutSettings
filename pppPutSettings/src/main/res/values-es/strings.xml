@@ -27,4 +27,6 @@
     <string name="pppputsettings_notification_channel_exclamation">Exclamación</string>
     <string name="pppputsettings_not_granted_write_settings_title">No se ha concedido \"Modificar ajustes del sistema\"</string>
     <string name="pppputsettings_not_granted_write_settings_text">No se ha concedido \"Modificar ajustes del sistema\" para PPPPutSettings. Haz clic en esta notificación para concederlo.</string>
+    <string name="pppputsettings_modify_system_settings_granted">Concedido</string>
+    <string name="pppputsettings_modify_system_settings_not_granted">No concedido</string>
 </resources>

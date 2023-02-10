@@ -27,4 +27,6 @@
     <string name="pppputsettings_notification_channel_exclamation">Uitroep</string>
     <string name="pppputsettings_not_granted_write_settings_title">\"Systeeminstellingen aanpassen\" niet toegestaan</string>
     <string name="pppputsettings_not_granted_write_settings_text">\"Systeeminstellingen wijzigen\" is niet toegestaan voor PPPPutInstellingen. Klik op notificatie om het toe te staan.</string>
+    <string name="pppputsettings_modify_system_settings_granted">Verleend</string>
+    <string name="pppputsettings_modify_system_settings_not_granted">Niet verleend</string>
 </resources>

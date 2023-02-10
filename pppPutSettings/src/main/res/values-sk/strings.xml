@@ -27,4 +27,6 @@
     <string name="pppputsettings_notification_channel_exclamation">Upozornenie</string>
     <string name="pppputsettings_not_granted_write_settings_title">\"Úprava nastavení systému\" nie je povolené</string>
     <string name="pppputsettings_not_granted_write_settings_text">\"Úprava nastavení systému\" nie je povolené pre PPPPutSettings. Kliknutím na toto upozornenie ho udelíte.</string>
+    <string name="pppputsettings_modify_system_settings_granted">Udelené</string>
+    <string name="pppputsettings_modify_system_settings_not_granted">Neudelené</string>
 </resources>

@@ -27,4 +27,6 @@
     <string name="pppputsettings_notification_channel_exclamation">Exclamation</string>
     <string name="pppputsettings_not_granted_write_settings_title">« Modifier les paramètres système » non autorisé</string>
     <string name="pppputsettings_not_granted_write_settings_text">« Modifier les paramètres système » n\'est pas autorisé pour PPPPutSettings. Cliquez sur cette notification pour le permettre.</string>
+    <string name="pppputsettings_modify_system_settings_granted">Accordée</string>
+    <string name="pppputsettings_modify_system_settings_not_granted">Non accordée</string>
 </resources>
