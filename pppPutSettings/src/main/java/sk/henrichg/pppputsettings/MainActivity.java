@@ -28,6 +28,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.core.content.pm.PackageInfoCompat;
+import androidx.core.view.MenuCompat;
 
 import java.util.List;
 
@@ -125,9 +126,7 @@ public class MainActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main_menu, menu);
 
-        if (Build.VERSION.SDK_INT >= 28) {
-            menu.setGroupDividerEnabled(true);
-        }
+        MenuCompat.setGroupDividerEnabled(menu, true);
 
         return true;
     }
