@@ -12,18 +12,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-v27/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-v27/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values/styles.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R9AR5063BNJ]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/henrisko/.android/avd/7.6_Fold-in_with_outer_display_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -176,13 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Added ACRA support.">
-      <created>1668686350949</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1668686350949</updated>
     </task>
     <task id="LOCAL-00045" summary="Added ACRA support.">
       <created>1668686370473</created>
@@ -520,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676064823649</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Change: Added support for large display sizes.">
+      <created>1676133798465</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1676133798465</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,7 +531,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Better button border color in night theme." />
     <MESSAGE value="Change: Title for notification permission dialog." />
     <MESSAGE value="Change: Added title divider into main activity." />
     <MESSAGE value="Fix: Fixed not working send crash report mail via GMal in Android 13. Required is: ACRA 5.9.7 and compiledSDK=33." />
@@ -561,6 +555,7 @@
     <MESSAGE value="Updated translations." />
     <MESSAGE value="Removed build folder." />
     <MESSAGE value="New appcompat lib version." />
-    <option name="LAST_COMMIT_MESSAGE" value="New appcompat lib version." />
+    <MESSAGE value="Change: Added support for large display sizes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Added support for large display sizes." />
   </component>
 </project>
