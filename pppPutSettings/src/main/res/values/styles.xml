@@ -40,6 +40,8 @@
         <item name="popupMenuItemBackground">@drawable/popup_menu_item_background_selector</item>
 
         <item name="android:scrollbarThumbVertical">@color/scrollbar_color</item>
+
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_extra</item>
     </style>
 
     <style name="AppTheme_noRipple" parent="Theme.AppCompat.DayNight">
@@ -74,6 +76,8 @@
         <item name="popupMenuItemBackground">@drawable/popup_menu_item_background_selector_no_ripple</item>
 
         <item name="android:scrollbarThumbVertical">@color/scrollbar_color</item>
+
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_extra</item>
     </style>
 
 
