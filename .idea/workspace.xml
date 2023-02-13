@@ -174,13 +174,6 @@
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
     </task>
-    <task id="LOCAL-00046" summary="Fixed warnings.">
-      <created>1668695338514</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1668695338514</updated>
-    </task>
     <task id="LOCAL-00047" summary="Change: Fixed string.">
       <created>1668710493280</created>
       <option name="number" value="00047" />
@@ -517,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676137056333</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Change: Increased contrast. (6)">
+      <created>1676204341766</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1676204341766</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -533,7 +533,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Added title divider into main activity." />
     <MESSAGE value="Fix: Fixed not working send crash report mail via GMal in Android 13. Required is: ACRA 5.9.7 and compiledSDK=33." />
     <MESSAGE value="New version 1.0.1.1." />
     <MESSAGE value="Change: Better choose language item layout." />
@@ -558,6 +557,7 @@
     <MESSAGE value="New appcompat lib version." />
     <MESSAGE value="Change: Added support for large display sizes." />
     <MESSAGE value="Change: Increased contrast. (5)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Increased contrast. (5)" />
+    <MESSAGE value="Change: Increased contrast. (6)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Increased contrast. (6)" />
   </component>
 </project>
