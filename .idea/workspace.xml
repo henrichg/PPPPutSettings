@@ -14,6 +14,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-night-v29/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-night-v29/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-night/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-night/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +84,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;ScreenshotViewer.SavePath&quot;: &quot;/home/henrisko/Projekty/AndroidStudio/PhoneProfilesPlus/art/phoneScreenshots&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/color&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/henrisko/Projekty/AndroidStudio/PhoneProfilesPlus/art/phoneScreenshots/12.png&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
@@ -173,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Change: Fixed string.">
-      <created>1668710493280</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1668710493280</updated>
     </task>
     <task id="LOCAL-00048" summary="Updated translations.">
       <created>1668768343270</created>
@@ -517,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676204341766</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Updated translations.">
+      <created>1676282447006</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1676282447007</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,12 +556,12 @@
     <MESSAGE value="Change: Increased contrast. (2)" />
     <MESSAGE value="Change: Increased contrast. (3)" />
     <MESSAGE value="Change: Increased contrast. (4)" />
-    <MESSAGE value="Updated translations." />
     <MESSAGE value="Removed build folder." />
     <MESSAGE value="New appcompat lib version." />
     <MESSAGE value="Change: Added support for large display sizes." />
     <MESSAGE value="Change: Increased contrast. (5)" />
     <MESSAGE value="Change: Increased contrast. (6)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Increased contrast. (6)" />
+    <MESSAGE value="Updated translations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated translations." />
   </component>
 </project>
