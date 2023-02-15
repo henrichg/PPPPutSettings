@@ -10,6 +10,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.provider.Settings;
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -21,12 +22,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
+import androidx.core.content.ContextCompat;
 import androidx.core.content.pm.PackageInfoCompat;
 import androidx.core.view.MenuCompat;
 
@@ -40,6 +43,10 @@ public class MainActivity extends AppCompatActivity {
     String defaultLanguage = "";
     String defaultCountry = "";
     String defaultScript = "";
+
+    static final String EXTRA_SCROLL_TO = "extra_main_activity_scroll_to";
+
+    int scrollTo = 0;
 
     /*
     private final BroadcastReceiver refreshGUIBroadcastReceiver = new BroadcastReceiver() {
@@ -72,6 +79,9 @@ public class MainActivity extends AppCompatActivity {
             getSupportActionBar().setTitle(R.string.pppputsettings_app_name);
             getSupportActionBar().setElevation(0);
         }
+
+        Intent intent = getIntent();
+        scrollTo = intent.getIntExtra(EXTRA_SCROLL_TO, 0);
 
         TextView text = findViewById(R.id.activity_main_application_version);
         try {
@@ -305,6 +315,20 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
 
         Permissions.grantNotificationsPermission(this);
+
+        if (scrollTo != 0) {
+            final ScrollView scrollView = findViewById(R.id.activity_main_scroll_view);
+            final View viewToScroll = findViewById(scrollTo);
+            if (viewToScroll != null) {
+                new Handler(Looper.getMainLooper()).postDelayed(() -> {
+//                        PPApplication.logE("[IN_THREAD_HANDLER] PPApplication.startHandlerThread", "START run - from=ImportantInfoHelpFragment.onViewCreated (2)");
+                    scrollView.scrollTo(0, viewToScroll.getTop());
+                }, 200);
+
+                scrollTo = 0;
+            }
+        }
+
     }
 
     @Override
@@ -383,10 +407,15 @@ public class MainActivity extends AppCompatActivity {
             });
 
             text = findViewById(R.id.activity_main_write_settings_status);
-            if (Settings.System.canWrite(getApplicationContext()))
+            if (Settings.System.canWrite(getApplicationContext())) {
+                text.setTextColor(ContextCompat.getColor(this, R.color.activityNormalTextColor));
                 text.setText("[ " + getString(R.string.pppputsettings_modify_system_settings_granted) + " ]");
-            else
+            }
+            else {
+                if (scrollTo == R.id.activity_main_write_settings_status)
+                    text.setTextColor(ContextCompat.getColor(this, R.color.error_color));
                 text.setText("[ " + getString(R.string.pppputsettings_modify_system_settings_not_granted) + " ]");
+            }
 
         }
     }

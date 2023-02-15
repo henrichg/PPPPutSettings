@@ -51,5 +51,6 @@
 <!--    <color name="notificationDecorationColor">#cc893e</color>-->
 
     <color name="notification_color">#64B47F</color>
+    <color name="error_color">#FFFF2424</color>
 
 </resources>
