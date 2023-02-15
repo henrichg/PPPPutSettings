@@ -414,6 +414,8 @@ public class MainActivity extends AppCompatActivity {
             else {
                 if (scrollTo == R.id.activity_main_write_settings_status)
                     text.setTextColor(ContextCompat.getColor(this, R.color.error_color));
+                else
+                    text.setTextColor(ContextCompat.getColor(this, R.color.activityNormalTextColor));
                 text.setText("[ " + getString(R.string.pppputsettings_modify_system_settings_not_granted) + " ]");
             }
 
