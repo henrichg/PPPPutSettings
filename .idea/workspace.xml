@@ -12,13 +12,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="Change: Scroll to permission view after notification about not granted permission is clicked.">
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/Permissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/Permissions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/PutSettingsParameterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/PutSettingsParameterActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-night/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-night/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,20 +175,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00049" summary="New version 1.0.">
-      <created>1668777878813</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1668777878813</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Change: Changed background color to gray.">
-      <created>1668873863656</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1668873863656</updated>
     </task>
     <task id="LOCAL-00051" summary="Change: Changed background color to gray.">
       <created>1668874647958</created>
@@ -523,7 +505,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676395274951</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Change: Scroll to permission view after notification about not granted permission is clicked.">
+      <created>1676491423075</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1676491423075</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Change: Scroll to permission view after notification about not granted permission is clicked. (2)">
+      <created>1676491489264</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1676491489264</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,8 +535,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="New version 1.0.1.1." />
-    <MESSAGE value="Change: Better choose language item layout." />
     <MESSAGE value="Fix: Fixed set [System] language. Change of language on device Settings, follows language also in PPP." />
     <MESSAGE value="Change: Display notification, when &quot;Modify system settings&quot; is not granted." />
     <MESSAGE value="New AppCompat lib version." />
@@ -564,6 +558,8 @@
     <MESSAGE value="Change: Increased contrast. (6)" />
     <MESSAGE value="Updated translations." />
     <MESSAGE value="Change: Increased contrast. (7)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Increased contrast. (7)" />
+    <MESSAGE value="Change: Scroll to permission view after notification about not granted permission is clicked." />
+    <MESSAGE value="Change: Scroll to permission view after notification about not granted permission is clicked. (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Scroll to permission view after notification about not granted permission is clicked. (2)" />
   </component>
 </project>
