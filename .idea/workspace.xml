@@ -13,10 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/debug/res/menu/main_menu_debug.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/menu/main_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/menu/main_menu.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,25 +74,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ApkExportedModule": "PPPPutSettings.pppPutSettings",
-    "ExportApk.ApkPathForPPPPutSettings.pppPutSettings": "/home/henrisko/Projekty/AndroidReleases",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "ScreenshotViewer.SavePath": "/home/henrisko/Projekty/AndroidStudio/PhoneProfilesPlus/art/phoneScreenshots",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/menu",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ApkExportedModule&quot;: &quot;PPPPutSettings.pppPutSettings&quot;,
+    &quot;ExportApk.ApkPathForPPPPutSettings.pppPutSettings&quot;: &quot;/home/henrisko/Projekty/AndroidReleases&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;ScreenshotViewer.SavePath&quot;: &quot;/home/henrisko/Projekty/AndroidStudio/PhoneProfilesPlus/art/phoneScreenshots&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/menu&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "ExportApk.BuildVariants": [
-      "release"
+  &quot;keyToStringList&quot;: {
+    &quot;ExportApk.BuildVariants&quot;: [
+      &quot;release&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Default Config" />
     <option name="BUILD_VARIANTS_TAB" value="Build Types" />
@@ -178,13 +175,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00053" summary="New version 1.0.1.">
-      <created>1668878300170</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1668878300170</updated>
     </task>
     <task id="LOCAL-00054" summary="Change: Better button border color in night theme.">
       <created>1668942822694</created>
@@ -522,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678877753908</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Change: Moved &quot;Debug&quot; menu into /debug resources folder.">
+      <created>1678892437044</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1678892437045</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -538,7 +535,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Display notification, when &quot;Modify system settings&quot; is not granted." />
     <MESSAGE value="New AppCompat lib version." />
     <MESSAGE value="New Android Stusio version." />
     <MESSAGE value="New version 1.0.2." />
@@ -563,6 +559,7 @@
     <MESSAGE value="Change: Scroll to permission view after notification about not granted permission is clicked. (2)" />
     <MESSAGE value="New Android Studio version." />
     <MESSAGE value="Change: New libs versions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: New libs versions." />
+    <MESSAGE value="Change: Moved &quot;Debug&quot; menu into /debug resources folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Moved &quot;Debug&quot; menu into /debug resources folder." />
   </component>
 </project>
