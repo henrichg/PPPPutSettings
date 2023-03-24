@@ -13,53 +13,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-hdpi/ic_pppps_app_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-mdpi/ic_pppps_app_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-xhdpi/ic_pppps_app_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-xxhdpi/ic_pppps_app_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-xxxhdpi/ic_pppps_app_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-hdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-mdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xhdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xxhdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/ic_launcher-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/ic_launcher-playstore.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-hdpi/ic_pppps_app_icon.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-mdpi/ic_pppps_app_icon.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-xhdpi/ic_pppps_app_icon.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-xxhdpi/ic_pppps_app_icon.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-xxxhdpi/ic_pppps_app_icon.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable/ic_launcher_monochrome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable/ic_launcher_monochrome.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-hdpi/ic_launcher_adaptive_back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-hdpi/ic_launcher_adaptive_fore.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-mdpi/ic_launcher_adaptive_back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-mdpi/ic_launcher_adaptive_fore.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xhdpi/ic_launcher_adaptive_back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xhdpi/ic_launcher_adaptive_fore.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_fore.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xxxhdpi/ic_launcher_adaptive_back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[22231FDF600373]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RFCNC13XY1Z]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -214,20 +175,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Change: Title for notification permission dialog.">
-      <created>1669056082540</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1669056082540</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Change: Added title divider into main activity.">
-      <created>1669551741304</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1669551741304</updated>
     </task>
     <task id="LOCAL-00058" summary="...">
       <created>1669551758378</created>
@@ -558,7 +505,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679576710116</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Change: Better app icon.">
+      <created>1679675144319</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1679675144319</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Change: Better app icon. (2)">
+      <created>1679675380305</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1679675380305</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -574,8 +535,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="New version 1.0.2." />
-    <MESSAGE value="Change: Fixes in put settings. All parameters must be set form PPP." />
     <MESSAGE value="Change: Added display of status for &quot;Modify system settings&quot; permission." />
     <MESSAGE value="..." />
     <MESSAGE value="New version" />
@@ -599,6 +558,8 @@
     <MESSAGE value="Change: Moved &quot;Debug&quot; menu into /debug resources folder." />
     <MESSAGE value="Change: Moved &quot;Debug&quot; menu into /debug resources folder. (2)" />
     <MESSAGE value="Change: Updated README.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Updated README.md." />
+    <MESSAGE value="Change: Better app icon." />
+    <MESSAGE value="Change: Better app icon. (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Better app icon. (2)" />
   </component>
 </project>
