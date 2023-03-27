@@ -27,6 +27,6 @@
     <string name="pppputsettings_notification_channel_exclamation">Ünlem</string>
     <string name="pppputsettings_not_granted_write_settings_title">\"Sistem ayarlarını değiştir\" izni verilmedi</string>
     <string name="pppputsettings_not_granted_write_settings_text">\"Sistem ayarlarını değiştir\" izni PPPAyarlarıYap için verilmedi. İzni vermek için buraya dokununuz.</string>
-    <string name="pppputsettings_modify_system_settings_granted">Granted</string>
-    <string name="pppputsettings_modify_system_settings_not_granted">Not granted</string>
+    <string name="pppputsettings_modify_system_settings_granted">İzin verildi</string>
+    <string name="pppputsettings_modify_system_settings_not_granted">İzin verilmedi</string>
 </resources>
