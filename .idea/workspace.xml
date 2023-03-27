@@ -13,10 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-tr/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-tr/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-uk/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-uk/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-zh-rCN/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-zh-rCN/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,13 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00062" summary="New version 1.0.1.1.">
-      <created>1669583711573</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1669583711573</updated>
     </task>
     <task id="LOCAL-00063" summary="New version 1.0.1.1.">
       <created>1669584097633</created>
@@ -527,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679923649106</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Updated translations.">
+      <created>1679925265043</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1679925265043</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,7 +552,6 @@
     <MESSAGE value="Change: Added support for large display sizes." />
     <MESSAGE value="Change: Increased contrast. (5)" />
     <MESSAGE value="Change: Increased contrast. (6)" />
-    <MESSAGE value="Updated translations." />
     <MESSAGE value="Change: Increased contrast. (7)" />
     <MESSAGE value="Change: Scroll to permission view after notification about not granted permission is clicked." />
     <MESSAGE value="Change: Scroll to permission view after notification about not granted permission is clicked. (2)" />
@@ -568,6 +564,7 @@
     <MESSAGE value="Change: Better app icon. (2)" />
     <MESSAGE value="Change: Fixed README.md." />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="Updated translations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated translations." />
   </component>
 </project>
