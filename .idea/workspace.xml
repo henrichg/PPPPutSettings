@@ -12,9 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="Updated translations.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="Updated translations." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,13 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00063" summary="New version 1.0.1.1.">
-      <created>1669584097633</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1669584097633</updated>
     </task>
     <task id="LOCAL-00064" summary="New version 1.0.1.1.">
       <created>1669585460382</created>
@@ -524,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679925265043</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Added licenses.">
+      <created>1680126446506</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1680126446506</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -540,7 +538,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="New version" />
     <MESSAGE value="Fixed warnings." />
     <MESSAGE value="Fixed version name in README.md" />
     <MESSAGE value="Change: Increased contrast." />
@@ -565,6 +562,7 @@
     <MESSAGE value="Change: Fixed README.md." />
     <MESSAGE value="..." />
     <MESSAGE value="Updated translations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated translations." />
+    <MESSAGE value="Added licenses." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added licenses." />
   </component>
 </project>
