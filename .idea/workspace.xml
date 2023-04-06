@@ -179,13 +179,6 @@
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
     </task>
-    <task id="LOCAL-00066" summary="Fix: Fixed set [System] language. Change of language on device Settings, follows language also in PPP.">
-      <created>1670973860843</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1670973860843</updated>
-    </task>
     <task id="LOCAL-00067" summary="Updated translations.">
       <created>1671011644194</created>
       <option name="number" value="00067" />
@@ -522,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680763103306</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="New version 1.0.4.">
+      <created>1680763529805</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1680763529805</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
