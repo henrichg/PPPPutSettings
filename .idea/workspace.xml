@@ -12,12 +12,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="Updated translations.">
-      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/CustomACRAEmailSender.java" afterDir="false" />
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/PPPPSApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/PPPPSApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/CustomACRAEmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/CustomACRAEmailSender.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,13 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00064" summary="New version 1.0.1.1.">
-      <created>1669585460382</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1669585460382</updated>
     </task>
     <task id="LOCAL-00065" summary="Change: Better choose language item layout.">
       <created>1670361026845</created>
@@ -528,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680126446506</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="Change: Added custom ACRA e-mail sender.">
+      <created>1680716094002</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1680716094002</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,7 +542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed warnings." />
     <MESSAGE value="Fixed version name in README.md" />
     <MESSAGE value="Change: Increased contrast." />
     <MESSAGE value="Change: Increased contrast. (2)" />
@@ -569,6 +566,7 @@
     <MESSAGE value="..." />
     <MESSAGE value="Updated translations." />
     <MESSAGE value="Added licenses." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added licenses." />
+    <MESSAGE value="Change: Added custom ACRA e-mail sender." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Added custom ACRA e-mail sender." />
   </component>
 </project>
