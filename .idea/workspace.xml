@@ -12,40 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art/PPPPutSettings_featured_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art/PPPPutSettings_featured_image.xcf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art/icon-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art/phoneScreenshots/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art/phoneScreenshots/02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art/phoneScreenshots/F-Droid/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art/phoneScreenshots/F-Droid/02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/FDroid_ChangeLog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/FDroid_ChangeLog_CS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/FDroid_ChangeLog_SK.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/privacy_policy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/cs-CZ/changelogs/45.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/cs-CZ/full_description.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/cs-CZ/short_description.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/de/changelogs/45.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/de/short_description.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/changelogs/45.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/full_description.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/images/featureGraphic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/images/phoneScreenshots/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/images/phoneScreenshots/02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/images/promoGraphic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/images/tvBanner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/short_description.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/title.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/sk-SK/changelogs/45.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/sk-SK/full_description.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/sk-SK/short_description.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,25 +77,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ApkExportedModule": "PPPPutSettings.pppPutSettings",
-    "ExportApk.ApkPathForPPPPutSettings.pppPutSettings": "/home/henrisko/Projekty/AndroidReleases",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "ScreenshotViewer.SavePath": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/art/phoneScreenshots",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/art/phoneScreenshots",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ApkExportedModule&quot;: &quot;PPPPutSettings.pppPutSettings&quot;,
+    &quot;ExportApk.ApkPathForPPPPutSettings.pppPutSettings&quot;: &quot;/home/henrisko/Projekty/AndroidReleases&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;ScreenshotViewer.SavePath&quot;: &quot;/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/art/phoneScreenshots&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/art/phoneScreenshots&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "ExportApk.BuildVariants": [
-      "release"
+  &quot;keyToStringList&quot;: {
+    &quot;ExportApk.BuildVariants&quot;: [
+      &quot;release&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Default Config" />
     <option name="BUILD_VARIANTS_TAB" value="Build Types" />
@@ -211,13 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Updated translations.">
-      <created>1671011644194</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1671011644194</updated>
     </task>
     <task id="LOCAL-00068" summary="Change: Display notification, when &quot;Modify system settings&quot; is not granted.">
       <created>1672853613109</created>
@@ -555,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680763529805</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="Added fastlane.">
+      <created>1680969879259</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1680969879259</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -571,7 +538,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Increased contrast." />
     <MESSAGE value="Change: Increased contrast. (2)" />
     <MESSAGE value="Change: Increased contrast. (3)" />
     <MESSAGE value="Change: Increased contrast. (4)" />
@@ -596,6 +562,7 @@
     <MESSAGE value="Added licenses." />
     <MESSAGE value="Change: Added custom ACRA e-mail sender." />
     <MESSAGE value="New version 1.0.4." />
-    <option name="LAST_COMMIT_MESSAGE" value="New version 1.0.4." />
+    <MESSAGE value="Added fastlane." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added fastlane." />
   </component>
 </project>
