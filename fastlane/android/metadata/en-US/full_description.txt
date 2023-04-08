@@ -1,0 +1,12 @@
+**Android application - PPPPutSettings for PhoneProfilesPlus**
+
+Helper application for configure Android settings parameters.
+With this application is not needed rooted device.
+
+*** IMPORTANT ***
+
+- It is "plugin", so does NOT work standalone!
+- Designed for co-working with 'PhoneProfilesPlus' application. Without it, this application do nothing.
+
+
+[Privacy Policy](https://henrichg.github.io/PPPPutSettings/privacy_policy.html)

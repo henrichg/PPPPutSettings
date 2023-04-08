@@ -1,0 +1,12 @@
+**Aplikace pro Android – PPPPutSettings for PhoneProfilesPlus**
+
+Pomocná aplikace pro konfiguraci parametrů nastavení systému Android.
+S touto aplikací není potřeba rootované zařízení.
+
+*** DŮLEŽITÉ ***
+
+- Je to "plugin", takže NEFUNGUJE samostatně!
+- Navrženo pro spolupráci s aplikací 'PhoneProfilesPlus'. Bez něj tato aplikace nic nedělá.
+
+
+[Zásady ochrany osobních údajů](https://henrichg.github.io/PPPPutSettings/privacy_policy.html)

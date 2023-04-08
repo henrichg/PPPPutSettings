@@ -12,13 +12,46 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/PPPPutSettings_featured_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/PPPPutSettings_featured_image.xcf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/icon-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/phoneScreenshots/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/phoneScreenshots/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/phoneScreenshots/F-Droid/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/phoneScreenshots/F-Droid/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/FDroid_ChangeLog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/FDroid_ChangeLog_CS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/FDroid_ChangeLog_SK.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/privacy_policy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/cs-CZ/changelogs/45.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/cs-CZ/full_description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/cs-CZ/short_description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/de/changelogs/45.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/de/short_description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/changelogs/45.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/full_description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/images/featureGraphic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/images/phoneScreenshots/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/images/phoneScreenshots/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/images/promoGraphic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/images/tvBanner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/short_description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/title.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/sk-SK/changelogs/45.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/sk-SK/full_description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastlane/android/metadata/sk-SK/short_description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/henrisko/.android/avd/7.6_Fold-in_with_outer_display_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/henrisko/.android/avd/Pixel_4_API_33.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -77,25 +110,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ApkExportedModule&quot;: &quot;PPPPutSettings.pppPutSettings&quot;,
-    &quot;ExportApk.ApkPathForPPPPutSettings.pppPutSettings&quot;: &quot;/home/henrisko/Projekty/AndroidReleases&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;ScreenshotViewer.SavePath&quot;: &quot;/home/henrisko/Projekty/AndroidStudio/PhoneProfilesPlus/art/phoneScreenshots&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/pppPutSettings/src/main/res/menu&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ApkExportedModule": "PPPPutSettings.pppPutSettings",
+    "ExportApk.ApkPathForPPPPutSettings.pppPutSettings": "/home/henrisko/Projekty/AndroidReleases",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "ScreenshotViewer.SavePath": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/art/phoneScreenshots",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/art/phoneScreenshots",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ExportApk.BuildVariants&quot;: [
-      &quot;release&quot;
+  "keyToStringList": {
+    "ExportApk.BuildVariants": [
+      "release"
     ]
   }
-}</component>
+}]]></component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Default Config" />
     <option name="BUILD_VARIANTS_TAB" value="Build Types" />
