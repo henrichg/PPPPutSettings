@@ -12,13 +12,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="Change: Added notification color into ACRA notification configuration." />
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RF8M22C9Q6L]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/henrisko/.android/avd/Pixel_4_API_33.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -178,13 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00069" summary="New AppCompat lib version.">
-      <created>1673552927749</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1673552927749</updated>
     </task>
     <task id="LOCAL-00070" summary="New Android Stusio version.">
       <created>1673704133353</created>
@@ -522,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681305537531</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="New Android Studio version.">
+      <created>1681466229540</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1681466229540</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -548,7 +550,6 @@
     <MESSAGE value="Change: Increased contrast. (7)" />
     <MESSAGE value="Change: Scroll to permission view after notification about not granted permission is clicked." />
     <MESSAGE value="Change: Scroll to permission view after notification about not granted permission is clicked. (2)" />
-    <MESSAGE value="New Android Studio version." />
     <MESSAGE value="Change: New libs versions." />
     <MESSAGE value="Change: Moved &quot;Debug&quot; menu into /debug resources folder." />
     <MESSAGE value="Change: Moved &quot;Debug&quot; menu into /debug resources folder. (2)" />
@@ -563,6 +564,7 @@
     <MESSAGE value="New version 1.0.4." />
     <MESSAGE value="Added fastlane." />
     <MESSAGE value="Change: Added notification color into ACRA notification configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Added notification color into ACRA notification configuration." />
+    <MESSAGE value="New Android Studio version." />
+    <option name="LAST_COMMIT_MESSAGE" value="New Android Studio version." />
   </component>
 </project>

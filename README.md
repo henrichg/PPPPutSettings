@@ -13,6 +13,8 @@ PPPPutSettings (aka PPPPS)
 
 __[GitHub PPPPS release (direct download)](https://github.com/henrichg/PPPPutSettings/releases/latest/download/PPPPutSettings.apk)__
 
+__If it is not possible to install PPPPutSettings from GitHub or other sources directly on the device, then it can be installed from PC.__
+- [Show how](docs/install_apk_from_pc.md)
 
 ---
 __What is PPPPutSettings:__
