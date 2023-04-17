@@ -14,59 +14,18 @@
   <component name="ChangeListManager">
     <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ar/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ar/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-b+sr+Latn/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-b+sr+Latn/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-bg/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-bg/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-bn-rIN/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-bn-rIN/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ca/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ca/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-cs/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-cs/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-da/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-da/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-de/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-de/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-el/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-el/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-es/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-es/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-et/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-et/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-fa/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-fa/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-fi/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-fi/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-fr/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-fr/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ga-rIE/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ga-rIE/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-hi/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-hi/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-hr/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-hr/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-hu/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-hu/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-in/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-in/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-is/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-is/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-it/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-it/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-iw/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-iw/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ja/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ja/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ko/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ko/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ku/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ku/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-lb/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-lb/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-lv/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-lv/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ms/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ms/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-nl/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-nl/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-no/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-no/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-pl/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-pl/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-pt-rBR/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-pt-rBR/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-pt-rPT/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-pt-rPT/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ro/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ro/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ru/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-ru/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-sk/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-sk/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-sl/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-sl/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-sr/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-sr/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-sv/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-sv/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-te/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-te/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-th/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-th/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-tr/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-tr/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-uk/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-uk/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-vi/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-vi/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-zh-rCN/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-zh-rCN/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-zh-rTW/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-zh-rTW/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/henrisko/.android/avd/Pixel_4_API_33.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RFCNC13XY1Z]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -226,13 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00070" summary="New Android Stusio version.">
-      <created>1673704133353</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1673704133353</updated>
     </task>
     <task id="LOCAL-00071" summary="New Android Studio version.">
       <created>1673704386663</created>
@@ -570,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681466229540</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="Updated translations.">
+      <created>1681745942463</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1681745942463</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,13 +563,13 @@
     <MESSAGE value="Change: Better app icon. (2)" />
     <MESSAGE value="Change: Fixed README.md." />
     <MESSAGE value="..." />
-    <MESSAGE value="Updated translations." />
     <MESSAGE value="Added licenses." />
     <MESSAGE value="Change: Added custom ACRA e-mail sender." />
     <MESSAGE value="New version 1.0.4." />
     <MESSAGE value="Added fastlane." />
     <MESSAGE value="Change: Added notification color into ACRA notification configuration." />
     <MESSAGE value="New Android Studio version." />
-    <option name="LAST_COMMIT_MESSAGE" value="New Android Studio version." />
+    <MESSAGE value="Updated translations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated translations." />
   </component>
 </project>
