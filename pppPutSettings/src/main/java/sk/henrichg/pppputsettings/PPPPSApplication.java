@@ -11,6 +11,7 @@ import android.provider.Settings;
 import android.util.Log;
 
 import androidx.core.app.NotificationManagerCompat;
+import androidx.core.content.ContextCompat;
 import androidx.core.content.pm.PackageInfoCompat;
 
 import org.acra.ACRA;
@@ -264,6 +265,7 @@ public class PPPPSApplication extends Application {
                         .withResSendButtonIcon(0)
                         .withResDiscardButtonIcon(0)
                         .withSendOnClick(true)
+                        .withColor(ContextCompat.getColor(base, R.color.notification_color))
                         .withEnabled(true)
                         .build(),
                 new MailSenderConfigurationBuilder()
