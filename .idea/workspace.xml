@@ -12,13 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/ChooseLanguageDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/ChooseLanguageDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-night/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-night/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values/colors.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,20 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00072" summary="New Android Studio version.">
-      <created>1673705148867</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1673705148867</updated>
-    </task>
-    <task id="LOCAL-00073" summary="New Android Studio version.">
-      <created>1673705168907</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1673705168908</updated>
     </task>
     <task id="LOCAL-00074" summary="Fixed warnings.">
       <created>1673715976653</created>
@@ -528,7 +508,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681749461407</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="Change: Changed URL arrows and accent color.">
+      <created>1681827746721</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1681827746722</updated>
+    </task>
+    <task id="LOCAL-00122" summary="New version 1.0.5.">
+      <created>1681827906265</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1681827906265</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,8 +538,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Increased contrast. (4)" />
-    <MESSAGE value="Removed build folder." />
     <MESSAGE value="New appcompat lib version." />
     <MESSAGE value="Change: Added support for large display sizes." />
     <MESSAGE value="Change: Increased contrast. (5)" />
@@ -569,6 +561,8 @@
     <MESSAGE value="New Android Studio version." />
     <MESSAGE value="Updated translations." />
     <MESSAGE value="Change: Fixed launcher icon." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Fixed launcher icon." />
+    <MESSAGE value="Change: Changed URL arrows and accent color." />
+    <MESSAGE value="New version 1.0.5." />
+    <option name="LAST_COMMIT_MESSAGE" value="New version 1.0.5." />
   </component>
 </project>
