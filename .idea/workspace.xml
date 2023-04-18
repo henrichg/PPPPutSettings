@@ -13,7 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,13 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Fixed warnings.">
-      <created>1673716091383</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1673716091383</updated>
     </task>
     <task id="LOCAL-00076" summary="Fixed warnings.">
       <created>1673868948289</created>
@@ -524,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681828125071</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Change: Updated README.md">
+      <created>1681848368317</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1681848368317</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -540,7 +540,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="New appcompat lib version." />
     <MESSAGE value="Change: Added support for large display sizes." />
     <MESSAGE value="Change: Increased contrast. (5)" />
     <MESSAGE value="Change: Increased contrast. (6)" />
@@ -565,6 +564,7 @@
     <MESSAGE value="Change: Fixed launcher icon." />
     <MESSAGE value="Change: Changed URL arrows and accent color." />
     <MESSAGE value="New version 1.0.5." />
-    <option name="LAST_COMMIT_MESSAGE" value="New version 1.0.5." />
+    <MESSAGE value="Change: Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Updated README.md" />
   </component>
 </project>

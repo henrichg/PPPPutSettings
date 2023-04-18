@@ -27,6 +27,10 @@ _**** Please report me bugs, comments and suggestions to my e-mail: <henrich.gro
 
 _*** Please help me with translation, thank you: <https://crowdin.com/project/phoneprofilesplus> ***_
 
+##### Screenshots
+- [[1]](art/phoneScreenshots/01.png),
+[[2]](art/phoneScreenshots/02.png),
+
 ##### Supported Android versions
 
 - From Android 5.1
