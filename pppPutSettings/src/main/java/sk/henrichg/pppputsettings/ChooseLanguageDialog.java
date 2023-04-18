@@ -67,7 +67,7 @@ class ChooseLanguageDialog
         });
 
         String str1 = activity.getString(R.string.pppputsettings_application_translations);
-        String str2 = str1 + " " + PPPPSApplication.CROWDIN_URL + " \u21D2";
+        String str2 = str1 + " " + PPPPSApplication.CROWDIN_URL + "\u00A0»»";
         Spannable sbt = new SpannableString(str2);
         //sbt.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), 0, str1.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         ClickableSpan clickableSpan = new ClickableSpan() {
