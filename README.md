@@ -13,7 +13,7 @@ PPPPutSettings (aka PPPPS)
 
 - __[GitHub PPPPS release (direct download)](https://github.com/henrichg/PPPPutSettings/releases/latest/download/PPPPutSettings.apk)__
 
-__When the dialog "Unsafe app blocked" from Google Play protect appears during installation, click at bottom, text "More details" and in it at bottom, text "Install anyway".__
+When the dialog "Unsafe app blocked" from Google Play protect appears during installation, click at bottom, text "More details" and in it at bottom, text "Install anyway".
 
 __If it is not possible to install PPPPutSettings from GitHub or other sources directly on the device, then it can be installed from PC.__
 - [Show how](docs/install_apk_from_pc.md)
