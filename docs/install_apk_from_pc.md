@@ -26,4 +26,5 @@ If you do not have adb installed on your PC:
   `adb install [patch to apk in PC]/PPPPutSettings.apk`
 
 5. After successful execution, PPPPutSettings will be installed in device.
+6. When the dialog "Unsafe app blocked" from Google Play protect appears during installation, click at bottom, text "More details" and in it at bottom, text "Install anyway".
 

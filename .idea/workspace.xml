@@ -14,6 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,13 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00081" summary="Change: Added display of status for &quot;Modify system settings&quot; permission.">
-      <created>1675715506181</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1675715506181</updated>
     </task>
     <task id="LOCAL-00082" summary="...">
       <created>1675715575364</created>
@@ -525,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681915440142</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="...">
+      <created>1681916010750</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1681916010750</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +550,6 @@
     <MESSAGE value="Change: Better app icon." />
     <MESSAGE value="Change: Better app icon. (2)" />
     <MESSAGE value="Change: Fixed README.md." />
-    <MESSAGE value="..." />
     <MESSAGE value="Added licenses." />
     <MESSAGE value="Change: Added custom ACRA e-mail sender." />
     <MESSAGE value="New version 1.0.4." />
@@ -566,6 +566,7 @@
     <MESSAGE value="Updated screenshots. (2)" />
     <MESSAGE value="Change: Updated README.md (3)" />
     <MESSAGE value="Change: Fixed draw of overflow menu divider in light mode." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Fixed draw of overflow menu divider in light mode." />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
 </project>
