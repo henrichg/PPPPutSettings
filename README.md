@@ -19,7 +19,7 @@ __If it is not possible to install PPPPutSettings from GitHub or other sources d
 ---
 __What is PPPPutSettings:__
 
-Android application for put settings parameter to system database without root. It is helper application for PhoneProfilesPlus.
+Android application for put settings parameter to system database without root. It is helper application for [PhoneProfilesPlus](https://github.com/henrichg/PhoneProfilesPlus).
 
 - [Privacy Policy](https://henrichg.github.io/PhoneProfilesPlus/privacy_policy.html)
 
