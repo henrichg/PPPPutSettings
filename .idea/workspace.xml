@@ -12,13 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/phoneScreenshots/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/art/phoneScreenshots/01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/phoneScreenshots/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/art/phoneScreenshots/02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/phoneScreenshots/F-Droid/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/art/phoneScreenshots/F-Droid/01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/art/phoneScreenshots/F-Droid/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/art/phoneScreenshots/F-Droid/02.png" afterDir="false" />
-    </list>
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,13 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Updated translations.">
-      <created>1674073137331</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1674073137334</updated>
     </task>
     <task id="LOCAL-00078" summary="New version 1.0.2.">
       <created>1674073302040</created>
@@ -528,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681848581450</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Updated screenshots.">
+      <created>1681902012350</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1681902012350</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,7 +538,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Increased contrast. (5)" />
     <MESSAGE value="Change: Increased contrast. (6)" />
     <MESSAGE value="Change: Increased contrast. (7)" />
     <MESSAGE value="Change: Scroll to permission view after notification about not granted permission is clicked." />
@@ -569,6 +562,7 @@
     <MESSAGE value="New version 1.0.5." />
     <MESSAGE value="Change: Updated README.md" />
     <MESSAGE value="Change: Updated README.md (2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Updated README.md (2)" />
+    <MESSAGE value="Updated screenshots." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated screenshots." />
   </component>
 </project>
