@@ -21,7 +21,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/henrisko/.android/avd/Pixel_4_API_33.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[b48abe21]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -181,27 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00083" summary="New version">
-      <created>1675715632716</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1675715632717</updated>
-    </task>
-    <task id="LOCAL-00084" summary="Fixed warnings.">
-      <created>1675775122261</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1675775122261</updated>
-    </task>
-    <task id="LOCAL-00085" summary="Fixed version name in README.md">
-      <created>1675795834089</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1675795834090</updated>
     </task>
     <task id="LOCAL-00086" summary="Change: Increased contrast.">
       <created>1676022783010</created>
@@ -525,7 +504,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681937144457</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="Change: Moved info about &quot;Unsafe app blocked&quot; dialog into README.md.">
+      <created>1681938269221</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1681938269221</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Change: Moved info about &quot;Unsafe app blocked&quot; dialog into README.md. (2)">
+      <created>1681938300111</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1681938300111</updated>
+    </task>
+    <task id="LOCAL-00134" summary="Change: Moved info about &quot;Unsafe app blocked&quot; dialog into README.md. (2)">
+      <created>1681938338056</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1681938338056</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -541,8 +541,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: New libs versions." />
-    <MESSAGE value="Change: Moved &quot;Debug&quot; menu into /debug resources folder." />
     <MESSAGE value="Change: Moved &quot;Debug&quot; menu into /debug resources folder. (2)" />
     <MESSAGE value="Change: Updated README.md." />
     <MESSAGE value="Change: Better app icon." />
@@ -566,6 +564,8 @@
     <MESSAGE value="Change: Fixed draw of overflow menu divider in light mode." />
     <MESSAGE value="..." />
     <MESSAGE value="Change: Added info about &quot;Unsafe app blocked&quot; dialog into install_apk_from_pc.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Added info about &quot;Unsafe app blocked&quot; dialog into install_apk_from_pc.md." />
+    <MESSAGE value="Change: Moved info about &quot;Unsafe app blocked&quot; dialog into README.md." />
+    <MESSAGE value="Change: Moved info about &quot;Unsafe app blocked&quot; dialog into README.md. (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Moved info about &quot;Unsafe app blocked&quot; dialog into README.md. (2)" />
   </component>
 </project>
