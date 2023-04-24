@@ -13,10 +13,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00087" summary="Change: Increased contrast. (2)">
-      <created>1676025626720</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1676025626721</updated>
     </task>
     <task id="LOCAL-00088" summary="Change: Increased contrast. (3)">
       <created>1676029794804</created>
@@ -526,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681987388594</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="New ACRA version.">
+      <created>1682348722052</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1682348722052</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -542,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Updated README.md." />
     <MESSAGE value="Change: Better app icon." />
     <MESSAGE value="Change: Better app icon. (2)" />
     <MESSAGE value="Change: Fixed README.md." />
@@ -567,6 +563,7 @@
     <MESSAGE value="Change: Moved info about &quot;Unsafe app blocked&quot; dialog into README.md." />
     <MESSAGE value="Change: Moved info about &quot;Unsafe app blocked&quot; dialog into README.md. (2)" />
     <MESSAGE value="Change: Fixed send crash report via e-mail." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Fixed send crash report via e-mail." />
+    <MESSAGE value="New ACRA version." />
+    <option name="LAST_COMMIT_MESSAGE" value="New ACRA version." />
   </component>
 </project>
