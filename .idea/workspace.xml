@@ -180,13 +180,6 @@
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
     </task>
-    <task id="LOCAL-00091" summary="Removed build folder.">
-      <created>1676060233240</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1676060233241</updated>
-    </task>
     <task id="LOCAL-00092" summary="New appcompat lib version.">
       <created>1676064823649</created>
       <option name="number" value="00092" />
@@ -523,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682528765732</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler). (2)">
+      <created>1682532184269</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1682532184269</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added licenses." />
     <MESSAGE value="Change: Added custom ACRA e-mail sender." />
     <MESSAGE value="New version 1.0.4." />
     <MESSAGE value="Added fastlane." />
@@ -564,6 +563,7 @@
     <MESSAGE value="Fixed warnings." />
     <MESSAGE value="Removed logs." />
     <MESSAGE value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler)." />
+    <MESSAGE value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler). (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler). (2)" />
   </component>
 </project>
