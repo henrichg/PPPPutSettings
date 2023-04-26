@@ -13,13 +13,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/debug/java/sk/henrichg/pppputsettings/LogCrashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/debug/java/sk/henrichg/pppputsettings/LogCrashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/CustomACRAReportingAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/CustomACRAReportingAdministrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/TopExceptionHandler.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/henrisko/.android/avd/Pixel_4_API_33.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RF8M22C9Q6L]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -179,13 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00092" summary="New appcompat lib version.">
-      <created>1676064823649</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1676064823649</updated>
     </task>
     <task id="LOCAL-00093" summary="Change: Added support for large display sizes.">
       <created>1676133798465</created>
@@ -523,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682532184269</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler). (3)">
+      <created>1682535164422</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1682535164422</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +543,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Added custom ACRA e-mail sender." />
     <MESSAGE value="New version 1.0.4." />
     <MESSAGE value="Added fastlane." />
     <MESSAGE value="Change: Added notification color into ACRA notification configuration." />
@@ -564,6 +567,7 @@
     <MESSAGE value="Removed logs." />
     <MESSAGE value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler)." />
     <MESSAGE value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler). (2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler). (2)" />
+    <MESSAGE value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler). (3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler). (3)" />
   </component>
 </project>
