@@ -13,10 +13,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/TopExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/TopExceptionHandler.java" afterDir="false" />
-    </list>
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00090" summary="Updated translations.">
-      <created>1676059780101</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1676059780101</updated>
     </task>
     <task id="LOCAL-00091" summary="Removed build folder.">
       <created>1676060233240</created>
@@ -526,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682516051059</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler).">
+      <created>1682528765732</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1682528765732</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -542,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Fixed README.md." />
     <MESSAGE value="Added licenses." />
     <MESSAGE value="Change: Added custom ACRA e-mail sender." />
     <MESSAGE value="New version 1.0.4." />
@@ -567,6 +563,7 @@
     <MESSAGE value="New ACRA version." />
     <MESSAGE value="Fixed warnings." />
     <MESSAGE value="Removed logs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed logs." />
+    <MESSAGE value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler)." />
   </component>
 </project>
