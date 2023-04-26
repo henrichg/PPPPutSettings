@@ -64,7 +64,7 @@ class TopExceptionHandler implements Thread.UncaughtExceptionHandler {
             logIntoFile("E", "TopExceptionHandler", report);
         }
 
-        Log.e("TopExceptionHandler.uncaughtException", "defaultUEH="+defaultUEH);
+//        Log.e("TopExceptionHandler.uncaughtException", "defaultUEH="+defaultUEH);
 
         if (defaultUEH != null) {
             boolean ignore = false;
