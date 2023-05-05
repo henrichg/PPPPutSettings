@@ -13,10 +13,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00095" summary="Change: Increased contrast. (6)">
-      <created>1676204341766</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1676204341766</updated>
     </task>
     <task id="LOCAL-00096" summary="Updated translations.">
       <created>1676282447006</created>
@@ -526,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682675989109</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="New Android Studio.">
+      <created>1682964568904</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1682964568904</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -542,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added fastlane." />
     <MESSAGE value="Change: Added notification color into ACRA notification configuration." />
     <MESSAGE value="New Android Studio version." />
     <MESSAGE value="Updated translations." />
@@ -567,6 +563,7 @@
     <MESSAGE value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler). (3)" />
     <MESSAGE value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler). (4)" />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="New Android Studio." />
+    <option name="LAST_COMMIT_MESSAGE" value="New Android Studio." />
   </component>
 </project>
