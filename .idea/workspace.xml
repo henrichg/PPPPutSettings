@@ -13,7 +13,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/FDroid_ChangeLog.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/FDroid_ChangeLog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/FDroid_ChangeLog_CS.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/FDroid_ChangeLog_CS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/FDroid_ChangeLog_SK.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/FDroid_ChangeLog_SK.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,13 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00096" summary="Updated translations.">
-      <created>1676282447006</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1676282447007</updated>
     </task>
     <task id="LOCAL-00097" summary="Change: Increased contrast. (7)">
       <created>1676395274951</created>
@@ -523,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682964568904</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="New version 1.0.5.">
+      <created>1683292179812</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1683292179812</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,7 +549,6 @@
     <MESSAGE value="Updated translations." />
     <MESSAGE value="Change: Fixed launcher icon." />
     <MESSAGE value="Change: Changed URL arrows and accent color." />
-    <MESSAGE value="New version 1.0.5." />
     <MESSAGE value="Change: Updated README.md" />
     <MESSAGE value="Change: Updated README.md (2)" />
     <MESSAGE value="Updated screenshots." />
@@ -564,6 +568,7 @@
     <MESSAGE value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler). (4)" />
     <MESSAGE value="..." />
     <MESSAGE value="New Android Studio." />
-    <option name="LAST_COMMIT_MESSAGE" value="New Android Studio." />
+    <MESSAGE value="New version 1.0.5." />
+    <option name="LAST_COMMIT_MESSAGE" value="New version 1.0.5." />
   </component>
 </project>
