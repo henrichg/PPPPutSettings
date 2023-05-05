@@ -1,6 +1,6 @@
 ext.ppVersions = [
-    publishVersion: '1.0.4', // this must be >= as in PPP in PPApplication. VERSION_NAME_PPPPS_LATEST
-    publishVersionCode: 45,  // this must be >= as in PPP in PPApplication. VERSION_CODE_PPPPS_LATEST
+    publishVersion: '1.0.5', // this must be >= as in PPP in PPApplication. VERSION_NAME_PPPPS_LATEST
+    publishVersionCode: 50,  // this must be >= as in PPP in PPApplication. VERSION_CODE_PPPPS_LATEST
 
     minSdk: 22,
 
@@ -13,5 +13,5 @@ ext.ppVersions = [
 
     appcompatXLib: '1.6.1', //'1.5.1',
 
-    acra: '5.9.8-beta02' //'5.9.7' in this beta is withColor() added in notification configuration ;-)
+    acra: '5.10.0-beta03' //'5.9.8-beta02' //'5.9.7' in this beta is withColor() added in notification configuration ;-)
 ]

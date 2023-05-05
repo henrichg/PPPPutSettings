@@ -29,4 +29,5 @@
     <string name="pppputsettings_not_granted_write_settings_text">PPPPutSettings немає дозволу на зміну системних налаштувань. Натисніть на сповіщення, щоб надати.</string>
     <string name="pppputsettings_modify_system_settings_granted">Надано</string>
     <string name="pppputsettings_modify_system_settings_not_granted">Не надано</string>
+    <string name="pppputsettings_email_chooser">Надсилати пошту за допомогою</string>
 </resources>

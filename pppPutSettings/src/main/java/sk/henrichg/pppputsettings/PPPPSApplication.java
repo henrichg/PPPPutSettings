@@ -28,6 +28,8 @@ import java.text.Collator;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class PPPPSApplication extends Application {
 
@@ -64,6 +66,8 @@ public class PPPPSApplication extends Application {
     static final String EXTRA_PUT_SETTING_PARAMETER_TYPE = "extra_put_setting_parameter_type";
     static final String EXTRA_PUT_SETTING_PARAMETER_NAME = "extra_put_setting_parameter_name";
     static final String EXTRA_PUT_SETTING_PARAMETER_VALUE = "extra_put_setting_parameter_value";
+
+    public volatile static ExecutorService basicExecutorPool = null;
 
     static volatile Collator collator = null;
 
@@ -278,10 +282,11 @@ public class PPPPSApplication extends Application {
                         .build()
         );
 
-        //ACRA.DEV_LOGGING = true;
+        ACRA.DEV_LOGGING = false;
 
         ACRA.init(this, builder);
 
+        /*
         //if (BuildConfig.DEBUG) {
         long actualVersionCode = 0;
         try {
@@ -292,6 +297,7 @@ public class PPPPSApplication extends Application {
 
         Thread.setDefaultUncaughtExceptionHandler(new TopExceptionHandler(base, actualVersionCode));
         //}
+        */
     }
 
     //--------------------------------------------------------------
@@ -300,6 +306,11 @@ public class PPPPSApplication extends Application {
         return Build.BRAND.equalsIgnoreCase("oneplus") ||
                 Build.MANUFACTURER.equalsIgnoreCase("oneplus") ||
                 Build.FINGERPRINT.toLowerCase().contains("oneplus");
+    }
+
+    static void createBasicExecutorPool() {
+        if (PPPPSApplication.basicExecutorPool == null)
+            PPPPSApplication.basicExecutorPool = Executors.newCachedThreadPool();
     }
 
     //--------------------------------------------------------------

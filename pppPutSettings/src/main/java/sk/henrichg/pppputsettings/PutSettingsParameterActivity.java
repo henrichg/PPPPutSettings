@@ -78,14 +78,14 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
                     // settingsType : "system", "secure", "global"
                     contentResolver.insert(Uri.parse("content://settings/" + settingsType), contentValues);
                 } catch (SecurityException e1) {
-                    Log.e("PutSettingsParameterActivity.putSettingsParameter", "not granted WRITE_SETTINGS ??");
+//                    Log.e("PutSettingsParameterActivity.putSettingsParameter", "not granted WRITE_SETTINGS ??");
                     Permissions.writeSettingsNotGranted(getApplicationContext(), R.id.activity_main_permission_write_settings);
                 } catch (Exception e2) {
                     //PPPPSApplication.recordException(e2);
                 }
             }
         } else {
-            Log.e("PutSettingsParameterActivity.putSettingsParameter", "not granted WRITE_SETTINGS");
+//            Log.e("PutSettingsParameterActivity.putSettingsParameter", "not granted WRITE_SETTINGS");
             Permissions.writeSettingsNotGranted(getApplicationContext(), R.id.activity_main_permission_write_settings);
         }
 

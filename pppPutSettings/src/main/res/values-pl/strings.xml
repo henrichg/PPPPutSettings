@@ -29,4 +29,5 @@
     <string name="pppputsettings_not_granted_write_settings_text">\"Modyfikuj ustawienia systemowe\" nie są przyznane dla PPPPutSettings. Kliknij to powiadomienie, aby je przyznać.</string>
     <string name="pppputsettings_modify_system_settings_granted">Przyznane</string>
     <string name="pppputsettings_modify_system_settings_not_granted">Nieprzyznane</string>
+    <string name="pppputsettings_email_chooser">Send e-mail using</string>
 </resources>
