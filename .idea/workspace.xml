@@ -180,13 +180,6 @@
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
     </task>
-    <task id="LOCAL-00097" summary="Change: Increased contrast. (7)">
-      <created>1676395274951</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1676395274951</updated>
-    </task>
     <task id="LOCAL-00098" summary="Change: Scroll to permission view after notification about not granted permission is clicked.">
       <created>1676491423075</created>
       <option name="number" value="00098" />
@@ -523,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683292179812</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="Updated translations.">
+      <created>1683365766127</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1683365766127</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -541,7 +541,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Change: Added notification color into ACRA notification configuration." />
     <MESSAGE value="New Android Studio version." />
-    <MESSAGE value="Updated translations." />
     <MESSAGE value="Change: Fixed launcher icon." />
     <MESSAGE value="Change: Changed URL arrows and accent color." />
     <MESSAGE value="Change: Updated README.md" />
@@ -564,6 +563,7 @@
     <MESSAGE value="..." />
     <MESSAGE value="New Android Studio." />
     <MESSAGE value="New version 1.0.5." />
-    <option name="LAST_COMMIT_MESSAGE" value="New version 1.0.5." />
+    <MESSAGE value="Updated translations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated translations." />
   </component>
 </project>
