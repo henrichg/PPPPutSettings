@@ -1,4 +1,4 @@
-**Android application - PPPPutSettings for PhoneProfilesPlus**
+**System settings changer without root for PhoneProfilesPlus**
 
 Helper application for configure Android settings parameters.
 With this application is not needed rooted device.

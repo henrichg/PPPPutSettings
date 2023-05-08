@@ -1,1 +1,1 @@
-Aplikácia pre Android – PPPPutSettings for PhoneProfilesPlus
+Menič systémových nastavení bez root pre PhoneProfilesPlus
