@@ -1,1 +1,1 @@
-PPPPutSettings for PhoneProfilesPlus
+Měnič systémových nastavení bez root pro PhoneProfilesPlus

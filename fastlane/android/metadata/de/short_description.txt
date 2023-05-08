@@ -1,1 +1,1 @@
-PPPPutSettings für PhoneProfilesPlus
+Systemeinstellungswechsler ohne Root für PhoneProfilesPlus

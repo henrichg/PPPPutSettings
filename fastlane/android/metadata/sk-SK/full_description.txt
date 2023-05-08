@@ -1,4 +1,4 @@
-**PPPPutSettings for PhoneProfilesPlus**
+**Menič systémových nastavení bez root pre PhoneProfilesPlus**
 
 Pomocná aplikácia na konfiguráciu parametrov nastavenia systému Android.
 S touto aplikáciou nie je potrebné rootované zariadenie.
