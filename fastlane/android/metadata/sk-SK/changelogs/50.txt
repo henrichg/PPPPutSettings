@@ -1,2 +1,2 @@
 1.0.5
-- Seznam změn: https://henrichg.github.io/PPPPutSettings/FDroid_ChangeLog_SK
+- Zoznam zmien: https://henrichg.github.io/PPPPutSettings/FDroid_ChangeLog_SK
