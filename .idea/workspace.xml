@@ -180,13 +180,6 @@
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
     </task>
-    <task id="LOCAL-00098" summary="Change: Scroll to permission view after notification about not granted permission is clicked.">
-      <created>1676491423075</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1676491423075</updated>
-    </task>
     <task id="LOCAL-00099" summary="Change: Scroll to permission view after notification about not granted permission is clicked. (2)">
       <created>1676491489264</created>
       <option name="number" value="00099" />
@@ -523,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683365766127</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="Changed FDroid_ChangeLog.html.">
+      <created>1683404222032</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1683404222032</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Added notification color into ACRA notification configuration." />
     <MESSAGE value="New Android Studio version." />
     <MESSAGE value="Change: Fixed launcher icon." />
     <MESSAGE value="Change: Changed URL arrows and accent color." />
@@ -564,6 +563,7 @@
     <MESSAGE value="New Android Studio." />
     <MESSAGE value="New version 1.0.5." />
     <MESSAGE value="Updated translations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated translations." />
+    <MESSAGE value="Changed FDroid_ChangeLog.html." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed FDroid_ChangeLog.html." />
   </component>
 </project>
