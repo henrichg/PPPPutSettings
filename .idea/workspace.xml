@@ -13,13 +13,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/fastlane/android/metadata/de/short_description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fastlane/android/metadata/de/short_description.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastlane/android/metadata/en-US/full_description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/full_description.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastlane/android/metadata/en-US/short_description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/short_description.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastlane/android/metadata/sk-SK/full_description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fastlane/android/metadata/sk-SK/full_description.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastlane/android/metadata/sk-SK/short_description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fastlane/android/metadata/sk-SK/short_description.txt" afterDir="false" />
-    </list>
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
