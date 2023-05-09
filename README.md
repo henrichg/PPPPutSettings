@@ -13,7 +13,19 @@ PPPPutSettings (aka PPPPS)
 
 - __[GitHub PPPPS release (direct download)](https://github.com/henrichg/PPPPutSettings/releases/latest/download/PPPPutSettings.apk)__
 
-When the dialog "Unsafe app blocked" from Google Play Protect appears during installation, click at bottom, text "More details" and in it at bottom, text "Install anyway".
+Use keyword "PhoneProfilesPlus" for search this application in these stores:
+
+__F-Droid:__
+- [PPPE release](https://apt.izzysoft.de/fdroid/index/apk/sk.henrichg.phoneprofilesplusextender)
+  &nbsp;&nbsp;&nbsp;_[How to add IzzyOnDroid repository to F-Droid application](https://apt.izzysoft.de/fdroid/index/info)_
+- [Store application (download)](https://www.f-droid.org/)
+
+__Droid-ify (F-Droid alternative):__
+- [PPPE release](https://apt.izzysoft.de/fdroid/index/apk/sk.henrichg.phoneprofilesplusextender)
+- [Store applicaion (download)](https://apt.izzysoft.de/fdroid/index/apk/com.looker.droidify)
+  &nbsp;&nbsp;&nbsp;_IzzyOnDroid repository is included_
+
+__When the dialog "Unsafe app blocked" from Google Play Protect appears during installation, click at bottom, text "More details" and in it at bottom, text "Install anyway".__
 
 __If it is not possible to install PPPPutSettings from GitHub or other sources directly on the device, then it can be installed from PC.__
 - [Show how](docs/install_apk_from_pc.md)
