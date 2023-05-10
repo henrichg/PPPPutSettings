@@ -16,12 +16,12 @@ PPPPutSettings (aka PPPPS)
 Use keyword "PhoneProfilesPlus" for search this application in these stores:
 
 __F-Droid:__
-- [PPPE release](https://apt.izzysoft.de/fdroid/index/apk/sk.henrichg.phoneprofilesplusextender)
+- [PPPPS release](https://apt.izzysoft.de/fdroid/index/apk/sk.henrichg.pppputsettings)
   &nbsp;&nbsp;&nbsp;_[How to add IzzyOnDroid repository to F-Droid application](https://apt.izzysoft.de/fdroid/index/info)_
 - [Store application (download)](https://www.f-droid.org/)
 
 __Droid-ify (F-Droid alternative):__
-- [PPPE release](https://apt.izzysoft.de/fdroid/index/apk/sk.henrichg.phoneprofilesplusextender)
+- [PPPPS release](https://apt.izzysoft.de/fdroid/index/apk/sk.henrichg.pppputsettings)
 - [Store applicaion (download)](https://apt.izzysoft.de/fdroid/index/apk/com.looker.droidify)
   &nbsp;&nbsp;&nbsp;_IzzyOnDroid repository is included_
 
