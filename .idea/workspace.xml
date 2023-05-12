@@ -15,6 +15,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastlane/android/metadata/cs-CZ/changelogs/50.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fastlane/android/metadata/cs-CZ/changelogs/50.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastlane/android/metadata/de/changelogs/50.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fastlane/android/metadata/de/changelogs/50.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastlane/android/metadata/en-US/changelogs/50.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/changelogs/50.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastlane/android/metadata/sk-SK/changelogs/50.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fastlane/android/metadata/sk-SK/changelogs/50.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,13 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00101" summary="Change: New libs versions.">
-      <created>1678877753908</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1678877753908</updated>
     </task>
     <task id="LOCAL-00102" summary="Change: Moved &quot;Debug&quot; menu into /debug resources folder.">
       <created>1678892437044</created>
@@ -525,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683566622790</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="Fixed FDroid_ChangeLog.html">
+      <created>1683830500757</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1683830500757</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -541,7 +545,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Changed URL arrows and accent color." />
     <MESSAGE value="Change: Updated README.md" />
     <MESSAGE value="Change: Updated README.md (2)" />
     <MESSAGE value="Updated screenshots." />
@@ -566,6 +569,7 @@
     <MESSAGE value="Changed FDroid_ChangeLog.html." />
     <MESSAGE value="Change: Changed short description." />
     <MESSAGE value="Change: Changed full description." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Changed full description." />
+    <MESSAGE value="Fixed FDroid_ChangeLog.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed FDroid_ChangeLog.html" />
   </component>
 </project>
