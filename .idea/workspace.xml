@@ -15,17 +15,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastlane/android/metadata/cs-CZ/changelogs/50.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fastlane/android/metadata/cs-CZ/changelogs/50.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastlane/android/metadata/de/changelogs/50.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fastlane/android/metadata/de/changelogs/50.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastlane/android/metadata/en-US/changelogs/50.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fastlane/android/metadata/en-US/changelogs/50.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastlane/android/metadata/sk-SK/changelogs/50.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fastlane/android/metadata/sk-SK/changelogs/50.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/henrisko/.android/avd/Pixel_4_API_33.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[22231FDF600373]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -185,13 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00102" summary="Change: Moved &quot;Debug&quot; menu into /debug resources folder.">
-      <created>1678892437044</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1678892437045</updated>
     </task>
     <task id="LOCAL-00103" summary="Change: Moved &quot;Debug&quot; menu into /debug resources folder. (2)">
       <created>1678968277104</created>
@@ -529,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683830500757</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="Better change log for IssyOnDroid.">
+      <created>1683887210797</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1683887210797</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -545,7 +543,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Updated README.md" />
     <MESSAGE value="Change: Updated README.md (2)" />
     <MESSAGE value="Updated screenshots." />
     <MESSAGE value="Updated screenshots. (2)" />
@@ -570,6 +567,7 @@
     <MESSAGE value="Change: Changed short description." />
     <MESSAGE value="Change: Changed full description." />
     <MESSAGE value="Fixed FDroid_ChangeLog.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed FDroid_ChangeLog.html" />
+    <MESSAGE value="Better change log for IssyOnDroid." />
+    <option name="LAST_COMMIT_MESSAGE" value="Better change log for IssyOnDroid." />
   </component>
 </project>
