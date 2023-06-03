@@ -105,7 +105,7 @@ class Permissions {
             if (MainActivity.activityIntentExists(intent, context)) {
                 PPPPSApplication.createExclamationNotificationChannel(context);
                 NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context.getApplicationContext(), PPPPSApplication.EXCLAMATION_NOTIFICATION_CHANNEL)
-                        .setColor(ContextCompat.getColor(context.getApplicationContext(), R.color.notification_color))
+                        .setColor(ContextCompat.getColor(context.getApplicationContext(), R.color.error_color))
                         .setSmallIcon(R.drawable.ic_pppps_notification/*ic_exclamation_notify*/) // notification icon
                         .setLargeIcon(BitmapFactory.decodeResource(context.getApplicationContext().getResources(), R.drawable.ic_exclamation_notification))
                         .setContentTitle(context.getString(R.string.pppputsettings_not_granted_write_settings_title)) // title for notification
