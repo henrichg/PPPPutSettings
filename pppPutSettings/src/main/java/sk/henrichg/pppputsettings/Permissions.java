@@ -6,6 +6,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
@@ -103,9 +104,10 @@ class Permissions {
 
             if (MainActivity.activityIntentExists(intent, context)) {
                 PPPPSApplication.createExclamationNotificationChannel(context);
-                NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context, PPPPSApplication.EXCLAMATION_NOTIFICATION_CHANNEL)
-                        .setColor(ContextCompat.getColor(context, R.color.notification_color))
-                        .setSmallIcon(R.drawable.ic_exclamation_notify) // notification icon
+                NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context.getApplicationContext(), PPPPSApplication.EXCLAMATION_NOTIFICATION_CHANNEL)
+                        .setColor(ContextCompat.getColor(context.getApplicationContext(), R.color.notification_color))
+                        .setSmallIcon(R.drawable.ic_pppps_notification/*ic_exclamation_notify*/) // notification icon
+                        .setLargeIcon(BitmapFactory.decodeResource(context.getApplicationContext().getResources(), R.drawable.ic_exclamation_notification))
                         .setContentTitle(context.getString(R.string.pppputsettings_not_granted_write_settings_title)) // title for notification
                         .setContentText(context.getString(R.string.pppputsettings_not_granted_write_settings_text)) // message for notification
                         .setAutoCancel(true); // clear notification after click

@@ -13,8 +13,24 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="Change: Added splash screen for Editor activity.">
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-hdpi/ic_exclamation_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-hdpi/ic_pppps_notification.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-mdpi/ic_exclamation_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-mdpi/ic_pppps_notification.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-night-hdpi/ic_exclamation_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-night-mdpi/ic_exclamation_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-night-xhdpi/ic_exclamation_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-night-xxhdpi/ic_exclamation_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-night-xxxhdpi/ic_exclamation_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-xhdpi/ic_exclamation_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-xhdpi/ic_pppps_notification.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-xxhdpi/ic_exclamation_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-xxhdpi/ic_pppps_notification.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-xxxhdpi/ic_exclamation_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-xxxhdpi/ic_pppps_notification.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/Permissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/Permissions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,13 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00107" summary="Change: Fixed README.md.">
-      <created>1679678286432</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1679678286432</updated>
     </task>
     <task id="LOCAL-00108" summary="Change: Fixed README.md.">
       <created>1679703106104</created>
@@ -525,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684005311510</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="Change: Updated README.md.">
+      <created>1685701437153</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1685701437154</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -541,7 +557,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Updated README.md (3)" />
     <MESSAGE value="Change: Fixed draw of overflow menu divider in light mode." />
     <MESSAGE value="Change: Added info about &quot;Unsafe app blocked&quot; dialog into install_apk_from_pc.md." />
     <MESSAGE value="Change: Moved info about &quot;Unsafe app blocked&quot; dialog into README.md." />
@@ -566,6 +581,7 @@
     <MESSAGE value="Added splash screen for launcher activity. (2)" />
     <MESSAGE value="Fixed warnings." />
     <MESSAGE value="Added splash screen for launcher activity. (3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added splash screen for launcher activity. (3)" />
+    <MESSAGE value="Change: Updated README.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Updated README.md." />
   </component>
 </project>
