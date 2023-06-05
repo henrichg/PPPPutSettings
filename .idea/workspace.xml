@@ -15,21 +15,16 @@
   <component name="ChangeListManager">
     <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/PPPPSApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/PPPPSApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable-night/popupmenu_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable/listview_item_background_no_ripple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable/listview_item_background_no_ripple.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable/popup_menu_item_background_no_ripple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable/popup_menu_item_background_no_ripple.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable/popupmenu_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/drawable/popupmenu_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-night/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values-night/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RF8M22C9Q6L]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RFCNC13XY1Z]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -189,13 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00112" summary="Added licenses.">
-      <created>1680126446506</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1680126446506</updated>
     </task>
     <task id="LOCAL-00113" summary="Change: Added custom ACRA e-mail sender.">
       <created>1680716094002</created>
@@ -533,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685796322718</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="Fix: Fixed selector for MIUI 14. Used are no-ripple themes. &#10;Change: Removed duplicated xml drawables from night folder.">
+      <created>1685992394206</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1685992394206</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +544,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Fixed send crash report via e-mail." />
     <MESSAGE value="New ACRA version." />
     <MESSAGE value="Removed logs." />
     <MESSAGE value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler)." />
@@ -574,6 +568,7 @@
     <MESSAGE value="Change: Changed icon for exclamation notification, added large icon into it. (2)" />
     <MESSAGE value="Change: Changed icon for exclamation notification, added large icon into it. (3)" />
     <MESSAGE value="Change: Changed icon for exclamation notification, added large icon into it. (4)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Changed icon for exclamation notification, added large icon into it. (4)" />
+    <MESSAGE value="Fix: Fixed selector for MIUI 14. Used are no-ripple themes. &#10;Change: Removed duplicated xml drawables from night folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Fixed selector for MIUI 14. Used are no-ripple themes. &#10;Change: Removed duplicated xml drawables from night folder." />
   </component>
 </project>
