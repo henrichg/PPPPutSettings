@@ -65,7 +65,7 @@ public class PPPPSApplication extends Application {
     //public static final String EXPORT_PATH = "/PhoneProfilesPlusExtender";
     static final String LOG_FILENAME = "log.txt";
 
-    static final String GRANT_PERMISSION_NOTIFICATION_CHANNEL = "pppPutSettings_grant_permission";
+    //static final String GRANT_PERMISSION_NOTIFICATION_CHANNEL = "pppPutSettings_grant_permission";
 
     static final String EXTRA_PUT_SETTING_PARAMETER_TYPE = "extra_put_setting_parameter_type";
     static final String EXTRA_PUT_SETTING_PARAMETER_NAME = "extra_put_setting_parameter_name";
@@ -130,7 +130,8 @@ public class PPPPSApplication extends Application {
 
         //Log.e("##### PPPPSApplication.onCreate", "Start  uid="+uid);
 
-        PPPPSApplication.createGrantPermissionNotificationChannel(this);
+        //PPPPSApplication.createGrantPermissionNotificationChannel(this, true);
+        PPPPSApplication.createExclamationNotificationChannel(this, true);
 
         Log.e("##### PPPPSApplication.onCreate", "after cerate notification channel");
 
@@ -591,6 +592,7 @@ public class PPPPSApplication extends Application {
         return (int) PackageInfoCompat.getLongVersionCode(pInfo);
     }
 
+    /*
     static void createGrantPermissionNotificationChannel(Context context) {
         if (Build.VERSION.SDK_INT >= 26) {
             try {
@@ -623,12 +625,13 @@ public class PPPPSApplication extends Application {
             }
         }
     }
+    */
 
-    static void createExclamationNotificationChannel(Context context) {
+    static void createExclamationNotificationChannel(Context context, boolean forceChange) {
         if (Build.VERSION.SDK_INT >= 26) {
             try {
                 NotificationManagerCompat notificationManager = NotificationManagerCompat.from(context.getApplicationContext());
-                if (notificationManager.getNotificationChannel(EXCLAMATION_NOTIFICATION_CHANNEL) != null)
+                if ((!forceChange) && (notificationManager.getNotificationChannel(EXCLAMATION_NOTIFICATION_CHANNEL) != null))
                     return;
 
                 // The user-visible name of the channel.

@@ -14,8 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/LocaleChangedReceiver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/PPPPSApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/PPPPSApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/Permissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/pppPutSettings/src/main/java/sk/henrichg/pppputsettings/Permissions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,13 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00116" summary="Added fastlane.">
-      <created>1680969879259</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1680969879259</updated>
     </task>
     <task id="LOCAL-00117" summary="Change: Added notification color into ACRA notification configuration.">
       <created>1681305537530</created>
@@ -526,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686040486660</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="New version.">
+      <created>1686055842038</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1686055842038</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -542,7 +545,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler). (2)" />
     <MESSAGE value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler). (3)" />
     <MESSAGE value="Change: Added filter for some exceptions in ACRA (as in TopExceptionHandler). (4)" />
     <MESSAGE value="..." />
@@ -567,6 +569,7 @@
     <MESSAGE value="Added splash screen for launcher activity. (4)" />
     <MESSAGE value="Added splash screen for launcher activity. (5)" />
     <MESSAGE value="Removed splash screen for launcher activity." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed splash screen for launcher activity." />
+    <MESSAGE value="New version." />
+    <option name="LAST_COMMIT_MESSAGE" value="New version." />
   </component>
 </project>

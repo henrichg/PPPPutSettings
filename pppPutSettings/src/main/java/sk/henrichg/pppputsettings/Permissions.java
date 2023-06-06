@@ -103,7 +103,7 @@ class Permissions {
             intent.putExtra(MainActivity.EXTRA_SCROLL_TO, scrollTo);
 
             if (MainActivity.activityIntentExists(intent, context)) {
-                PPPPSApplication.createExclamationNotificationChannel(context);
+                PPPPSApplication.createExclamationNotificationChannel(context, false);
                 NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context.getApplicationContext(), PPPPSApplication.EXCLAMATION_NOTIFICATION_CHANNEL)
                         .setColor(ContextCompat.getColor(context.getApplicationContext(), R.color.error_color))
                         .setSmallIcon(R.drawable.ic_pppps_notification/*ic_exclamation_notify*/) // notification icon
