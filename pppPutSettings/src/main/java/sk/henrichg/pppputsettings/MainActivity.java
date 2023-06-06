@@ -31,7 +31,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.pm.PackageInfoCompat;
-import androidx.core.splashscreen.SplashScreen;
 import androidx.core.view.MenuCompat;
 
 import java.util.List;
@@ -68,14 +67,12 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (PPPPSApplication.deviceIsOnePlus)
-            setTheme(R.style.Theme_App_Starting_noRipple);
+            setTheme(R.style.AppTheme_noRipple);
         else
         if (PPPPSApplication.deviceIsXiaomi && PPPPSApplication.romIsMIUI && miuiVersion >= 14)
-            setTheme(R.style.Theme_App_Starting_noRipple);
+            setTheme(R.style.AppTheme_noRipple);
         else
-            setTheme(R.style.Theme_App_Starting);
-
-        SplashScreen.installSplashScreen(this);
+            setTheme(R.style.AppTheme);
 
         super.onCreate(savedInstanceState);
 
