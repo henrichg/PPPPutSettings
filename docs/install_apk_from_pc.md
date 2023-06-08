@@ -20,12 +20,13 @@ If you do not have adb installed on your PC:
 3. Go into Settings > Developer Options and enable USB Debugging.
 4. On your PC, open a Command Prompt (Windows), or Terminal (Linux, OSX). Navigate to the folder where you extracted your adb files, and execute the following command:
 
-    1. If in the target device is Android 14+: 
+    If in the target device is Android 14+: 
     - for Windows:
       `adb install --bypass-low-target-sdk-block [patch to apk in PC]\PPPPutSettings.apk`
     - for Linux, OSX:
       `adb install --bypass-low-target-sdk-block [patch to apk in PC]/PPPPutSettings.apk`
-    2. If in the target device is Android 13-:
+    
+    If in the target device is Android 13-:
     - for Windows:
       `adb install [patch to apk in PC]\PPPPutSettings.apk`
     - for Linux, OSX:
