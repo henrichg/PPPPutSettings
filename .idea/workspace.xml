@@ -13,9 +13,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,25 +78,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ApkExportedModule": "PPPPutSettings.pppPutSettings",
-    "ExportApk.ApkPathForPPPPutSettings.pppPutSettings": "/home/henrisko/Projekty/AndroidReleases",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "ScreenshotViewer.SavePath": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/art/phoneScreenshots",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/art/phoneScreenshots",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ApkExportedModule&quot;: &quot;PPPPutSettings.pppPutSettings&quot;,
+    &quot;ExportApk.ApkPathForPPPPutSettings.pppPutSettings&quot;: &quot;/home/henrisko/Projekty/AndroidReleases&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;ScreenshotViewer.SavePath&quot;: &quot;/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/art/phoneScreenshots&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/henrisko/Projekty/AndroidStudio/PPPPutSettings/art/phoneScreenshots&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "ExportApk.BuildVariants": [
-      "debug"
+  &quot;keyToStringList&quot;: {
+    &quot;ExportApk.BuildVariants&quot;: [
+      &quot;debug&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Default Config" />
     <option name="BUILD_VARIANTS_TAB" value="Build Types" />
@@ -181,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00120" summary="Change: Fixed launcher icon.">
-      <created>1681749461407</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1681749461407</updated>
     </task>
     <task id="LOCAL-00121" summary="Change: Changed URL arrows and accent color.">
       <created>1681827746721</created>
@@ -525,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686218830593</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="Change: Changed doc about installation of PPPPutSettings from PC. (2)">
+      <created>1686219655509</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1686219655509</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -541,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="New Android Studio." />
     <MESSAGE value="New version 1.0.5." />
     <MESSAGE value="Updated translations." />
     <MESSAGE value="Changed FDroid_ChangeLog.html." />
@@ -566,6 +563,7 @@
     <MESSAGE value="Change: Added support for change locale of notification names and descriptions." />
     <MESSAGE value="Change: Converted mipmap pngs to webp." />
     <MESSAGE value="Change: Changed doc about installation of PPPPutSettings from PC." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Changed doc about installation of PPPPutSettings from PC." />
+    <MESSAGE value="Change: Changed doc about installation of PPPPutSettings from PC. (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Changed doc about installation of PPPPutSettings from PC. (2)" />
   </component>
 </project>
