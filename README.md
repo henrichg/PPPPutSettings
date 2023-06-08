@@ -12,6 +12,7 @@ PPPPutSettings (aka PPPPS)
 ### Sources of PPPPutSettings:
 
 - __[GitHub PPPPS release (direct download)](https://github.com/henrichg/PPPPutSettings/releases/latest/download/PPPPutSettings.apk)__
+&nbsp;&nbsp;&nbsp;_[Number of downloads by version](https://hanadigital.github.io/grev/?user=henrichg&repo=pppputsettings)_
 
 Use keyword "PhoneProfilesPlus" for search this application in these stores:
 

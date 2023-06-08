@@ -14,14 +14,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/install_apk_from_pc.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/install_apk_from_pc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/henrisko/.android/avd/7.6_Fold-in_with_outer_display_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[8ddy697tf669usyp]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -181,20 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00127" summary="Updated screenshots. (2)">
-      <created>1681902489680</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1681902489680</updated>
-    </task>
-    <task id="LOCAL-00128" summary="Change: Updated README.md (3)">
-      <created>1681905884509</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1681905884509</updated>
     </task>
     <task id="LOCAL-00129" summary="Change: Fixed draw of overflow menu divider in light mode.">
       <created>1681915440141</created>
@@ -525,7 +511,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686220292026</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="Change: Changed doc about installation of PPPPutSettings from PC. (9)">
+      <created>1686220381517</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1686220381517</updated>
+    </task>
+    <task id="LOCAL-00177" summary="Change: Changed doc about installation of PPPPutSettings from PC. (10)">
+      <created>1686220468505</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1686220468505</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -541,8 +541,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Better change log for IssyOnDroid." />
-    <MESSAGE value="Added splash screen for launcher activity." />
     <MESSAGE value="Added splash screen for launcher activity. (2)" />
     <MESSAGE value="Fixed warnings." />
     <MESSAGE value="Added splash screen for launcher activity. (3)" />
@@ -566,6 +564,8 @@
     <MESSAGE value="Change: Changed doc about installation of PPPPutSettings from PC. (6)" />
     <MESSAGE value="Change: Changed doc about installation of PPPPutSettings from PC. (7)" />
     <MESSAGE value="Change: Changed doc about installation of PPPPutSettings from PC. (8)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Changed doc about installation of PPPPutSettings from PC. (8)" />
+    <MESSAGE value="Change: Changed doc about installation of PPPPutSettings from PC. (9)" />
+    <MESSAGE value="Change: Changed doc about installation of PPPPutSettings from PC. (10)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Changed doc about installation of PPPPutSettings from PC. (10)" />
   </component>
 </project>
