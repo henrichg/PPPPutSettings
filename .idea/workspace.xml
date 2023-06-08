@@ -21,7 +21,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[22231FDF600373]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/henrisko/.android/avd/7.6_Fold-in_with_outer_display_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -181,13 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00119" summary="Updated translations.">
-      <created>1681745942463</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1681745942463</updated>
     </task>
     <task id="LOCAL-00120" summary="Change: Fixed launcher icon.">
       <created>1681749461407</created>
@@ -525,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686162046407</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="Change: Changed doc about installation of PPPPutSettings from PC.">
+      <created>1686218830592</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1686218830593</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -541,7 +541,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="..." />
     <MESSAGE value="New Android Studio." />
     <MESSAGE value="New version 1.0.5." />
     <MESSAGE value="Updated translations." />
@@ -566,6 +565,7 @@
     <MESSAGE value="New version." />
     <MESSAGE value="Change: Added support for change locale of notification names and descriptions." />
     <MESSAGE value="Change: Converted mipmap pngs to webp." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Converted mipmap pngs to webp." />
+    <MESSAGE value="Change: Changed doc about installation of PPPPutSettings from PC." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Changed doc about installation of PPPPutSettings from PC." />
   </component>
 </project>
