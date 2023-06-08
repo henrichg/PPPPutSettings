@@ -13,7 +13,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/docs/install_apk_from_pc.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/install_apk_from_pc.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,20 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00121" summary="Change: Changed URL arrows and accent color.">
-      <created>1681827746721</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1681827746722</updated>
-    </task>
-    <task id="LOCAL-00122" summary="New version 1.0.5.">
-      <created>1681827906265</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1681827906265</updated>
     </task>
     <task id="LOCAL-00123" summary="New version 1.0.5.">
       <created>1681828125071</created>
@@ -523,7 +511,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686219655509</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="Change: Changed doc about installation of PPPPutSettings from PC. (3)">
+      <created>1686219785031</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1686219785031</updated>
+    </task>
+    <task id="LOCAL-00171" summary="Change: Changed doc about installation of PPPPutSettings from PC. (4)">
+      <created>1686219999096</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1686219999096</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,8 +541,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="New version 1.0.5." />
-    <MESSAGE value="Updated translations." />
     <MESSAGE value="Changed FDroid_ChangeLog.html." />
     <MESSAGE value="Change: Changed short description." />
     <MESSAGE value="Change: Changed full description." />
@@ -564,6 +564,8 @@
     <MESSAGE value="Change: Converted mipmap pngs to webp." />
     <MESSAGE value="Change: Changed doc about installation of PPPPutSettings from PC." />
     <MESSAGE value="Change: Changed doc about installation of PPPPutSettings from PC. (2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Changed doc about installation of PPPPutSettings from PC. (2)" />
+    <MESSAGE value="Change: Changed doc about installation of PPPPutSettings from PC. (3)" />
+    <MESSAGE value="Change: Changed doc about installation of PPPPutSettings from PC. (4)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Changed doc about installation of PPPPutSettings from PC. (4)" />
   </component>
 </project>

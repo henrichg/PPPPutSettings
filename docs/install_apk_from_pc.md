@@ -25,8 +25,8 @@ If you do not have adb installed on your PC:
   `adb install --bypass-low-target-sdk-block [patch to apk in PC]\PPPPutSettings.apk`
 - for Linux, OSX:
   `adb install --bypass-low-target-sdk-block [patch to apk in PC]/PPPPutSettings.apk`
-2. 
-3. If in the target device is Android 13-:
+ 
+2. If in the target device is Android 13-:
 - for Windows:
   `adb install [patch to apk in PC]\PPPPutSettings.apk`
 - for Linux, OSX:
