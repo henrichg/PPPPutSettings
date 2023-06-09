@@ -49,13 +49,13 @@
         </activity>
         <activity
             android:name=".LogCrashActivity"
-            android:label="@string/empty_string">
+            android:label="">
         </activity>
 
         <activity
             android:name=".PutSettingsParameterActivity"
             android:excludeFromRecents="true"
-            android:label="@string/empty_string"
+            android:label=""
             android:theme="@style/EmptyAppCompatActivity"
             android:exported="true"
             android:launchMode="singleInstance"

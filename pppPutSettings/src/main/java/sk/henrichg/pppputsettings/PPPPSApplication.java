@@ -637,7 +637,7 @@ public class PPPPSApplication extends Application {
                 // The user-visible name of the channel.
                 CharSequence name = context.getString(R.string.pppputsettings_notification_channel_exclamation);
                 // The user-visible description of the channel.
-                String description = context.getString(R.string.empty_string);
+                String description = "";
 
                 NotificationChannel channel = new NotificationChannel(EXCLAMATION_NOTIFICATION_CHANNEL, name, NotificationManager.IMPORTANCE_HIGH);
 
