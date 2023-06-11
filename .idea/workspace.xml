@@ -13,13 +13,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/henrisko/.android/avd/7.6_Fold-in_with_outer_display_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[22231FDF600373]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -179,13 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00130" summary="...">
-      <created>1681916010750</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1681916010750</updated>
     </task>
     <task id="LOCAL-00131" summary="Change: Added info about &quot;Unsafe app blocked&quot; dialog into install_apk_from_pc.md.">
       <created>1681937144457</created>
@@ -523,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686252687359</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="Change: Removed empty_string string resource.">
+      <created>1686328751459</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1686328751459</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed warnings." />
     <MESSAGE value="Added splash screen for launcher activity. (3)" />
     <MESSAGE value="Change: Updated README.md." />
     <MESSAGE value="Change: Changed icon for exclamation notification, added large icon into it." />
@@ -564,6 +566,7 @@
     <MESSAGE value="Change: Changed doc about installation of PPPPutSettings from PC. (9)" />
     <MESSAGE value="Change: Changed doc about installation of PPPPutSettings from PC. (10)" />
     <MESSAGE value="Change: Added &quot;Number of downloads by version&quot; into README.md (3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Added &quot;Number of downloads by version&quot; into README.md (3)" />
+    <MESSAGE value="Change: Removed empty_string string resource." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: Removed empty_string string resource." />
   </component>
 </project>

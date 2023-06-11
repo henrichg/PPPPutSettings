@@ -29,7 +29,7 @@ __Droid-ify (F-Droid alternative):__
 __When the dialog "Unsafe app blocked" from Google Play Protect appears during installation, click at bottom, text "More details" and in it at bottom, text "Install anyway".__
 
 __If it is not possible to install PPPPutSettings from GitHub or other sources directly on the device, then it can be installed from PC.__
-- [Show how](docs/install_apk_from_pc.md)
+- [How to install](docs/install_apk_from_pc.md)
 
 ---
 __What is PPPPutSettings:__
