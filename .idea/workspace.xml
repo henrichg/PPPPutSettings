@@ -13,15 +13,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b7213f09-ffb6-408f-b38d-711f5ead08d3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[03KAY1VF8R]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/henrisko/.android/avd/7.6_Fold-in_with_outer_display_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -181,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667604234322</updated>
-    </task>
-    <task id="LOCAL-00135" summary="Change: Fixed send crash report via e-mail.">
-      <created>1681987388594</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1681987388594</updated>
     </task>
     <task id="LOCAL-00136" summary="New ACRA version.">
       <created>1682348722052</created>
@@ -525,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686742326222</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="Fix: Fixed status bar color.">
+      <created>1686778738266</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1686778738267</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -541,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change: Changed icon for exclamation notification, added large icon into it. (3)" />
     <MESSAGE value="Change: Changed icon for exclamation notification, added large icon into it. (4)" />
     <MESSAGE value="Fix: Fixed selector for MIUI 14. Used are no-ripple themes. &#10;Change: Removed duplicated xml drawables from night folder." />
     <MESSAGE value="Added splash screen for launcher activity. (4)" />
@@ -566,6 +563,7 @@
     <MESSAGE value="Change: Increased brightness dividers io dark theme." />
     <MESSAGE value="Change: Better support of app icon in Nova Launcher." />
     <MESSAGE value="Change: Fixed inner static classes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: Fixed inner static classes." />
+    <MESSAGE value="Fix: Fixed status bar color." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Fixed status bar color." />
   </component>
 </project>
