@@ -269,7 +269,7 @@ public class PPPPSApplication extends Application {
                         .withChannelName(getString(R.string.pppputsettings_notification_channel_crash_report))
                         //.withChannelImportance(NotificationManager.IMPORTANCE_HIGH)
                         .withResIcon(R.drawable.ic_pppps_notification)
-                        .withTitle("!!! " + getString(R.string.pppputsettings_acra_notification_title))
+                        .withTitle(/*"!!! " +*/ getString(R.string.pppputsettings_acra_notification_title))
                         .withText(getString(R.string.pppputsettings_acra_notification_text))
                         .withResSendButtonIcon(0)
                         .withResDiscardButtonIcon(0)

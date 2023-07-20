@@ -53,7 +53,7 @@
 
 <!--    <color name="notificationDecorationColor">#cc893e</color>-->
 
-    <color name="notification_color">#64B47F</color>
+<!--    <color name="notification_color">#64B47F</color>-->
     <color name="error_color">#FF2424</color>
 
 </resources>
