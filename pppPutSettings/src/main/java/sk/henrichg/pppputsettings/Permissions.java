@@ -94,6 +94,7 @@ class Permissions {
     }
     */
 
+    /** @noinspection SameParameterValue*/
     static void writeSettingsNotGranted(Context context, int scrollTo) {
         if (Build.VERSION.SDK_INT >= 23) {
             Intent intent = new Intent("android.settings.action.MANAGE_WRITE_SETTINGS");
