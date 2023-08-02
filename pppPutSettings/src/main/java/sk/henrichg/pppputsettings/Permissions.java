@@ -98,7 +98,7 @@ class Permissions {
     static void writeSettingsNotGranted(Context context, int scrollTo) {
         if (Build.VERSION.SDK_INT >= 23) {
             Intent intent = new Intent("android.settings.action.MANAGE_WRITE_SETTINGS");
-            intent.setData(Uri.parse("package:" + "sk.henrichg.pppputsettings"));
+            intent.setData(Uri.parse(PPPPSApplication.INTENT_DATA_PACKAGE + "sk.henrichg.pppputsettings"));
             //intent.addCategory(Intent.CATEGORY_DEFAULT);
 
             intent.putExtra(MainActivity.EXTRA_SCROLL_TO, scrollTo);

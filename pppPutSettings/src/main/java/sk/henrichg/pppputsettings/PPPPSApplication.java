@@ -82,6 +82,9 @@ public class PPPPSApplication extends Application {
     static final int NOT_GRANTED_WRITE_SETTINGS_NOTIFICATION_ID = 111;
     static final String NOT_GRANTED_WRITE_SETTINGS_NOTIFICATION_TAG = PACKAGE_NAME+"_NOT_GRANTED_WRITE_SETTINGS_NOTIFICATION";
 
+    static final String INTENT_DATA_PACKAGE = "package:";
+    //static final String EXTRA_PKG_NAME = "extra_pkgname";
+
     @Override
     public void onCreate() {
         super.onCreate();
@@ -220,16 +223,16 @@ public class PPPPSApplication extends Application {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N_MR1)
             body = getString(R.string.pppputsettings_acra_email_body_device) + " " +
                     Settings.Global.getString(getContentResolver(), Settings.Global.DEVICE_NAME) +
-                    " (" + Build.MODEL + ")" + " \n";
+                    " (" + Build.MODEL + ")" + StringConstants.STR_NEWLINE_WITH_SPACE;
         else {
             String manufacturer = Build.MANUFACTURER;
             String model = Build.MODEL;
             if (model.startsWith(manufacturer))
-                body = getString(R.string.pppputsettings_acra_email_body_device) + " " + model + " \n";
+                body = getString(R.string.pppputsettings_acra_email_body_device) + " " + model + StringConstants.STR_NEWLINE_WITH_SPACE;
             else
-                body = getString(R.string.pppputsettings_acra_email_body_device) + " " + manufacturer + " " + model + " \n";
+                body = getString(R.string.pppputsettings_acra_email_body_device) + " " + manufacturer + " " + model + StringConstants.STR_NEWLINE_WITH_SPACE;
         }
-        body = body + getString(R.string.pppputsettings_acra_email_body_android_version) + " " + Build.VERSION.RELEASE + " \n\n";
+        body = body + getString(R.string.pppputsettings_acra_email_body_android_version) + " " + Build.VERSION.RELEASE + StringConstants.STR_DOUBLE_NEWLINE_WITH_SPACE;
         body = body + getString(R.string.pppputsettings_acra_email_body_text);
 
         Log.e("##### PPPPSApplication.attachBaseContext", "ACRA inittialization");
@@ -278,8 +281,8 @@ public class PPPPSApplication extends Application {
                         .withEnabled(true)
                         .build(),
                 new MailSenderConfigurationBuilder()
-                        .withMailTo("henrich.gron@gmail.com")
-                        .withSubject("PPPPutSettings" + packageVersion + " - " + getString(R.string.pppputsettings_acra_email_subject_text))
+                        .withMailTo(StringConstants.AUTHOR_EMAIL)
+                        .withSubject(StringConstants.PHONE_PROFILES_PLUS_PUT_SETTINGS + packageVersion + " - " + getString(R.string.pppputsettings_acra_email_subject_text))
                         .withBody(body)
                         .withReportAsFile(true)
                         .withReportFileName("crash_report.txt")
@@ -308,15 +311,17 @@ public class PPPPSApplication extends Application {
     //--------------------------------------------------------------
 
     private static boolean isXiaomi() {
-        return Build.BRAND.equalsIgnoreCase("xiaomi") ||
-                Build.MANUFACTURER.equalsIgnoreCase("xiaomi") ||
-                Build.FINGERPRINT.toLowerCase().contains("xiaomi");
+        final String XIOMI = "xiaomi";
+        return Build.BRAND.equalsIgnoreCase(XIOMI) ||
+                Build.MANUFACTURER.equalsIgnoreCase(XIOMI) ||
+                Build.FINGERPRINT.toLowerCase().contains(XIOMI);
     }
 
     private static boolean isOnePlus() {
-        return Build.BRAND.equalsIgnoreCase("oneplus") ||
-                Build.MANUFACTURER.equalsIgnoreCase("oneplus") ||
-                Build.FINGERPRINT.toLowerCase().contains("oneplus");
+        final String ONEPLUS = "oneplus";
+        return Build.BRAND.equalsIgnoreCase(ONEPLUS) ||
+                Build.MANUFACTURER.equalsIgnoreCase(ONEPLUS) ||
+                Build.FINGERPRINT.toLowerCase().contains(ONEPLUS);
     }
 
     private static boolean isMIUIROM() {
@@ -430,7 +435,7 @@ public class PPPPSApplication extends Application {
     private static boolean logContainsFilterTag(String tag)
     {
         boolean contains = false;
-        String[] splits = logFilterTags.split("\\|");
+        String[] splits = logFilterTags.split(StringConstants.STR_SPLIT_REGEX);
         for (String split : splits) {
             if (tag.contains(split)) {
                 contains = true;
@@ -454,7 +459,7 @@ public class PPPPSApplication extends Application {
         if (logContainsFilterTag(tag))
         {
             //if (logIntoLogCat) Log.i(tag, text);
-            if (logIntoLogCat) Log.i(tag, "[ "+tag+" ]" + ": " + text);
+            if (logIntoLogCat) Log.i(tag, "[ "+tag+" ]" + StringConstants.STR_COLON_WITH_SPACE + text);
             logIntoFile("I", tag, text);
         }
     }
@@ -468,7 +473,7 @@ public class PPPPSApplication extends Application {
         if (logContainsFilterTag(tag))
         {
             //if (logIntoLogCat) Log.w(tag, text);
-            if (logIntoLogCat) Log.w(tag, "[ "+tag+" ]" + ": " + text);
+            if (logIntoLogCat) Log.w(tag, "[ "+tag+" ]" + StringConstants.STR_COLON_WITH_SPACE + text);
             logIntoFile("W", tag, text);
         }
     }
@@ -482,7 +487,7 @@ public class PPPPSApplication extends Application {
         if (logContainsFilterTag(tag))
         {
             //if (logIntoLogCat) Log.e(tag, text);
-            if (logIntoLogCat) Log.e(tag, "[ "+tag+" ]" + ": " + text);
+            if (logIntoLogCat) Log.e(tag, "[ "+tag+" ]" + StringConstants.STR_COLON_WITH_SPACE + text);
             logIntoFile("E", tag, text);
         }
     }
@@ -496,7 +501,7 @@ public class PPPPSApplication extends Application {
         if (logContainsFilterTag(tag))
         {
             //if (logIntoLogCat) Log.d(tag, text);
-            if (logIntoLogCat) Log.d(tag, "[ "+tag+" ]" + ": " + text);
+            if (logIntoLogCat) Log.d(tag, "[ "+tag+" ]" + StringConstants.STR_COLON_WITH_SPACE + text);
             logIntoFile("D", tag, text);
         }
     }

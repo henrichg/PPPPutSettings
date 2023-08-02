@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
 
         text = findViewById(R.id.activity_main_application_releases);
         String str1 = getString(R.string.pppputsettings_application_releases);
-        String str2 = str1 + " https://github.com/henrichg/PPPPutSettings/releases" + "\u00A0»»";
+        String str2 = str1 + " https://github.com/henrichg/PPPPutSettings/releases" + StringConstants.STR_HARD_SPACE_DOUBLE_ARROW;
         Spannable sbt = new SpannableString(str2);
         sbt.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), 0, str2.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         ClickableSpan clickableSpan = new ClickableSpan() {
@@ -405,7 +405,7 @@ public class MainActivity extends AppCompatActivity {
             Button writeSettingsButton = findViewById(R.id.activity_main_write_settings_button);
             writeSettingsButton.setOnClickListener(view -> {
                 Intent intent = new Intent("android.settings.action.MANAGE_WRITE_SETTINGS");
-                intent.setData(Uri.parse("package:" + "sk.henrichg.pppputsettings"));
+                intent.setData(Uri.parse(PPPPSApplication.INTENT_DATA_PACKAGE + "sk.henrichg.pppputsettings"));
                 //intent.addCategory(Intent.CATEGORY_DEFAULT);
                 if (MainActivity.activityIntentExists(intent, activity)) {
                     //noinspection deprecation
