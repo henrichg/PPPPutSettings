@@ -71,7 +71,7 @@ public class PPPPSApplication extends Application {
     static final String EXTRA_PUT_SETTING_PARAMETER_NAME = "extra_put_setting_parameter_name";
     static final String EXTRA_PUT_SETTING_PARAMETER_VALUE = "extra_put_setting_parameter_value";
 
-    public volatile static ExecutorService basicExecutorPool = null;
+    static volatile ExecutorService basicExecutorPool = null;
 
     static volatile Collator collator = null;
 
