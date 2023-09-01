@@ -383,7 +383,7 @@ public class PPPPSApplication extends Application {
         logFile.delete();
     }
 
-    @SuppressLint("SimpleDateFormat")
+    /** @noinspection SameParameterValue*/
     static private void logIntoFile(String type, String tag, String text)
     {
         if (!logIntoFile)
@@ -419,6 +419,7 @@ public class PPPPSApplication extends Application {
             //BufferedWriter for performance, true to set append to file flag
             BufferedWriter buf = new BufferedWriter(new FileWriter(logFile, true));
             String log = "";
+            @SuppressLint("SimpleDateFormat")
             SimpleDateFormat sdf = new SimpleDateFormat("d.MM.yy HH:mm:ss:S");
             String time = sdf.format(Calendar.getInstance().getTimeInMillis());
             log = log + time + " [ " + type + " ] [ " + tag + " ]: " + text;
@@ -450,7 +451,7 @@ public class PPPPSApplication extends Application {
         return (logIntoLogCat || logIntoFile);
     }
 
-    @SuppressWarnings("unused")
+    /*
     static public void logI(String tag, String text)
     {
         if (!logEnabled())
@@ -463,8 +464,9 @@ public class PPPPSApplication extends Application {
             logIntoFile("I", tag, text);
         }
     }
+    */
 
-    @SuppressWarnings("unused")
+    /*
     static public void logW(String tag, String text)
     {
         if (!logEnabled())
@@ -477,6 +479,7 @@ public class PPPPSApplication extends Application {
             logIntoFile("W", tag, text);
         }
     }
+    */
 
     @SuppressWarnings("unused")
     static public void logE(String tag, String text)
@@ -492,7 +495,7 @@ public class PPPPSApplication extends Application {
         }
     }
 
-    @SuppressWarnings("unused")
+    /*
     static public void logD(String tag, String text)
     {
         if (!logEnabled())
@@ -505,6 +508,7 @@ public class PPPPSApplication extends Application {
             logIntoFile("D", tag, text);
         }
     }
+    */
 
     // ACRA -------------------------------------------------------------------------
 
@@ -515,29 +519,32 @@ public class PPPPSApplication extends Application {
         } catch (Exception ignored) {}
     }
 
-    @SuppressWarnings("unused")
+    /*
     static void logToACRA(String s) {
         try {
             //FirebaseCrashlytics.getInstance().log(s);
             ACRA.getErrorReporter().putCustomData("Log", s);
         } catch (Exception ignored) {}
     }
+    */
 
-    @SuppressWarnings("unused")
+    /*
     static void setCustomKey(String key, int value) {
         try {
             //FirebaseCrashlytics.getInstance().setCustomKey(key, value);
             ACRA.getErrorReporter().putCustomData(key, String.valueOf(value));
         } catch (Exception ignored) {}
     }
+    */
 
-    @SuppressWarnings("unused")
+    /*
     static void setCustomKey(String key, String value) {
         try {
             //FirebaseCrashlytics.getInstance().setCustomKey(key, value);
             ACRA.getErrorReporter().putCustomData(key, value);
         } catch (Exception ignored) {}
     }
+    */
 
     @SuppressWarnings("SameParameterValue")
     static void setCustomKey(String key, boolean value) {

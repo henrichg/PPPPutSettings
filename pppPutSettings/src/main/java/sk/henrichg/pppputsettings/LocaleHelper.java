@@ -140,7 +140,7 @@ public class LocaleHelper {
         return localizedContext;
     }
 
-    @SuppressWarnings("unused")
+    /*
     static void setApplicationLocale(Context context) {
 //        String language;
 //        String country;
@@ -174,6 +174,7 @@ public class LocaleHelper {
 
         PPPPSApplication.collator = PPPPSApplication.getCollator();
     }
+    */
 
     private static String getPersistedData(Context context, String data, String defaultValue) {
         //SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
