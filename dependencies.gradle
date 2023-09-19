@@ -1,6 +1,6 @@
 ext.ppVersions = [
-    publishVersion: '1.0.5.1b', // this must be >= as in PPP in PPApplication. VERSION_NAME_PPPPS_LATEST
-    publishVersionCode: 51,  // this must be >= as in PPP in PPApplication. VERSION_CODE_PPPPS_LATEST
+    publishVersion: '1.0.6', // this must be >= as in PPP in PPApplication. VERSION_NAME_PPPPS_LATEST
+    publishVersionCode: 55,  // this must be >= as in PPP in PPApplication. VERSION_CODE_PPPPS_LATEST
 
     minSdk: 22,
 
