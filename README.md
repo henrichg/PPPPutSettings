@@ -1,9 +1,11 @@
 <img src="art/ic_launcher-web.png" width="100" height="100">  
 
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
+
 PPPPutSettings (aka PPPPS)
 ====================================
 
-[![version](https://img.shields.io/badge/version-1.0.5-blue)](https://github.com/henrichg/PPPPutSettings/releases/tag/1.0.5)
+[![version](https://img.shields.io/badge/version-1.0.6-blue)](https://github.com/henrichg/PPPPutSettings/releases/tag/1.0.5)
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 [![License](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/henrichg/PPPPutSettings/blob/master/LICENSE)
 [![Crowdin](https://badges.crowdin.net/phoneprofilesplus/localized.svg)](https://crowdin.com/project/phoneprofilesplus)
@@ -11,24 +13,26 @@ PPPPutSettings (aka PPPPS)
 
 ### Sources of PPPPutSettings:
 
-- __[GitHub PPPPS release (direct download)](https://github.com/henrichg/PPPPutSettings/releases/latest/download/PPPPutSettings.apk)__
-
-Use keyword "PhoneProfilesPlus" for search this application in these stores:
-
-__F-Droid:__
-- [PPPPS release](https://apt.izzysoft.de/fdroid/index/apk/sk.henrichg.pppputsettings)
-  &nbsp;&nbsp;&nbsp;_[How to add IzzyOnDroid repository to F-Droid application](https://apt.izzysoft.de/fdroid/index/info)_
-- [Store application (download)](https://www.f-droid.org/)
+Use keyword "PPPPutSettings" for search this application in these stores:
 
 __Droid-ify (F-Droid alternative):__
 - [PPPPS release](https://apt.izzysoft.de/fdroid/index/apk/sk.henrichg.pppputsettings)
 - [Store applicaion (download)](https://apt.izzysoft.de/fdroid/index/apk/com.looker.droidify)
   &nbsp;&nbsp;&nbsp;_IzzyOnDroid repository is included_
 
+__F-Droid:__
+- [PPPPS release](https://apt.izzysoft.de/fdroid/index/apk/sk.henrichg.pppputsettings)
+  &nbsp;&nbsp;&nbsp;_[How to add IzzyOnDroid repository to F-Droid application](https://apt.izzysoft.de/fdroid/index/info)_
+- [Store application (download)](https://www.f-droid.org/)
+
 __When the dialog "Unsafe app blocked" from Google Play Protect appears during installation, click at bottom, text "More details" and in it at bottom, text "Install anyway".__
 
-__If it is not possible to install PPPPutSettings from GitHub or other sources directly on the device, then it can be installed from PC.__
-- [Show how](docs/install_apk_from_pc.md)
+__GitHub:__
+- [PPPPS release (direct download)](https://github.com/henrichg/PPPPutSettings/releases/latest/download/PPPPutSettings.apk)
+&nbsp;&nbsp;&nbsp;_[Number of downloads by version](https://hanadigital.github.io/grev/?user=henrichg&repo=pppputsettings)_
+
+__If is not possible to install PPPPutSettings from the downloaded apk file directly on your device, you can install it from your computer.__
+- [How to install](docs/install_apk_from_pc.md)
 
 ---
 __What is PPPPutSettings:__
@@ -54,7 +58,7 @@ _*** Please help me with translation, thank you: <https://crowdin.com/project/ph
 
 ##### Required external libs - open-source
 
-- AndroidX library: appcompat - https://developer.android.com/jetpack/androidx/versions
+- AndroidX library: appcompat, splashscreen - https://developer.android.com/jetpack/androidx/versions
 - ACRA - https://github.com/ACRA/acra
 - guava - https://github.com/google/guava
 - Multi-language_App (only modified class LocaleHelper.java) https://github.com/anurajr1/Multi-language_App

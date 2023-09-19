@@ -6,6 +6,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
@@ -93,19 +94,21 @@ class Permissions {
     }
     */
 
+    /** @noinspection SameParameterValue*/
     static void writeSettingsNotGranted(Context context, int scrollTo) {
         if (Build.VERSION.SDK_INT >= 23) {
             Intent intent = new Intent("android.settings.action.MANAGE_WRITE_SETTINGS");
-            intent.setData(Uri.parse("package:" + "sk.henrichg.pppputsettings"));
+            intent.setData(Uri.parse(PPPPSApplication.INTENT_DATA_PACKAGE + "sk.henrichg.pppputsettings"));
             //intent.addCategory(Intent.CATEGORY_DEFAULT);
 
             intent.putExtra(MainActivity.EXTRA_SCROLL_TO, scrollTo);
 
             if (MainActivity.activityIntentExists(intent, context)) {
-                PPPPSApplication.createExclamationNotificationChannel(context);
-                NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context, PPPPSApplication.EXCLAMATION_NOTIFICATION_CHANNEL)
-                        .setColor(ContextCompat.getColor(context, R.color.notification_color))
-                        .setSmallIcon(R.drawable.ic_exclamation_notify) // notification icon
+                PPPPSApplication.createExclamationNotificationChannel(context, false);
+                NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context.getApplicationContext(), PPPPSApplication.EXCLAMATION_NOTIFICATION_CHANNEL)
+                        .setColor(ContextCompat.getColor(context.getApplicationContext(), R.color.error_color))
+                        .setSmallIcon(R.drawable.ic_pppps_notification/*ic_exclamation_notify*/) // notification icon
+                        .setLargeIcon(BitmapFactory.decodeResource(context.getApplicationContext().getResources(), R.drawable.ic_exclamation_notification))
                         .setContentTitle(context.getString(R.string.pppputsettings_not_granted_write_settings_title)) // title for notification
                         .setContentText(context.getString(R.string.pppputsettings_not_granted_write_settings_text)) // message for notification
                         .setAutoCancel(true); // clear notification after click
