@@ -22,11 +22,11 @@ If you do not have adb installed on your PC:
 
     If in the target device is Android 14+: 
     - for Windows: `adb install --bypass-low-target-sdk-block [patch to apk in PC]\PPPPutSettings.apk`
-    - for Linux, OSX: `adb install --bypass-low-target-sdk-block [patch to apk in PC]/PPPPutSettings.apk`
+    - for Linux, OSX, macOS: `adb install --bypass-low-target-sdk-block [patch to apk in PC]/PPPPutSettings.apk`
     
     If in the target device is Android 13-:
     - for Windows: `adb install [patch to apk in PC]\PPPPutSettings.apk`
-    - for Linux, OSX: `adb install [patch to apk in PC]/PPPPutSettings.apk`
+    - for Linux, OSX, macOS: `adb install [patch to apk in PC]/PPPPutSettings.apk`
 
 5. After successful execution, PPPPutSettings will be installed in device.
 6. When the dialog "Unsafe app blocked" from Google Play protect appears during installation, click at bottom, text "More details" and in it at bottom, text "Install anyway".
