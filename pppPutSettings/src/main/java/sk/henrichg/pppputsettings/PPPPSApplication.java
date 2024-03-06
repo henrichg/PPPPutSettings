@@ -34,6 +34,7 @@ import java.util.Locale;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/** @noinspection ExtractMethodRecommender*/
 public class PPPPSApplication extends Application {
 
     @SuppressLint("StaticFieldLeak")
@@ -359,14 +360,14 @@ public class PPPPSApplication extends Application {
             java.lang.Process p = Runtime.getRuntime().exec("getprop ro.miui.ui.version.code");
             input = new BufferedReader(new InputStreamReader(p.getInputStream()), 1024);
             line = input.readLine();
-            miuiRom1 = line.length() != 0;
+            miuiRom1 = !line.isEmpty();
             input.close();
 
             if (!miuiRom1) {
                 p = Runtime.getRuntime().exec("getprop ro.miui.ui.version.name");
                 input = new BufferedReader(new InputStreamReader(p.getInputStream()), 1024);
                 line = input.readLine();
-                miuiRom2 = line.length() != 0;
+                miuiRom2 = !line.isEmpty();
                 input.close();
             }
 
@@ -374,7 +375,7 @@ public class PPPPSApplication extends Application {
                 p = Runtime.getRuntime().exec("getprop ro.miui.internal.storage");
                 input = new BufferedReader(new InputStreamReader(p.getInputStream()), 1024);
                 line = input.readLine();
-                miuiRom3 = line.length() != 0;
+                miuiRom3 = !line.isEmpty();
                 input.close();
             }
 
