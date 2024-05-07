@@ -16,6 +16,9 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
     String parameterName;
     String parameterValue;
 
+//    private static final String SETTINGS_TYPE_SPECIAL = "setting_type_special";
+//    private static final String PARAMETER_SET_WIFI_ENABLED = "setWifiEnabled";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,19 +72,40 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
 
         if (canWrite) {
             if ((settingsType != null) && (parameterName != null) && (parameterValue != null)) {
-                ContentResolver contentResolver = getApplicationContext().getContentResolver();
-                try {
-                    ContentValues contentValues = new ContentValues(2);
-                    contentValues.put("name", parameterName);
-                    contentValues.put("value", parameterValue);
-                    // settingsType : "system", "secure", "global"
-                    contentResolver.insert(Uri.parse("content://settings/" + settingsType), contentValues);
-                } catch (SecurityException e1) {
+//                if (settingsType.equals(SETTINGS_TYPE_SPECIAL)) {
+//                    try {
+//                        if (parameterName.equals(PARAMETER_SET_WIFI_ENABLED)) {
+//                            WifiManager wifiManager = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
+//                            if (wifiManager != null) {
+//                                if (parameterValue.equals("0"))
+//                                    wifiManager.setWifiEnabled(false);
+//                                if (parameterValue.equals("1"))
+//                                    wifiManager.setWifiEnabled(true);
+//                            }
+//                        }
+//                    } catch (SecurityException e1) {
+//                        if (parameterName.equals(PARAMETER_SET_WIFI_ENABLED)) {
+////                            Log.e("PutSettingsParameterActivity.putSettingsParameter", "not granted WRITE_SETTINGS ??");
+//                            Permissions.writeSettingsNotGranted(getApplicationContext(), R.id.activity_main_permission_write_settings);
+//                        }
+//                    } catch (Exception e2) {
+//                        //PPPPSApplication.recordException(e2);
+//                    }
+//                } else {
+                    ContentResolver contentResolver = getApplicationContext().getContentResolver();
+                    try {
+                        ContentValues contentValues = new ContentValues(2);
+                        contentValues.put("name", parameterName);
+                        contentValues.put("value", parameterValue);
+                        // settingsType : "system", "secure", "global"
+                        contentResolver.insert(Uri.parse("content://settings/" + settingsType), contentValues);
+                    } catch (SecurityException e1) {
 //                    Log.e("PutSettingsParameterActivity.putSettingsParameter", "not granted WRITE_SETTINGS ??");
-                    Permissions.writeSettingsNotGranted(getApplicationContext(), R.id.activity_main_permission_write_settings);
-                } catch (Exception e2) {
-                    //PPPPSApplication.recordException(e2);
-                }
+                        Permissions.writeSettingsNotGranted(getApplicationContext(), R.id.activity_main_permission_write_settings);
+                    } catch (Exception e2) {
+                        //PPPPSApplication.recordException(e2);
+                    }
+//                }
             }
         } else {
 //            Log.e("PutSettingsParameterActivity.putSettingsParameter", "not granted WRITE_SETTINGS");
