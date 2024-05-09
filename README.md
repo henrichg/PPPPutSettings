@@ -32,6 +32,9 @@ __GitHub:__
 - [PPPPS release (direct download)](https://github.com/henrichg/PPPPutSettings/releases/latest/download/PPPPutSettings.apk)
 &nbsp;&nbsp;&nbsp;_[Number of downloads by version](https://hanadigital.github.io/grev/?user=henrichg&repo=pppputsettings)_
 
+__How to install PPPPutSettings (for Android 14+)__
+- [How to install](docs/install_apk_in_device.md)
+
 __If is not possible to install PPPPutSettings from the downloaded apk file directly on your device, you can install it from your computer.__
 - [How to install](docs/install_apk_from_pc.md)
 
