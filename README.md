@@ -3,7 +3,7 @@
 
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
 
-PPPPutSettings (aka PPPPS)
+PPPPutSettings (PPPPS)
 ====================================
 
 [![version](https://img.shields.io/badge/version-1.0.8-blue)](https://github.com/henrichg/PPPPutSettings/releases/tag/1.0.8)
