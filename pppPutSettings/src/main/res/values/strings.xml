@@ -3,6 +3,7 @@
 <!--suppress XmlUnusedNamespaceDeclaration -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <string name="pppputsettings_app_name" translatable="false">PPPPutSettings</string>
+    <string name="pppputsettings_title_activity_pppps" translatable="false">PPPPS</string>
     <string name="pppputsettings_permission">PPPPutSettings application permisison</string>
     <string name="pppputsettings_application_releases">Releases:</string>
     <string name="pppputsettings_about_application_version">Version:</string>

@@ -40,7 +40,7 @@
             android:value="2.4"/>
 
         <activity android:name=".MainActivity"
-            android:label="@string/pppputsettings_app_name"
+            android:label="@string/pppputsettings_title_activity_pppps"
             tools:ignore="IntentFilterExportedReceiver,RedundantLabel">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
