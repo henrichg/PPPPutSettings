@@ -6,11 +6,9 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.content.pm.PackageInfo;
-import android.content.res.Resources;
 import android.os.Build;
 import android.provider.Settings;
 import android.util.Log;
-import android.util.TypedValue;
 
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
