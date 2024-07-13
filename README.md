@@ -19,8 +19,8 @@ PPPPutSettings (PPPPS)
 [![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?logo=bluesky&logoColor=fff)](https://bsky.app/profile/henrichg.bsky.social)\
 Discord invitation: https://discord.gg/AyRzzagp
 
-__Install PPPPutSettings directly from PhoneProfilesPlus. But it is also possible to install it from an external source. If installing from PhoneProfilesPlus does not work, use external source. External sources are described below.
-There is an exception. For Android 14+, PPPPutSettigs can only be installed in a special way. Read [Installation for Android 14+](docs/install_apk_in_device.md)__
+__Install PPPPutSettings directly from PhoneProfilesPlus. But it is also possible to install it from an external source. If installing from PhoneProfilesPlus does not work, use external source. External sources are described below.__
+__There is an exception. For Android 14+, PPPPutSettigs can only be installed in a special way. Read [Installation for Android 14+](docs/install_apk_in_device.md)__
 
 ### Sources of PPPPutSettings:
 
