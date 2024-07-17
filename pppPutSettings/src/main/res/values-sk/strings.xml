@@ -27,4 +27,9 @@
     <string name="pppputsettings_modify_system_settings_granted">Udelené</string>
     <string name="pppputsettings_modify_system_settings_not_granted">Neudelené</string>
     <string name="pppputsettings_email_chooser">Odoslať e-mail pomocou</string>
+    <string name="pppputsettings_menu_support">Podpora</string>
+    <string name="pppputsettings_support_subject">podpora</string>
+    <string name="pppputsettings_menu_email_to_author">Poslať e-mail autorovi</string>
+    <string name="pppputsettings_menu_discord_server">Server PhoneProfilesPlus</string>
+    <string name="pppputsettings_menu_discord_invitation">Pozvánka na server PhoneProfilesPlus</string>
 </resources>

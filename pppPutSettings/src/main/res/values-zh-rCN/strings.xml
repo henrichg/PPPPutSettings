@@ -27,4 +27,9 @@
     <string name="pppputsettings_modify_system_settings_granted">已授权</string>
     <string name="pppputsettings_modify_system_settings_not_granted">未授权</string>
     <string name="pppputsettings_email_chooser">发送电子邮件使用</string>
+    <string name="pppputsettings_menu_support">支持</string>
+    <string name="pppputsettings_support_subject">支持</string>
+    <string name="pppputsettings_menu_email_to_author">给作者发邮件</string>
+    <string name="pppputsettings_menu_discord_server">PhoneProfilesPlus 服务器</string>
+    <string name="pppputsettings_menu_discord_invitation">PhoneProfilesPlus 服务器邀请</string>
 </resources>
