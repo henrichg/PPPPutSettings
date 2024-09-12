@@ -85,8 +85,6 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-        //PPPEApplication.logE("MainActivity.onCreated", "xxx");
-
         if (getSupportActionBar() != null) {
             //getSupportActionBar().setHomeButtonEnabled(false);
             //getSupportActionBar().setDisplayHomeAsUpEnabled(false);

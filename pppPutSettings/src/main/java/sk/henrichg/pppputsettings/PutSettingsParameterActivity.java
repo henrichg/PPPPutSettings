@@ -24,8 +24,6 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         overridePendingTransition(0, 0);
 
-//        PPPPSApplication.logE("PutSettingsParameterActivity.onCreate", "xxx");
-
         Intent intent = getIntent();
         settingsType = intent.getStringExtra(PPPPSApplication.EXTRA_PUT_SETTING_PARAMETER_TYPE);
         parameterName = intent.getStringExtra(PPPPSApplication.EXTRA_PUT_SETTING_PARAMETER_NAME);
@@ -62,13 +60,15 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
     */
 
     private void putSettingsParameter() {
-//        Log.e("PutSettingsParameterActivity.putSettingsParameter", "settingsType="+settingsType);
-//        Log.e("PutSettingsParameterActivity.putSettingsParameter", "parameterName="+parameterName);
-//        Log.e("PutSettingsParameterActivity.putSettingsParameter", "parameterValue="+parameterValue);
-//
         boolean canWrite = true;
         if (Build.VERSION.SDK_INT >= 23)
             canWrite = Settings.System.canWrite(getApplicationContext());
+
+//        PPPPSApplication.logE("PutSettingsParameterActivity.putSettingsParameter", "canWrite="+canWrite);
+//        PPPPSApplication.logE("PutSettingsParameterActivity.putSettingsParameter", "settingsType="+settingsType);
+//        PPPPSApplication.logE("PutSettingsParameterActivity.putSettingsParameter", "parameterName="+parameterName);
+//        PPPPSApplication.logE("PutSettingsParameterActivity.putSettingsParameter", "parameterValue="+parameterValue);
+
 
         if (canWrite) {
             if ((settingsType != null) && (parameterName != null) && (parameterValue != null)) {
@@ -100,7 +100,7 @@ public class PutSettingsParameterActivity extends AppCompatActivity {
                         // settingsType : "system", "secure", "global"
                         contentResolver.insert(Uri.parse("content://settings/" + settingsType), contentValues);
                     } catch (SecurityException e1) {
-//                    Log.e("PutSettingsParameterActivity.putSettingsParameter", "not granted WRITE_SETTINGS ??");
+                        //Log.e("PutSettingsParameterActivity.putSettingsParameter", "not granted WRITE_SETTINGS ??");
                         Permissions.writeSettingsNotGranted(getApplicationContext(), R.id.activity_main_permission_write_settings);
                     } catch (Exception e2) {
                         //PPPPSApplication.recordException(e2);
