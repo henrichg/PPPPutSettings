@@ -9,6 +9,10 @@
         android:smallScreens="true"
         android:xlargeScreens="true"/>
 
+    <!-- android:protectionLevel="signature" = used is henrichg.keystore-->
+    <!-- Both PPP and PPPPS must be bulded with this keystore-->
+    <!-- Also debug build to comibe debug and release of both apps-->
+    <!-- (read phoneProfilesPlus, pppPutSettins build.gradle signingConfigs)-->
     <permission
         android:name="sk.henrichg.pppputsettings.PPP_PUT_SETTINGS_PERMISSION"
         android:label="@string/pppputsettings_permission"
@@ -59,13 +63,13 @@
             android:label=""
             android:theme="@style/EmptyAppCompatActivity"
             android:exported="true"
+            android:launchMode="singleInstance"
             android:permission="sk.henrichg.pppputsettings.PPP_PUT_SETTINGS_PERMISSION">
             <intent-filter>
                 <action android:name="sk.henrichg.pppputsettings.PUT_SETTING"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-<!--        android:launchMode="singleInstance"-->
 
         <receiver
             android:name=".LocaleChangedReceiver"
