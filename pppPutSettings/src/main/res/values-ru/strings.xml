@@ -27,4 +27,9 @@
     <string name="pppputsettings_modify_system_settings_granted">Предоставлено</string>
     <string name="pppputsettings_modify_system_settings_not_granted">Не предоставлено</string>
     <string name="pppputsettings_email_chooser">Отправить e-mail с помощью</string>
+    <string name="pppputsettings_menu_support">Поддержка</string>
+    <string name="pppputsettings_support_subject">поддержка</string>
+    <string name="pppputsettings_menu_email_to_author">Отправить письмо автору</string>
+    <string name="pppputsettings_menu_discord_server">Сервер PhoneProfilesPlus</string>
+    <string name="pppputsettings_menu_discord_invitation">Приглашение на сервер PhoneProfilesPlus</string>
 </resources>

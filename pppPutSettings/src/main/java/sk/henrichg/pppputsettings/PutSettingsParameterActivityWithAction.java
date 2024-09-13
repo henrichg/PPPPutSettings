@@ -10,7 +10,7 @@ import android.provider.Settings;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class PutSettingsParameterActivity extends AppCompatActivity {
+public class PutSettingsParameterActivityWithAction extends AppCompatActivity {
 
     String settingsType;
     String parameterName;

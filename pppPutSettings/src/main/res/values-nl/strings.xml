@@ -27,4 +27,9 @@
     <string name="pppputsettings_modify_system_settings_granted">Verleend</string>
     <string name="pppputsettings_modify_system_settings_not_granted">Niet verleend</string>
     <string name="pppputsettings_email_chooser">Verstuur e-mail met</string>
+    <string name="pppputsettings_menu_support">Ondersteuning</string>
+    <string name="pppputsettings_support_subject">ondersteuning</string>
+    <string name="pppputsettings_menu_email_to_author">E-mail aan auteur</string>
+    <string name="pppputsettings_menu_discord_server">PhoneProfilesPlus server</string>
+    <string name="pppputsettings_menu_discord_invitation">PhoneProfilesPlus server uitnodiging</string>
 </resources>

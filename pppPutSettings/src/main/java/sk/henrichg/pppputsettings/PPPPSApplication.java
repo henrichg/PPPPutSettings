@@ -49,14 +49,16 @@ public class PPPPSApplication extends Application {
     //static final int pid = Process.myPid();
     //static final int uid = Process.myUid();
 
-    @SuppressWarnings("PointlessBooleanExpression")
-    private static final boolean logIntoLogCat = true && BuildConfig.DEBUG;
+    // TODO: DISABLE IT FOR RELEASE VERSION!!!
+    private static final boolean logIntoLogCat = false /*&& BuildConfig.DEBUG*/;
     // TODO: DISABLE IT FOR RELEASE VERSION!!!
     static final boolean logIntoFile = false;
-    @SuppressWarnings("PointlessBooleanExpression")
+    /** @noinspection PointlessBooleanExpression*/
     static final boolean crashIntoFile = true && BuildConfig.DEBUG;
     private static final String logFilterTags = ""
-                                                //+ "|MainActivity"
+//                                                  "MainActivity"
+//                                                + "|PutSettingsParameterActivity"
+//                                                + "|PutSettingReceiver"
             ;
 
     static final boolean deviceIsXiaomi = isXiaomi();
@@ -86,6 +88,13 @@ public class PPPPSApplication extends Application {
 
     static final String INTENT_DATA_PACKAGE = "package:";
     //static final String EXTRA_PKG_NAME = "extra_pkgname";
+
+    static final String XDA_DEVELOPERS_PPP_URL = "https://forum.xda-developers.com/t/phoneprofilesplus.3799429/";
+    static final String TWITTER_URL = "https://x.com/henrichg";
+    static final String REDDIT_URL = "https://www.reddit.com/user/henrichg/";
+    static final String BLUESKY_URL = "https://bsky.app/profile/henrichg.bsky.social";
+    static final String DISCORD_SERVER_URL = "https://discord.com/channels/1258733423426670633/1258733424504737936";
+    static final String DISCORD_INVITATION_URL = "https://discord.gg/Yb5hgAstQ3";
 
     @Override
     public void onCreate() {
@@ -461,17 +470,19 @@ public class PPPPSApplication extends Application {
     private static boolean logContainsFilterTag(String tag)
     {
         boolean contains = false;
-        String[] splits = logFilterTags.split(StringConstants.STR_SPLIT_REGEX);
-        for (String split : splits) {
-            if (tag.contains(split)) {
-                contains = true;
-                break;
+        String[] filterTags = logFilterTags.split(StringConstants.STR_SPLIT_REGEX);
+        for (String filterTag : filterTags) {
+            if (!filterTag.contains("!")) {
+                if (tag.contains(filterTag)) {
+                    contains = true;
+                    break;
+                }
             }
         }
         return contains;
     }
 
-    @SuppressWarnings("BooleanMethodIsAlwaysInverted")
+    /** @noinspection ConstantValue*/
     static private boolean logEnabled() {
         return (logIntoLogCat || logIntoFile);
     }

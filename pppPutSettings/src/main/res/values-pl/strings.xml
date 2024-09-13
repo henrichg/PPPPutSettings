@@ -27,4 +27,9 @@
     <string name="pppputsettings_modify_system_settings_granted">Przyznane</string>
     <string name="pppputsettings_modify_system_settings_not_granted">Nieprzyznane</string>
     <string name="pppputsettings_email_chooser">Wyślij e-mail używając</string>
+    <string name="pppputsettings_menu_support">Wsparcie</string>
+    <string name="pppputsettings_support_subject">wsparcie</string>
+    <string name="pppputsettings_menu_email_to_author">E-mail do autora</string>
+    <string name="pppputsettings_menu_discord_server">Serwer PhoneProfilesPlus</string>
+    <string name="pppputsettings_menu_discord_invitation">Zaproszenie do serwera PhoneProfilesPlus</string>
 </resources>

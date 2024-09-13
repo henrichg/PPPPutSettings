@@ -6,6 +6,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.ResolveInfo;
+import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -17,9 +19,12 @@ import android.text.SpannableString;
 import android.text.TextPaint;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
+import android.text.style.ImageSpan;
 import android.text.style.StyleSpan;
+import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.SubMenu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ScrollView;
@@ -79,8 +84,6 @@ public class MainActivity extends AppCompatActivity {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM);
 
         setContentView(R.layout.activity_main);
-
-        //PPPEApplication.logE("MainActivity.onCreated", "xxx");
 
         if (getSupportActionBar() != null) {
             //getSupportActionBar().setHomeButtonEnabled(false);
@@ -152,25 +155,86 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    /*
+    @SuppressLint("AlwaysShowAction")
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         boolean ret = super.onPrepareOptionsMenu(menu);
 
         MenuItem menuItem;
 
-        menuItem = menu.findItem(R.id.menu_debug);
-        if (menuItem != null) {
-            menuItem.setVisible(DebugVersion.enabled);
-            menuItem.setEnabled(DebugVersion.enabled);
+        menuItem = menu.findItem(R.id.menu_support);
+        if (menuItem != null)
+        {
+            SubMenu subMenu = menuItem.getSubMenu();
+            if (subMenu != null) {
+                Drawable triangle = ContextCompat.getDrawable(this, R.drawable.ic_submenu_triangle);
+                if (triangle != null) {
+                    triangle.setTint(ContextCompat.getColor(this, R.color.activitySecondaryTextColor));
+                    SpannableString headerTitle = new SpannableString("    " + menuItem.getTitle());
+                    triangle.setBounds(0,
+                            sip(1),
+                            sip(10.5f),
+                            sip(8.5f));
+                    headerTitle.setSpan(new ImageSpan(triangle, ImageSpan.ALIGN_BASELINE), 0, 1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    //headerTitle.setSpan(new ImageSpan(this, R.drawable.ic_submenu_triangle, DynamicDrawableSpan.ALIGN_BASELINE), 0, 1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    subMenu.setHeaderTitle(headerTitle);
+                }
+            }
         }
+
+        if (DebugVersion.enabled) {
+            menuItem = menu.findItem(R.id.menu_debug);
+            if (menuItem != null) {
+                SubMenu subMenu = menuItem.getSubMenu();
+                if (subMenu != null) {
+                    Drawable triangle = ContextCompat.getDrawable(this, R.drawable.ic_submenu_triangle);
+                    if (triangle != null) {
+                        triangle.setTint(ContextCompat.getColor(this, R.color.activitySecondaryTextColor));
+                        SpannableString headerTitle = new SpannableString("    " + menuItem.getTitle());
+                        triangle.setBounds(0,
+                                sip(1),
+                                sip(10.5f),
+                                sip(8.5f));
+                        headerTitle.setSpan(new ImageSpan(triangle, ImageSpan.ALIGN_BASELINE), 0, 1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                        //headerTitle.setSpan(new ImageSpan(this, R.drawable.ic_submenu_triangle, DynamicDrawableSpan.ALIGN_BASELINE), 0, 1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                        subMenu.setHeaderTitle(headerTitle);
+                    }
+                }
+            }
+        }
+        menuItem = menu.findItem(R.id.menu_discord);
+        if (menuItem != null)
+        {
+            SubMenu subMenu = menuItem.getSubMenu();
+            if (subMenu != null) {
+                Drawable triangle = ContextCompat.getDrawable(this, R.drawable.ic_submenu_triangle);
+                if (triangle != null) {
+                    triangle.setTint(ContextCompat.getColor(this, R.color.activitySecondaryTextColor));
+                    SpannableString headerTitle = new SpannableString("    " + menuItem.getTitle());
+                    triangle.setBounds(0,
+                            sip(1),
+                            sip(10.5f),
+                            sip(8.5f));
+                    headerTitle.setSpan(new ImageSpan(triangle, ImageSpan.ALIGN_BASELINE), 0, 1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    //headerTitle.setSpan(new ImageSpan(this, R.drawable.ic_submenu_triangle, DynamicDrawableSpan.ALIGN_BASELINE), 0, 1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    subMenu.setHeaderTitle(headerTitle);
+                }
+            }
+        }
+
+        //onNextLayout(editorToolbar, this::showTargetHelps);
 
         return ret;
     }
-    */
+
+    int sip(float sp) {
+        return (int) (TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, sp, Resources.getSystem().getDisplayMetrics()));
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Intent intent;
+
         int itemId = item.getItemId();
         /*if (itemId == android.R.id.home) {
             finish();
@@ -181,139 +245,101 @@ public class MainActivity extends AppCompatActivity {
             ChooseLanguageDialog chooseLanguageDialog = new ChooseLanguageDialog(this);
             chooseLanguageDialog.show();
             return true;
-
-            /*
-            String storedLanguage = LocaleHelper.getLanguage(getApplicationContext());
-            String storedCountry = LocaleHelper.getCountry(getApplicationContext());
-            String storedScript = LocaleHelper.getScript(getApplicationContext());
-//            Log.e("MainActivity.onOptionsItemSelected", "storedLanguage="+storedLanguage);
-//            Log.e("MainActivity.onOptionsItemSelected", "storedCountry="+storedCountry);
-//            Log.e("MainActivity.onOptionsItemSelected", "storedScript="+storedScript);
-
-            final String[] languageValues = getResources().getStringArray(R.array.chooseLanguageValues);
-            ArrayList<Language> languages = new ArrayList<>();
-
-            for (String languageValue : languageValues) {
-                Language language = new Language();
-                if (languageValue.equals("[sys]")) {
-                    language.language = languageValue;
-                    language.country = "";
-                    language.script = "";
-                    language.name = getString(R.string.pppputsettings_menu_choose_language_system_language);
-                } else {
-                    String[] splits = languageValue.split("-");
-                    String sLanguage = splits[0];
-                    String country = "";
-                    if (splits.length >= 2)
-                        country = splits[1];
-                    String script = "";
-                    if (splits.length >= 3)
-                        script = splits[2];
-
-                    Locale loc = null;
-                    if (country.isEmpty() && script.isEmpty())
-                        loc = new Locale.Builder().setLanguage(sLanguage).build();
-                    if (!country.isEmpty() && script.isEmpty())
-                        loc = new Locale.Builder().setLanguage(sLanguage).setRegion(country).build();
-                    if (country.isEmpty() && !script.isEmpty())
-                        loc = new Locale.Builder().setLanguage(sLanguage).setScript(script).build();
-                    if (!country.isEmpty() && !script.isEmpty())
-                        loc = new Locale.Builder().setLanguage(sLanguage).setRegion(country).setScript(script).build();
-
-                    language.language = sLanguage;
-                    language.country = country;
-                    language.script = script;
-                    language.name = loc.getDisplayName(loc);
-                    language.name = language.name.substring(0, 1).toUpperCase(loc) + language.name.substring(1);
-                }
-                languages.add(language);
+        }
+        else
+        if (itemId == R.id.menu_email_to_author) {
+            intent = new Intent(Intent.ACTION_SENDTO);
+            intent.setData(Uri.parse(StringConstants.INTENT_DATA_MAIL_TO_COLON)); // only email apps should handle this
+            String[] email = {StringConstants.AUTHOR_EMAIL};
+            intent.putExtra(Intent.EXTRA_EMAIL, email);
+            String packageVersion = "";
+            try {
+                PackageInfo pInfo = getPackageManager().getPackageInfo(PPPPSApplication.PACKAGE_NAME, 0);
+                packageVersion = " - v" + pInfo.versionName + " (" + PPPPSApplication.getVersionCode(pInfo) + ")";
+            } catch (Exception e) {
+                PPPPSApplication.recordException(e);
             }
-
-            Collections.sort(languages, new LanguagesComparator());
-            //languages.sort(new LanguagesComparator());
-
-            final String[] languageNameChoices = new String[languages.size()];
-            for(int i = 0; i < languages.size(); i++) languageNameChoices[i] = languages.get(i).name;
-
-            for (int i = 0; i < languages.size(); i++) {
-                Language language = languages.get(i);
-                String sLanguage = language.language;
-                String country = language.country;
-                String script = language.script;
-
-                if (sLanguage.equals(storedLanguage) &&
-                        storedCountry.isEmpty() &&
-                        storedScript.isEmpty()) {
-                    selectedLanguage = i;
-                    break;
-                }
-                if (sLanguage.equals(storedLanguage) &&
-                        country.equals(storedCountry) &&
-                        storedScript.isEmpty()) {
-                    selectedLanguage = i;
-                    break;
-                }
-                if (sLanguage.equals(storedLanguage) &&
-                        storedCountry.isEmpty() &&
-                        script.equals(storedScript)) {
-                    selectedLanguage = i;
-                    break;
-                }
-                if (sLanguage.equals(storedLanguage) &&
-                        country.equals(storedCountry) &&
-                        script.equals(storedScript)) {
-                    selectedLanguage = i;
-                    break;
-                }
+            intent.putExtra(Intent.EXTRA_SUBJECT, StringConstants.PHONE_PROFILES_PLUS_PUT_SETTINGS + packageVersion + " - " + getString(R.string.pppputsettings_support_subject));
+            intent.putExtra(Intent.EXTRA_TEXT, getEmailBodyText());
+            try {
+                startActivity(Intent.createChooser(intent, getString(R.string.pppputsettings_email_chooser)));
+            } catch (Exception e) {
+                PPPPSApplication.recordException(e);
             }
-
-            //Log.e("MainActivity.onOptionsItemSelected", "defualt language="+Locale.getDefault().getDisplayLanguage());
-            // this is list of locales by order in system settings. Index 0 = default locale in system
-            //LocaleListCompat locales = ConfigurationCompat.getLocales(Resources.getSystem().getConfiguration());
-            //for (int i = 0; i < locales.size(); i++) {
-            //    Log.e("MainActivity.onOptionsItemSelected", "language="+locales.get(i).getDisplayLanguage());
-            //}
-
-            AlertDialog chooseLanguageDialog = new AlertDialog.Builder(this)
-                    .setTitle(R.string.pppputsettings_menu_choose_language)
-                    .setCancelable(true)
-                    .setNegativeButton(android.R.string.cancel, null)
-                    .setSingleChoiceItems(languageNameChoices, selectedLanguage, (dialog, which) -> {
-                        selectedLanguage = which;
-
-                        Language language = languages.get(selectedLanguage);
-                        defaultLanguage = language.language;
-                        defaultCountry = language.country;
-                        defaultScript = language.script;
-
-//                        Log.e("MainActivity.onOptionsItemSelected", "defaultLanguage="+defaultLanguage);
-//                        Log.e("MainActivity.onOptionsItemSelected", "defaultCountry="+defaultCountry);
-//                        Log.e("MainActivity.onOptionsItemSelected", "defaultScript="+defaultScript);
-
-                        LocaleHelper.setLocale(getApplicationContext(),
-                                defaultLanguage, defaultCountry, defaultScript, true);
-
-                        reloadActivity(this, false);
-                        dialog.dismiss();
-
-                        LocaleHelper.setApplicationLocale(getApplicationContext());
-                    })
-                    .create();
-
-//                    dialog.setOnShowListener(new DialogInterface.OnShowListener() {
-//                        @Override
-//                        public void onShow(DialogInterface dialog) {
-//                            Button positive = ((AlertDialog)dialog).getButton(DialogInterface.BUTTON_POSITIVE);
-//                            if (positive != null) positive.setAllCaps(false);
-//                            Button negative = ((AlertDialog)dialog).getButton(DialogInterface.BUTTON_NEGATIVE);
-//                            if (negative != null) negative.setAllCaps(false);
-//                        }
-//                    });
-
-            chooseLanguageDialog.show();
 
             return true;
-            */
+        }
+        else
+        if (itemId == R.id.menu_xda_developers) {
+            String url = PPPPSApplication.XDA_DEVELOPERS_PPP_URL;
+            intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(url));
+            try {
+                startActivity(Intent.createChooser(intent, getString(R.string.pppputsettings_web_browser_chooser)));
+            } catch (Exception e) {
+                PPPPSApplication.recordException(e);
+            }
+            return true;
+        }
+        else
+        if (itemId == R.id.menu_discord_server) {
+            String url = PPPPSApplication.DISCORD_SERVER_URL;
+            intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(url));
+            try {
+                startActivity(Intent.createChooser(intent, getString(R.string.pppputsettings_web_browser_chooser)));
+            } catch (Exception e) {
+                PPPPSApplication.recordException(e);
+            }
+            return true;
+        }
+        else
+        if (itemId == R.id.menu_discord_invitation) {
+            String url = PPPPSApplication.DISCORD_INVITATION_URL;
+            intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(url));
+            try {
+                startActivity(Intent.createChooser(intent, getString(R.string.pppputsettings_web_browser_chooser)));
+            } catch (Exception e) {
+                PPPPSApplication.recordException(e);
+            }
+            return true;
+        }
+        else
+        if (itemId == R.id.menu_twitter) {
+            String url = PPPPSApplication.TWITTER_URL;
+            intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(url));
+            try {
+                startActivity(Intent.createChooser(intent, getString(R.string.pppputsettings_web_browser_chooser)));
+            } catch (Exception e) {
+                PPPPSApplication.recordException(e);
+            }
+            return true;
+        }
+        else
+        if (itemId == R.id.menu_reddit) {
+            String url = PPPPSApplication.REDDIT_URL;
+            intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(url));
+            try {
+                startActivity(Intent.createChooser(intent, getString(R.string.pppputsettings_web_browser_chooser)));
+            } catch (Exception e) {
+                PPPPSApplication.recordException(e);
+            }
+            return true;
+        }
+        else
+        if (itemId == R.id.menu_bluesky) {
+            String url = PPPPSApplication.BLUESKY_URL;
+            intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(url));
+            try {
+                startActivity(Intent.createChooser(intent, getString(R.string.pppputsettings_web_browser_chooser)));
+            } catch (Exception e) {
+                PPPPSApplication.recordException(e);
+            }
+            return true;
         }
         else
         if (DebugVersion.debugMenuItems(itemId, this))
@@ -499,4 +525,14 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     */
+
+    String getEmailBodyText() {
+        String body;
+        body = getString(R.string.pppputsettings_acra_email_body_device) + " " +
+                Settings.Global.getString(getContentResolver(), "device_name") +
+                " (" + Build.MODEL + ")" + StringConstants.STR_NEWLINE_WITH_SPACE;
+        body = body + getString(R.string.pppputsettings_acra_email_body_android_version) + " " + Build.VERSION.RELEASE + StringConstants.STR_DOUBLE_NEWLINE_WITH_SPACE;
+        return body;
+    }
+
 }

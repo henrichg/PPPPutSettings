@@ -1,6 +1,6 @@
 ext.ppVersions = [
-    publishVersion: '1.0.8', // this must be >= as in PPP in PPApplication. VERSION_NAME_PPPPS_LATEST
-    publishVersionCode: 65,  // this must be >= as in PPP in PPApplication. VERSION_CODE_PPPPS_LATEST
+    publishVersion: '1.0.9', // this must be >= as in PPP in PPApplication.VERSION_NAME_PPPPS_LATEST
+    publishVersionCode: 70,  // this must be >= as in PPP in PPApplication.VERSION_CODE_PPPPS_LATEST
 
     minSdk: 22,
 
@@ -11,7 +11,8 @@ ext.ppVersions = [
     compileSdk: 34,
     buildTools: '34.0.0',
 
-    appcompatXLib: '1.6.1', //'1.5.1',
+    appcompatXLib     : '1.7.0', //'1.6.1', //'1.5.1',
+    kotlinStdlibJdk8  : '1.8.22', // appcompat 1.7.0 - dependencies problem, this fixed it
 
     autoservice       : '1.1.1',
     acra              : '5.11.3'//'5.11.2'

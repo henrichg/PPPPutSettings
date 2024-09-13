@@ -3,6 +3,7 @@ package sk.henrichg.pppputsettings;
 class StringConstants {
     static final String PHONE_PROFILES_PLUS_PUT_SETTINGS = "PPPPutSettings";
     static final String AUTHOR_EMAIL = "henrich.gron@gmail.com";
+    static final String INTENT_DATA_MAIL_TO_COLON = "mailto:";
 
     static final String CHAR_HARD_SPACE = "\u00A0";
     //static final String CHAR_HARD_SPACE_HTML = "&nbsp;";
