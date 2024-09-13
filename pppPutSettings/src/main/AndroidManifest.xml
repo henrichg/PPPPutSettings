@@ -65,6 +65,18 @@
             android:exported="true"
             android:launchMode="singleInstance"
             android:permission="sk.henrichg.pppputsettings.PPP_PUT_SETTINGS_PERMISSION">
+<!--            <intent-filter>-->
+<!--                <action android:name="sk.henrichg.pppputsettings.PUT_SETTING"/>-->
+<!--                <category android:name="android.intent.category.DEFAULT"/>-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".PutSettingsParameterActivityWithAction"
+            android:excludeFromRecents="true"
+            android:label=""
+            android:theme="@style/EmptyAppCompatActivity"
+            android:exported="true"
+            android:permission="sk.henrichg.pppputsettings.PPP_PUT_SETTINGS_PERMISSION">
             <intent-filter>
                 <action android:name="sk.henrichg.pppputsettings.PUT_SETTING"/>
                 <category android:name="android.intent.category.DEFAULT"/>
