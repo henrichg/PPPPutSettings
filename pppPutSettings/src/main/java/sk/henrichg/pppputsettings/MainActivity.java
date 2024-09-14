@@ -98,9 +98,11 @@ public class MainActivity extends AppCompatActivity {
         TextView text = findViewById(R.id.activity_main_application_version);
         try {
             PackageInfo pInfo = getPackageManager().getPackageInfo(getPackageName(), 0);
+            //noinspection DataFlowIssue
             text.setText(getString(R.string.pppputsettings_about_application_version) + " " + pInfo.versionName +
                                         " (" + PackageInfoCompat.getLongVersionCode(pInfo) + ")");
         } catch (Exception e) {
+            //noinspection DataFlowIssue
             text.setText("");
         }
 
@@ -128,6 +130,7 @@ public class MainActivity extends AppCompatActivity {
         };
         sbt.setSpan(clickableSpan, str1.length()+1, str2.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         //sbt.setSpan(new UnderlineSpan(), str1.length()+1, str2.length(), 0);
+        //noinspection DataFlowIssue
         text.setText(sbt);
         text.setMovementMethod(LinkMovementMethod.getInstance());
 
@@ -361,6 +364,7 @@ public class MainActivity extends AppCompatActivity {
             if (viewToScroll != null) {
                 new Handler(Looper.getMainLooper()).postDelayed(() -> {
 //                        PPApplication.logE("[IN_THREAD_HANDLER] PPApplication.startHandlerThread", "START run - from=ImportantInfoHelpFragment.onViewCreated (2)");
+                    //noinspection DataFlowIssue
                     scrollView.scrollTo(0, viewToScroll.getTop());
                 }, 200);
 
@@ -426,9 +430,11 @@ public class MainActivity extends AppCompatActivity {
             //sbt = new SpannableString(str2);
             //sbt.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), str1.length() + 1, str2.length(), 0);
             //text.setText(sbt);
+            //noinspection DataFlowIssue
             text.setText(str1);
 
             Button writeSettingsButton = findViewById(R.id.activity_main_write_settings_button);
+            //noinspection DataFlowIssue
             writeSettingsButton.setOnClickListener(view -> {
                 Intent intent = new Intent("android.settings.action.MANAGE_WRITE_SETTINGS");
                 intent.setData(Uri.parse(PPPPSApplication.INTENT_DATA_PACKAGE + "sk.henrichg.pppputsettings"));
@@ -447,13 +453,16 @@ public class MainActivity extends AppCompatActivity {
 
             text = findViewById(R.id.activity_main_write_settings_status);
             if (Settings.System.canWrite(getApplicationContext())) {
+                //noinspection DataFlowIssue
                 text.setTextColor(ContextCompat.getColor(this, R.color.activityNormalTextColor));
                 text.setText("[ " + getString(R.string.pppputsettings_modify_system_settings_granted) + " ]");
             }
             else {
                 if (scrollTo == R.id.activity_main_write_settings_status)
+                    //noinspection DataFlowIssue
                     text.setTextColor(ContextCompat.getColor(this, R.color.error_color));
                 else
+                    //noinspection DataFlowIssue
                     text.setTextColor(ContextCompat.getColor(this, R.color.activityNormalTextColor));
                 text.setText("[ " + getString(R.string.pppputsettings_modify_system_settings_not_granted) + " ]");
             }
