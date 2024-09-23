@@ -30,4 +30,8 @@
 <!--    <color name="notification_color">#3F8353</color>-->
     <color name="error_color">#EB0000</color>
 
+    <color name="ppppsColor000">#000</color>
+    <color name="ppppsColorBlack">#000000</color>
+    <color name="ppppsColorTransparent">#00000000</color>
+
 </resources>
