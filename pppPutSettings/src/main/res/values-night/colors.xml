@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <!--    <color name="primary">#1B1B1B</color>-->
-    <color name="primary">#0b160b</color>
 <!--    <color name="primaryDark">#1B1B1B</color>-->
-    <color name="primaryDark">#0b160b</color>
+<!--    <color name="primary">#0b160b</color>-->
+<!--    <color name="primaryDark">#0b160b</color>-->
+    <color name="primary">#131713</color>
+    <color name="primaryDark">#131713</color>
+
     <color name="accent">#64B47F</color>
     <!--<color name="accent_disabled">#70E99B7F</color>-->
     <color name="navigationBar">#000000</color>
 
 <!--    <color name="activityBackgroundColor">#1B1B1B</color>-->
-    <color name="activityBackgroundColor">#0b160b</color>
+    <color name="activityBackgroundColor">#131713</color>
 
     <color name="activityNormalTextColor">#efefef</color>
     <color name="activitySecondaryTextColor">#C9C9C9</color>
@@ -22,15 +25,16 @@
     <color name="noRippleRectangeleItemBackgroundColor">#4e6d52</color>
 
 <!--    <color name="activityPopupMenuBackgroundColor">#151515</color>-->
-    <color name="activityPopupMenuBackgroundColor">#041204</color>
-    <!--    <color name="activityPopupMenuClickedItemBackgroundColor">#37ffffff</color>-->
+<!--    <color name="activityPopupMenuBackgroundColor">#041204</color>-->
+    <color name="activityPopupMenuBackgroundColor">#0e130e</color>
+<!--    <color name="activityPopupMenuClickedItemBackgroundColor">#37ffffff</color>-->
 <!--    <color name="popupMenuBorderColor">#3f3f3f</color>-->
     <color name="popupMenuBorderColor">#2a382b</color>
 
 <!--    <color name="buttonBorderColor">#656565</color>-->
     <color name="buttonBorderColor">#304231</color>
 <!--    <color name="buttonBackgroundColor">#151515</color>-->
-    <color name="buttonBackgroundColor">#041204</color>
+    <color name="buttonBackgroundColor">#0e130e</color>
 <!--    <color name="buttonClickedBackgroundColor">#303030</color>-->
     <color name="buttonClickedBackgroundColor">#2d3d2f</color>
 
