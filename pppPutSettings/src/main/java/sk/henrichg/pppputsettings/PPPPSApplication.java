@@ -311,7 +311,7 @@ public class PPPPSApplication extends Application {
                         .withResSendButtonIcon(0)
                         .withResDiscardButtonIcon(0)
                         .withSendOnClick(true)
-                        .withColor(ContextCompat.getColor(base, R.color.error_color))
+                        .withColor(ContextCompat.getColor(base, R.color.errorColor))
                         .withEnabled(true)
                         .build(),
                 new MailSenderConfigurationBuilder()
