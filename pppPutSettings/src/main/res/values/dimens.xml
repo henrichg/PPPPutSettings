@@ -18,6 +18,8 @@
 
     <dimen name="popup_window_corner_radius">10dp</dimen>
 
+    <dimen name="icon_selector_radius">50dp</dimen>
+
     <dimen name="alert_dialog_top_padding">10dp</dimen>
 
     <dimen name="chackBox_radioButton_spacing_for_list_items">10dp</dimen>

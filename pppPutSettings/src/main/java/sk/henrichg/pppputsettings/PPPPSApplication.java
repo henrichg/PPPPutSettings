@@ -21,12 +21,10 @@ import org.acra.config.MailSenderConfigurationBuilder;
 import org.acra.config.NotificationConfigurationBuilder;
 import org.acra.data.StringFormat;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.text.Collator;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -61,9 +59,9 @@ public class PPPPSApplication extends Application {
 //                                                + "|PutSettingReceiver"
             ;
 
-    static final boolean deviceIsXiaomi = isXiaomi();
-    static final boolean deviceIsOnePlus = isOnePlus();
-    static final boolean romIsMIUI = isMIUIROM();
+//    static final boolean deviceIsXiaomi = isXiaomi();
+//    static final boolean deviceIsOnePlus = isOnePlus();
+//    static final boolean romIsMIUI = isMIUIROM();
 
     // for new log.txt and crash.txt is in /Android/data/sk.henrichg.phoneprofilesplusextender/files
     //public static final String EXPORT_PATH = "/PhoneProfilesPlusExtender";
@@ -344,6 +342,7 @@ public class PPPPSApplication extends Application {
 
     //--------------------------------------------------------------
 
+    /*
     private static boolean isXiaomi() {
         final String XIOMI = "xiaomi";
         return Build.BRAND.equalsIgnoreCase(XIOMI) ||
@@ -395,6 +394,7 @@ public class PPPPSApplication extends Application {
 
         return miuiRom1 || miuiRom2 || miuiRom3;
     }
+    */
 
     static void createBasicExecutorPool() {
         if (PPPPSApplication.basicExecutorPool == null)

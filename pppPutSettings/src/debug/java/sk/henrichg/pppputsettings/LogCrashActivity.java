@@ -36,9 +36,9 @@ public class LogCrashActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        if (PPPPSApplication.deviceIsOnePlus)
-            setTheme(R.style.AppTheme_noRipple);
-        else
+        //if (PPPPSApplication.deviceIsOnePlus)
+        //    setTheme(R.style.AppTheme_noRipple);
+        //else
             setTheme(R.style.AppTheme);
 
         super.onCreate(savedInstanceState);
