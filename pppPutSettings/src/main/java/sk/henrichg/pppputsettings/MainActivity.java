@@ -423,6 +423,10 @@ public class MainActivity extends AppCompatActivity {
 
             text = findViewById(R.id.activity_main_permission_write_settings);
             str1 = StringConstants.CHAR_BULLET + "  " + getString(R.string.pppputsettings_permissions_write_settings);
+            SpannableString sbt = new SpannableString(str1);
+            sbt.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), 0, 1, 0);
+            //noinspection DataFlowIssue
+            text.setText(sbt);
             //if (Permissions.checkSMSMMSPermissions(activity))
             //    str2 = str1 + " [ " + getString(R.string.extender_permissions_granted) + " ]";
             //else
@@ -430,8 +434,6 @@ public class MainActivity extends AppCompatActivity {
             //sbt = new SpannableString(str2);
             //sbt.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), str1.length() + 1, str2.length(), 0);
             //text.setText(sbt);
-            //noinspection DataFlowIssue
-            text.setText(str1);
 
             Button writeSettingsButton = findViewById(R.id.activity_main_write_settings_button);
             //noinspection DataFlowIssue
