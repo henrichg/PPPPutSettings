@@ -422,7 +422,7 @@ public class MainActivity extends AppCompatActivity {
             String str1;
 
             text = findViewById(R.id.activity_main_permission_write_settings);
-            str1 = getString(R.string.pppputsettings_permissions_write_settings);
+            str1 = StringConstants.CHAR_BULLET + "  " + getString(R.string.pppputsettings_permissions_write_settings);
             //if (Permissions.checkSMSMMSPermissions(activity))
             //    str2 = str1 + " [ " + getString(R.string.extender_permissions_granted) + " ]";
             //else
