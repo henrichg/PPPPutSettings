@@ -89,7 +89,7 @@
             android:id="@+id/activity_main_write_settings_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="40dp"
+            android:minHeight="45dp"
             android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
             android:text="@string/pppputsettings_app_name_write_settings_button"
