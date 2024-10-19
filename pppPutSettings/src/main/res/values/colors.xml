@@ -16,7 +16,7 @@
 
     <color name="activityPopupAndMenuBackgroundColor">#F7F7F7</color>
 <!--    <color name="activityPopupMenuClickedItemBackgroundColor">#17000000</color>-->
-    <color name="popupAndMenuBorderColor">#CCCCCC</color>
+    <color name="popupAndMenuBorderColor">#73c78c</color>
 
     <color name="buttonBorderColor">#73c78c</color>
 <!--    <color name="buttonBackgroundColor">#dcfae5</color>-->
@@ -24,7 +24,7 @@
     <color name="buttonClickedBackgroundColor">#bfebcc</color>
 
     <color name="dialogDividerColor">#73c78c</color>
-    <color name="dialogBorderColor">#CCCCCC</color>
+    <color name="dialogBorderColor">#9bc6a8</color>
 
     <color name="scrollbarColor">#73c78c</color>
 
