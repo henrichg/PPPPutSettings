@@ -31,5 +31,5 @@
     <string name="pppputsettings_support_subject">поддержка</string>
     <string name="pppputsettings_menu_email_to_author">Отправить письмо автору</string>
     <string name="pppputsettings_menu_discord_server">Сервер PhoneProfilesPlus</string>
-    <string name="pppputsettings_menu_discord_invitation">Приглашение на сервер PhoneProfilesPlus</string>
+    <string name="pppputsettings_menu_discord_invitation">Приглашение на сервер</string>
 </resources>
