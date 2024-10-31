@@ -77,7 +77,7 @@ _*** Please help me with translation, thank you: <https://crowdin.com/project/ph
 - From Android 5.1
 - minSdkVersion = 22
 - targetSdkVersion = 22
-- compiledSdkVersion = 34
+- compiledSdkVersion = 35
 
 ##### Required external libs - open-source
 
