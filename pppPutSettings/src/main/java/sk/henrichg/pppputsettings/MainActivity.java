@@ -65,18 +65,18 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        int miuiVersion = -1;
-        if (PPPPSApplication.deviceIsXiaomi && PPPPSApplication.romIsMIUI) {
-            String[] splits = Build.VERSION.INCREMENTAL.split("\\.");
-            miuiVersion = Integer.parseInt(splits[0].substring(1));
-        }
+//        int miuiVersion = -1;
+//        if (PPPPSApplication.deviceIsXiaomi && PPPPSApplication.romIsMIUI) {
+//            String[] splits = Build.VERSION.INCREMENTAL.split("\\.");
+//            miuiVersion = Integer.parseInt(splits[0].substring(1));
+//        }
 
-        if (PPPPSApplication.deviceIsOnePlus)
-            setTheme(R.style.AppTheme_noRipple);
-        else
-        if (PPPPSApplication.deviceIsXiaomi && PPPPSApplication.romIsMIUI && miuiVersion >= 14)
-            setTheme(R.style.AppTheme_noRipple);
-        else
+        //if (PPPPSApplication.deviceIsOnePlus)
+        //    setTheme(R.style.AppTheme_noRipple);
+        //else
+        //if (PPPPSApplication.deviceIsXiaomi && PPPPSApplication.romIsMIUI && miuiVersion >= 14)
+        //    setTheme(R.style.AppTheme_noRipple);
+        //else
             setTheme(R.style.AppTheme);
 
         super.onCreate(savedInstanceState);
@@ -98,9 +98,11 @@ public class MainActivity extends AppCompatActivity {
         TextView text = findViewById(R.id.activity_main_application_version);
         try {
             PackageInfo pInfo = getPackageManager().getPackageInfo(getPackageName(), 0);
+            //noinspection DataFlowIssue
             text.setText(getString(R.string.pppputsettings_about_application_version) + " " + pInfo.versionName +
                                         " (" + PackageInfoCompat.getLongVersionCode(pInfo) + ")");
         } catch (Exception e) {
+            //noinspection DataFlowIssue
             text.setText("");
         }
 
@@ -128,6 +130,7 @@ public class MainActivity extends AppCompatActivity {
         };
         sbt.setSpan(clickableSpan, str1.length()+1, str2.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         //sbt.setSpan(new UnderlineSpan(), str1.length()+1, str2.length(), 0);
+        //noinspection DataFlowIssue
         text.setText(sbt);
         text.setMovementMethod(LinkMovementMethod.getInstance());
 
@@ -361,6 +364,7 @@ public class MainActivity extends AppCompatActivity {
             if (viewToScroll != null) {
                 new Handler(Looper.getMainLooper()).postDelayed(() -> {
 //                        PPApplication.logE("[IN_THREAD_HANDLER] PPApplication.startHandlerThread", "START run - from=ImportantInfoHelpFragment.onViewCreated (2)");
+                    //noinspection DataFlowIssue
                     scrollView.scrollTo(0, viewToScroll.getTop());
                 }, 200);
 
@@ -418,7 +422,11 @@ public class MainActivity extends AppCompatActivity {
             String str1;
 
             text = findViewById(R.id.activity_main_permission_write_settings);
-            str1 = getString(R.string.pppputsettings_permissions_write_settings);
+            str1 = StringConstants.CHAR_BULLET + "  " + getString(R.string.pppputsettings_permissions_write_settings);
+            SpannableString sbt = new SpannableString(str1);
+            sbt.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), 0, 1, 0);
+            //noinspection DataFlowIssue
+            text.setText(sbt);
             //if (Permissions.checkSMSMMSPermissions(activity))
             //    str2 = str1 + " [ " + getString(R.string.extender_permissions_granted) + " ]";
             //else
@@ -426,9 +434,9 @@ public class MainActivity extends AppCompatActivity {
             //sbt = new SpannableString(str2);
             //sbt.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), str1.length() + 1, str2.length(), 0);
             //text.setText(sbt);
-            text.setText(str1);
 
             Button writeSettingsButton = findViewById(R.id.activity_main_write_settings_button);
+            //noinspection DataFlowIssue
             writeSettingsButton.setOnClickListener(view -> {
                 Intent intent = new Intent("android.settings.action.MANAGE_WRITE_SETTINGS");
                 intent.setData(Uri.parse(PPPPSApplication.INTENT_DATA_PACKAGE + "sk.henrichg.pppputsettings"));
@@ -447,13 +455,16 @@ public class MainActivity extends AppCompatActivity {
 
             text = findViewById(R.id.activity_main_write_settings_status);
             if (Settings.System.canWrite(getApplicationContext())) {
+                //noinspection DataFlowIssue
                 text.setTextColor(ContextCompat.getColor(this, R.color.activityNormalTextColor));
                 text.setText("[ " + getString(R.string.pppputsettings_modify_system_settings_granted) + " ]");
             }
             else {
                 if (scrollTo == R.id.activity_main_write_settings_status)
-                    text.setTextColor(ContextCompat.getColor(this, R.color.error_color));
+                    //noinspection DataFlowIssue
+                    text.setTextColor(ContextCompat.getColor(this, R.color.errorColor));
                 else
+                    //noinspection DataFlowIssue
                     text.setTextColor(ContextCompat.getColor(this, R.color.activityNormalTextColor));
                 text.setText("[ " + getString(R.string.pppputsettings_modify_system_settings_not_granted) + " ]");
             }

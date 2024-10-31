@@ -60,6 +60,7 @@ class ChooseLanguageDialog
         listView = layout.findViewById(R.id.choose_language_dlg_listview);
         help = layout.findViewById(R.id.choose_language_dlg_help);
 
+        //noinspection DataFlowIssue
         listView.setOnItemClickListener((parent, item, position, id) -> {
             ChooseLanguageViewHolder viewHolder = (ChooseLanguageViewHolder) item.getTag();
             if (viewHolder != null)
@@ -93,6 +94,7 @@ class ChooseLanguageDialog
         };
         sbt.setSpan(clickableSpan, str1.length()+1, str2.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         //sbt.setSpan(new UnderlineSpan(), str1.length()+1, str2.length(), 0);
+        //noinspection DataFlowIssue
         help.setText(sbt);
         help.setMovementMethod(LinkMovementMethod.getInstance());
 

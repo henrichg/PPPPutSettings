@@ -6,7 +6,7 @@
 PPPPutSettings (PPPPS)
 ====================================
 
-[![version](https://img.shields.io/badge/version-1.0.9-blue)](https://github.com/henrichg/PPPPutSettings/releases/tag/1.0.9)
+[![version](https://img.shields.io/badge/version-2.0-blue)](https://github.com/henrichg/PPPPutSettings/releases/tag/2.0)
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 [![License](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/henrichg/PPPPutSettings/blob/master/LICENSE)
 [![Crowdin](https://badges.crowdin.net/phoneprofilesplus/localized.svg)](https://crowdin.com/project/phoneprofilesplus)\
@@ -77,7 +77,7 @@ _*** Please help me with translation, thank you: <https://crowdin.com/project/ph
 - From Android 5.1
 - minSdkVersion = 22
 - targetSdkVersion = 22
-- compiledSdkVersion = 34
+- compiledSdkVersion = 35
 
 ##### Required external libs - open-source
 

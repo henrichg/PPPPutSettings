@@ -9,25 +9,30 @@
     <color name="activityBackgroundColor">#FFFFFF</color>
     <color name="activityNormalTextColor">#000000</color>
     <color name="activitySecondaryTextColor">#303030</color>
-    <color name="activityDisabledTextColor">#C0C0C0</color>
+    <color name="activityDisabledTextColor">#B0B0B0</color>
 
-    <color name="rippleRectangeleItemBackgroundColor">#BFBFBF</color>
-    <color name="noRippleRectangeleItemBackgroundColor">#DFDFDF</color>
+    <color name="rippleRectangeleItemBackgroundColor">#9dc9aa</color>
+<!--    <color name="noRippleRectangeleItemBackgroundColor">#DFDFDF</color>-->
 
-    <color name="activityPopupMenuBackgroundColor">#F7F7F7</color>
+    <color name="activityPopupAndMenuBackgroundColor">#F7F7F7</color>
 <!--    <color name="activityPopupMenuClickedItemBackgroundColor">#17000000</color>-->
-    <color name="popupMenuBorderColor">#CCCCCC</color>
+    <color name="popupAndMenuBorderColor">#73c78c</color>
 
-    <color name="buttonBorderColor">#AAAAAA</color>
-    <color name="buttonBackgroundColor">#FAFAFA</color>
-    <color name="buttonClickedBackgroundColor">#DADADA</color>
+    <color name="buttonBorderColor">#73c78c</color>
+<!--    <color name="buttonBackgroundColor">#dcfae5</color>-->
+    <color name="buttonBackgroundColor">#FFFFFF</color>
+    <color name="buttonClickedBackgroundColor">#bfebcc</color>
 
-    <color name="dialog_divider">#CCCCCC</color>
-    <color name="dialogBorderColor">#CCCCCC</color>
+    <color name="dialogDividerColor">#73c78c</color>
+    <color name="dialogBorderColor">#9bc6a8</color>
 
-    <color name="scrollbar_color">#C8C8C8</color>
+    <color name="scrollbarColor">#73c78c</color>
 
 <!--    <color name="notification_color">#3F8353</color>-->
-    <color name="error_color">#EB0000</color>
+    <color name="errorColor">#EB0000</color>
+
+    <color name="ppppsColor000">#000</color>
+    <color name="ppppsColorBlack">#000000</color>
+    <color name="ppppsColorTransparent">#00000000</color>
 
 </resources>
