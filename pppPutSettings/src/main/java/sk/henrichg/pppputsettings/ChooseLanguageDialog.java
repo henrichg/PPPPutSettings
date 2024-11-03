@@ -48,17 +48,16 @@ class ChooseLanguageDialog
 
         mDialog = dialogBuilder.create();
 
-        mDialog.setOnShowListener(dialog -> {
+        listView = layout.findViewById(R.id.choose_language_dlg_listview);
+        /*mDialog.setOnShowListener(dialog -> {
 //                Button positive = ((AlertDialog)dialog).getButton(DialogInterface.BUTTON_POSITIVE);
 //                if (positive != null) positive.setAllCaps(false);
 //                Button negative = ((AlertDialog)dialog).getButton(DialogInterface.BUTTON_NEGATIVE);
 //                if (negative != null) negative.setAllCaps(false);
 
             doShow();
-        });
-
-        listView = layout.findViewById(R.id.choose_language_dlg_listview);
-        help = layout.findViewById(R.id.choose_language_dlg_help);
+        });*/
+        doShow();
 
         //noinspection DataFlowIssue
         listView.setOnItemClickListener((parent, item, position, id) -> {
@@ -94,6 +93,8 @@ class ChooseLanguageDialog
         };
         sbt.setSpan(clickableSpan, str1.length()+1, str2.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         //sbt.setSpan(new UnderlineSpan(), str1.length()+1, str2.length(), 0);
+
+        help = layout.findViewById(R.id.choose_language_dlg_help);
         //noinspection DataFlowIssue
         help.setText(sbt);
         help.setMovementMethod(LinkMovementMethod.getInstance());
