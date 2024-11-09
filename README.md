@@ -42,7 +42,7 @@ __F-Droid:__
   &nbsp;&nbsp;&nbsp;_[How to add IzzyOnDroid repository to F-Droid application](https://apt.izzysoft.de/fdroid/index/info)_
 - [Store application (download)](https://www.f-droid.org/)
 
-__When the dialog "Unsafe app blocked" from Google Play Protect appears during installation, click at bottom, text "More details" and in it at bottom, text "Install anyway".__
+When the dialog "Unsafe app blocked" from Google Play Protect appears during installation, click at bottom, text "More details" and in it at bottom, text "Install anyway".
 
 __GitHub:__
 - [PPPPS release (direct download)](https://github.com/henrichg/PPPPutSettings/releases/latest/download/PPPPutSettings.apk)
@@ -51,7 +51,7 @@ __GitHub:__
 __How to install PPPPutSettings (for Android 14+)__
 - [How to install](docs/install_apk_in_device.md)
 
-__If is not possible to install PPPPutSettings from the downloaded apk file directly on your device, you can install it from your computer.__
+If is not possible to install PPPPutSettings from the downloaded apk file directly on your device, you can install it from your computer.
 - [How to install](docs/install_apk_from_pc.md)
 
 ---
