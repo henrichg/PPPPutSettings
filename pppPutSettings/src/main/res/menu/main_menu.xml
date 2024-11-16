@@ -55,10 +55,10 @@
                 android:title="@string/pppputsettings_menu_xda_developers"
                 android:orderInCategory="104"
                 app:showAsAction="never" />
-            <item android:id="@+id/menu_twitter"
-                android:title="@string/pppputsettings_menu_twitter"
-                android:orderInCategory="105"
-                app:showAsAction="never" />
+<!--            <item android:id="@+id/menu_twitter"-->
+<!--                android:title="@string/pppputsettings_menu_twitter"-->
+<!--                android:orderInCategory="105"-->
+<!--                app:showAsAction="never" />-->
             <item android:id="@+id/menu_reddit"
                 android:title="@string/pppputsettings_menu_reddit"
                 android:orderInCategory="106"

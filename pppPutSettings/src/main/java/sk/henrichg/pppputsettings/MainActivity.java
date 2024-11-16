@@ -308,18 +308,18 @@ public class MainActivity extends AppCompatActivity {
             }
             return true;
         }
-        else
-        if (itemId == R.id.menu_twitter) {
-            String url = PPPPSApplication.TWITTER_URL;
-            intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse(url));
-            try {
-                startActivity(Intent.createChooser(intent, getString(R.string.pppputsettings_web_browser_chooser)));
-            } catch (Exception e) {
-                PPPPSApplication.recordException(e);
-            }
-            return true;
-        }
+//        else
+//        if (itemId == R.id.menu_twitter) {
+//            String url = PPPPSApplication.TWITTER_URL;
+//            intent = new Intent(Intent.ACTION_VIEW);
+//            intent.setData(Uri.parse(url));
+//            try {
+//                startActivity(Intent.createChooser(intent, getString(R.string.pppputsettings_web_browser_chooser)));
+//            } catch (Exception e) {
+//                PPPPSApplication.recordException(e);
+//            }
+//            return true;
+//        }
         else
         if (itemId == R.id.menu_reddit) {
             String url = PPPPSApplication.REDDIT_URL;
