@@ -93,6 +93,7 @@ public class PPPPSApplication extends Application {
     static final String BLUESKY_URL = "https://bsky.app/profile/henrichg.bsky.social";
     static final String DISCORD_SERVER_URL = "https://discord.com/channels/1258733423426670633/1258733424504737936";
     static final String DISCORD_INVITATION_URL = "https://discord.gg/Yb5hgAstQ3";
+    static final String MASTODON_URL = "https://mastodon.social/@henrichg";
 
     @Override
     public void onCreate() {
