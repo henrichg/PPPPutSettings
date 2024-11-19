@@ -88,7 +88,7 @@ public class PPPPSApplication extends Application {
     //static final String EXTRA_PKG_NAME = "extra_pkgname";
 
     static final String XDA_DEVELOPERS_PPP_URL = "https://forum.xda-developers.com/t/phoneprofilesplus.3799429/";
-    static final String TWITTER_URL = "https://x.com/henrichg";
+    //static final String TWITTER_URL = "https://x.com/henrichg";
     static final String REDDIT_URL = "https://www.reddit.com/user/henrichg/";
     static final String BLUESKY_URL = "https://bsky.app/profile/henrichg.bsky.social";
     static final String DISCORD_SERVER_URL = "https://discord.com/channels/1258733423426670633/1258733424504737936";
@@ -311,6 +311,7 @@ public class PPPPSApplication extends Application {
                         .withResDiscardButtonIcon(0)
                         .withSendOnClick(true)
                         .withColor(ContextCompat.getColor(base, R.color.errorColor))
+                        .withChannelId(EXCLAMATION_NOTIFICATION_CHANNEL)
                         .withEnabled(true)
                         .build(),
                 new MailSenderConfigurationBuilder()
