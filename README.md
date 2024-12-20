@@ -6,7 +6,7 @@
 PPPPutSettings (PPPPS)
 ====================================
 
-[![version](https://img.shields.io/badge/version-2.0-blue)](https://github.com/henrichg/PPPPutSettings/releases/tag/2.0)
+[![version](https://img.shields.io/badge/version-2.0.1-blue)](https://github.com/henrichg/PPPPutSettings/releases/tag/2.0.1)
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 [![License](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/henrichg/PPPPutSettings/blob/master/LICENSE)
 [![Crowdin](https://badges.crowdin.net/phoneprofilesplus/localized.svg)](https://crowdin.com/project/phoneprofilesplus)\
@@ -17,8 +17,8 @@ PPPPutSettings (PPPPS)
 [![Reddit](https://img.shields.io/badge/Reddit-FF4500?logo=reddit&logoColor=white&label=u/henrichg)](https://www.reddit.com/user/henrichg/)
 [![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?logo=bluesky&logoColor=fff&label=@henrichg)](https://bsky.app/profile/henrichg.bsky.social)
 [![Mastodon](https://img.shields.io/badge/Mastodon-6364FF?logo=Mastodon&logoColor=white&label=@henrichg)](https://mastodon.social/@henrichg)\
-Discord PPP server invitation: https://discord.gg/Yb5hgAstQ3
-
+Discord PPP server invitation: https://discord.gg/Yb5hgAstQ3 \
+\
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AF5QK49DMAL2U&currency_code=EUR)
 
 __Install PPPPutSettings directly from PhoneProfilesPlus. But it is also possible to install it from an external source. If installing from PhoneProfilesPlus does not work, use external source. External sources are described below.__\
@@ -43,7 +43,7 @@ __F-Droid:__
   &nbsp;&nbsp;&nbsp;_[How to add IzzyOnDroid repository to F-Droid application](https://apt.izzysoft.de/fdroid/index/info)_
 - [Store application (download)](https://www.f-droid.org/)
 
-__When the dialog "Unsafe app blocked" from Google Play Protect appears during installation, click at bottom, text "More details" and in it at bottom, text "Install anyway".__
+When the dialog "Unsafe app blocked" from Google Play Protect appears during installation, click at bottom, text "More details" and in it at bottom, text "Install anyway".
 
 __GitHub:__
 - [PPPPS release (direct download)](https://github.com/henrichg/PPPPutSettings/releases/latest/download/PPPPutSettings.apk)
@@ -52,7 +52,7 @@ __GitHub:__
 __How to install PPPPutSettings (for Android 14+)__
 - [How to install](docs/install_apk_in_device.md)
 
-__If is not possible to install PPPPutSettings from the downloaded apk file directly on your device, you can install it from your computer.__
+If is not possible to install PPPPutSettings from the downloaded apk file directly on your device, you can install it from your computer.
 - [How to install](docs/install_apk_from_pc.md)
 
 ---
