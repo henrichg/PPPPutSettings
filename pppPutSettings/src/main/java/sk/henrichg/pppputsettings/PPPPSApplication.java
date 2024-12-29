@@ -443,7 +443,7 @@ public class PPPPSApplication extends Application {
 
             File logFile = new File(path, LOG_FILENAME);
 
-            if (logFile.length() > 1024 * 10000)
+            if (logFile.length() > 1024 * 100000)
                 resetLog();
 
             if (!logFile.exists())
