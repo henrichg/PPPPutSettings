@@ -30,4 +30,9 @@
     <dimen name="chackBox_radioButton_spacing_for_list_items">10dp</dimen>
 
     <dimen name="line_spacing_extra">2dp</dimen>
+
+    <dimen name="single_selection_title_text_size">17sp</dimen>
+    <dimen name="single_selection_subtitle_text_size">16dp</dimen>
+    <dimen name="single_selection_title_paddingTop">15dp</dimen>
+
 </resources>
