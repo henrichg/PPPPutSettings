@@ -2,6 +2,14 @@ apply plugin: 'com.android.application'
 apply from: '../dependencies.gradle'
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('/home/henrichg/Projekty/AndroidStudio/AndroidReleases/henrichg.keystore')
+            storePassword 'H3nr1sk0Gr0n6220'
+            keyAlias 'henrichg'
+            keyPassword 'H3nr1sk0Gr0n6220'
+        }
+    }
     namespace 'sk.henrichg.pppputsettings'
 
     compileSdkVersion ppVersions.compileSdk
@@ -22,8 +30,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 
     buildTypes {
@@ -67,7 +75,7 @@ android {
 }
 
 dependencies {
-    implementation "com.google.guava:guava:33.2.1-android" //33.0.0-android"
+    implementation 'com.google.guava:guava:33.4.0-android' //33.3.1-android"
     implementation "ch.acra:acra-mail:$ppVersions.acra"
     implementation "ch.acra:acra-notification:$ppVersions.acra"
 
@@ -86,11 +94,13 @@ dependencies {
     implementation "androidx.appcompat:appcompat:$ppVersions.appcompatXLib"
     implementation "androidx.appcompat:appcompat-resources:$ppVersions.appcompatXLib"
 
+    /*
     // appcompat 1.7.0 - dependencies problem, this fixed it
     constraints {
         //noinspection ForeignDelegate
         implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:$ppVersions.kotlinStdlibJdk8")
     }
+    */
 
     //noinspection GradleDependency
     implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.1.0' //1.0.0'
