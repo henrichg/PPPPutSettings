@@ -6,5 +6,7 @@
 /.idea/misc.xml
 /build/
 
+/passwords_keys.gradle
+
 /pppPutSettings/build/
 
