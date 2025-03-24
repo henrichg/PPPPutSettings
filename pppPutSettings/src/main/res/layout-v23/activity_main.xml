@@ -103,6 +103,50 @@
             style="?android:attr/borderlessButtonStyle"
             tools:ignore="InconsistentLayout" />
 
+        <View
+            android:id="@+id/activity_main_divider4"
+            android:layout_width="30dp"
+            android:layout_height="@dimen/small_divider_height"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/dialogDividerColor" />
+
+        <TextView
+            android:id="@+id/activity_main_battery_optimization"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pppputsettings_battery_optimization_optimized"
+            android:textSize="14sp"/>
+        <!--        android:layout_marginTop="15dp"-->
+
+        <TextView
+            android:id="@+id/activity_main_battery_optimization_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/pppputsettings_battery_optimization_disabled"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/activity_main_battery_optimization_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="45dp"
+            android:paddingStart="@dimen/button_padding"
+            android:paddingEnd="@dimen/button_padding"
+            android:minWidth="@dimen/button_min_width"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/pppputsettings_battery_optimization_button"
+            android:textColor="?attr/colorAccent"
+            android:textStyle="bold"
+            android:background="@drawable/pp_button_background_selector"
+            android:textAllCaps="false"
+            style="?android:attr/borderlessButtonStyle" />
+
     </LinearLayout>
 
 </ScrollView>

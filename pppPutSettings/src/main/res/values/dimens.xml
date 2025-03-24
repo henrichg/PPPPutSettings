@@ -35,4 +35,6 @@
     <dimen name="single_selection_subtitle_text_size">16dp</dimen>
     <dimen name="single_selection_title_paddingTop">15dp</dimen>
 
+    <dimen name="small_divider_height">2dp</dimen>
+
 </resources>
