@@ -4,10 +4,10 @@
     <selectionStates>
       <SelectionState runConfigName="pppPutSettings">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-09-01T15:06:25.832530097Z">
+        <DropdownSelection timestamp="2024-12-31T11:49:44.839786878Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="PhysicalDevice" identifier="serial=e2e9c5fa" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=/home/henrichg/.android/avd/Pixel_4_API_33.avd" />
             </handle>
           </Target>
         </DropdownSelection>

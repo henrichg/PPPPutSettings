@@ -13,6 +13,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.os.PowerManager;
 import android.provider.Settings;
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -43,6 +44,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     private static final int RESULT_PERMISSIONS_SETTINGS = 1901;
+    private static final int RESULT_BATTERY_OPTIMIZATION_SETTINGS = 1902;
 
     int selectedLanguage = 0;
     String defaultLanguage = "";
@@ -246,7 +248,7 @@ public class MainActivity extends AppCompatActivity {
         else*/
         if (itemId == R.id.menu_choose_language) {
             ChooseLanguageDialog chooseLanguageDialog = new ChooseLanguageDialog(this);
-            chooseLanguageDialog.show();
+            chooseLanguageDialog.showDialog();
             return true;
         }
         else
@@ -392,6 +394,8 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == RESULT_PERMISSIONS_SETTINGS)
             reloadActivity(this, false);
+        if (requestCode == RESULT_BATTERY_OPTIMIZATION_SETTINGS)
+            GlobalUtils.reloadActivity(this, false);
     }
 
     /*
@@ -480,6 +484,48 @@ public class MainActivity extends AppCompatActivity {
                     text.setTextColor(ContextCompat.getColor(this, R.color.activityNormalTextColor));
                 text.setText("[ " + getString(R.string.pppputsettings_modify_system_settings_not_granted) + " ]");
             }
+
+            text = findViewById(R.id.activity_main_battery_optimization);
+            str1 = StringConstants.TAG_LIST_START_FIRST_ITEM_HTML + getString(R.string.pppputsettings_battery_optimization_text) + StringConstants.TAG_LIST_END_LAST_ITEM_HTML;
+            //noinspection DataFlowIssue
+            text.setText(StringFormatUtils.fromHtml(str1, true, false, false, 0, 0, true));
+
+            text = findViewById(R.id.activity_main_battery_optimization_status);
+            if (PPPPSApplication.isIgnoreBatteryOptimizationEnabled(activity.getApplicationContext()))
+                //noinspection DataFlowIssue
+                text.setText("[ " + getString(R.string.pppputsettings_battery_optimization_not_optimized) + " ]");
+            else
+                //noinspection DataFlowIssue
+                text.setText("[ " + getString(R.string.pppputsettings_battery_optimization_optimized) + " ]");
+
+            Button batteryOptimizationButton = findViewById(R.id.activity_main_battery_optimization_button);
+            //noinspection DataFlowIssue
+            batteryOptimizationButton.setOnClickListener(view -> {
+                String packageName = PPPPSApplication.PACKAGE_NAME;
+                Intent intent;
+
+                PowerManager pm = (PowerManager) getApplicationContext().getSystemService(Context.POWER_SERVICE);
+                if ((pm != null) && pm.isIgnoringBatteryOptimizations(packageName)) {
+                    intent = new Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS);
+                }
+                else {
+                    //    DO NOT USE IT, CHANGE IS NOT DISPLAYED IN SYSTEM SETTINGS
+                    //    But in ONEPLUS it IS ONLY SOLUTION !!!
+                    intent = new Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS);
+                    intent.setData(Uri.parse(PPPPSApplication.INTENT_DATA_PACKAGE + packageName));
+                }
+                //intent.addCategory(Intent.CATEGORY_DEFAULT);
+                if (MainActivity.activityIntentExists(intent, activity)) {
+                    //noinspection deprecation
+                    startActivityForResult(intent, RESULT_BATTERY_OPTIMIZATION_SETTINGS);
+                } else {
+                    AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(activity);
+                    dialogBuilder.setMessage(R.string.pppputsettings_setting_screen_not_found_alert);
+                    //dialogBuilder.setIcon(android.R.drawable.ic_dialog_alert);
+                    dialogBuilder.setPositiveButton(android.R.string.ok, null);
+                    dialogBuilder.show();
+                }
+            });
 
         }
     }
