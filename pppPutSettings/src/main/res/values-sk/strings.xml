@@ -32,4 +32,8 @@
     <string name="pppputsettings_menu_email_to_author">E-mail autorovi</string>
     <string name="pppputsettings_menu_discord_server">Server PhoneProfilesPlus</string>
     <string name="pppputsettings_menu_discord_invitation">Pozvánka na server</string>
+    <string name="pppputsettings_battery_optimization_text">Optimalizácia batérie pre PPPPutSettings - pridajte ho do skupiny \"Neoptimalizované\"</string>
+    <string name="pppputsettings_battery_optimization_optimized">Optimalizované</string>
+    <string name="pppputsettings_battery_optimization_not_optimized">Neoptimalizované</string>
+    <string name="pppputsettings_battery_optimization_button">Otvor Optimalizáciu batérie</string>
 </resources>

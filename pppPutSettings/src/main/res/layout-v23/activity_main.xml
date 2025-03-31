@@ -126,7 +126,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
-            android:text="@string/pppputsettings_battery_optimization_disabled"
+            android:text="@string/pppputsettings_battery_optimization_optimized"
             android:textSize="16sp"
             android:textStyle="bold"/>
 

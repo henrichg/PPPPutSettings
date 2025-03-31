@@ -32,4 +32,8 @@
     <string name="pppputsettings_menu_email_to_author">Отправить письмо автору</string>
     <string name="pppputsettings_menu_discord_server">Сервер PhoneProfilesPlus</string>
     <string name="pppputsettings_menu_discord_invitation">Приглашение на сервер</string>
+    <string name="pppputsettings_battery_optimization_text">Экономия заряда батареи для PPPPutSettings - добавьте его, пожалуйста, в группу \"Не экономят заряд\"</string>
+    <string name="pppputsettings_battery_optimization_optimized">Экономит заряд</string>
+    <string name="pppputsettings_battery_optimization_not_optimized">Не экономит заряд</string>
+    <string name="pppputsettings_battery_optimization_button">Открыть \"Экономию заряда батареи\"</string>
 </resources>
