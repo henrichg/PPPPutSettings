@@ -43,7 +43,6 @@
 
         <activity
             android:name=".MainActivity"
-            android:label="@string/pppputsettings_title_activity_pppps"
             tools:ignore="IntentFilterExportedReceiver,RedundantLabel">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,6 +50,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<!--        android:label="@string/pppputsettings_title_activity_pppps"-->
         <activity
             android:name=".LogCrashActivity"
             android:label="">
