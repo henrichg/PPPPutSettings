@@ -6,7 +6,7 @@ How to install PPPPutSettings (for Android 14+)
 
 How to proceed:
 1. Install and start Shizuku (if device is not rooted). How, is in: https://github.com/henrichg/PhoneProfilesPlus/blob/master/docs/shizuku.md
-2. Install InstallWithOptions. How, is in: https://github.com/henrichg/PPPPutSettings/blob/devel/docs/installwithoptions.md
+2. Install InstallWithOptions. How, is in: https://github.com/henrichg/PPPPutSettings/blob/master/docs/installwithoptions.md
 3. Download PPPPutSettings: https://github.com/henrichg/PPPPutSettings/releases/latest/download/PPPPutSettings.apk
 4. In InstallWithOptions enable: "Bypass Low Target SDK Block", "Replace existing".
 5. In InstallWithOptions use "Choose file" button, file: downloaded PPPPutSettings.apk.
