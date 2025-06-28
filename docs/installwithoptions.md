@@ -2,9 +2,9 @@ How to install InstallWithOptions
 =================================
 
 InstallWithOptions is in IzzyOnDroid repository. Recommended is installing it from supported stores:
-    - Droid-ify
-    - F-Droid
-    - NeoStore
+- Droid-ify
+- F-Droid
+- NeoStore
     
 IzzyOnDroid repository:
 <https://apt.izzysoft.de/fdroid/index/apk/dev.zwander.installwithoptions>
