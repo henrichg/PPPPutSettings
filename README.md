@@ -6,7 +6,7 @@
 PPPPutSettings (PPPPS)
 ====================================
 
-[![version](https://img.shields.io/badge/version-2.0.2-blue)](https://github.com/henrichg/PPPPutSettings/releases/tag/2.0.2)
+[![version](https://img.shields.io/badge/version-2.0.2.1-blue)](https://github.com/henrichg/PPPPutSettings/releases/tag/2.0.2.1)
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 [![License](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/henrichg/PPPPutSettings/blob/master/LICENSE)
 [![Crowdin](https://badges.crowdin.net/phoneprofilesplus/localized.svg)](https://crowdin.com/project/phoneprofilesplus)\
@@ -23,6 +23,9 @@ Discord PPP server invitation: https://discord.gg/Yb5hgAstQ3 \
 
 __Install PPPPutSettings directly from PhoneProfilesPlus. But it is also possible to install it from an external source. If installing from PhoneProfilesPlus does not work, use external source. External sources are described below.__\
 __There is an exception. For Android 14+, PPPPutSettigs can only be installed in a special way. Read [Installation for Android 14+](docs/install_apk_in_device.md)__
+
+### How to build PPPPS
+- [Show it](docs/build.md)
 
 ### Sources of PPPPutSettings:
 

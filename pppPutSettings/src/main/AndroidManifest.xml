@@ -41,6 +41,7 @@
             android:name="android.max_aspect"
             android:value="2.4" />
 
+        <!-- android:label is required, will be used for launcher icon (because of category LAUCHER)  -->
         <activity
             android:name=".MainActivity"
             android:label="@string/pppputsettings_title_activity_pppps"
