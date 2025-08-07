@@ -4,6 +4,8 @@ Helper application for configure Android settings parameters.
 With this application is not needed rooted device.
 
 *** IMPORTANT ***
+- Installation and upgrade for devices with Android 14+:
+  [Please read the installation guide](docs/install_apk_in_device.md)
 
 - It is "plugin", so does NOT work standalone!
 - Designed for co-working with 'PhoneProfilesPlus' application. Without it, this application do nothing.
