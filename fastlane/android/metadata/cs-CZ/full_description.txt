@@ -4,8 +4,8 @@ Pomocná aplikace pro konfiguraci parametrů nastavení systému Android.
 S touto aplikací není potřeba rootované zařízení.
 
 *** DŮLEŽITÉ ***
-- Instalace a upgrade pro yařízení s Android 14+:
-  [Prosim přečtěte si návod k instalaci](docs/install_apk_in_device.md)
+- Instalace a upgrade pro zařízení s Android 14+:
+  [Prosim přečtěte si návod k instalaci](https://github.com/henrichg/PPPPutSettings/blob/main/docs/install_apk_in_device.md)
 
 - Je to "plugin", takže NEFUNGUJE samostatně!
 - Navrženo pro spolupráci s aplikací 'PhoneProfilesPlus'. Bez něj tato aplikace nic nedělá.
