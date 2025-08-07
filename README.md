@@ -24,7 +24,7 @@ Discord PPP server invitation: https://discord.gg/Yb5hgAstQ3 \
 __Install PPPPutSettings directly from PhoneProfilesPlus. But it is also possible to install it from an external source. If installing from PhoneProfilesPlus does not work, use external source. External sources are described below.__\
 
 ### IMPORTANT: Installation and upgrade for devices with Android 14+
-__PPPPutSettigs can only be installed in a special way. Read [Installation for Android 14+](docs/install_apk_in_device.md)__
+- PPPPutSettigs can only be installed in a special way. Read [Installation for Android 14+](docs/install_apk_in_device.md)__
 
 ### How to build PPPPS
 - [Show it](docs/build.md)
