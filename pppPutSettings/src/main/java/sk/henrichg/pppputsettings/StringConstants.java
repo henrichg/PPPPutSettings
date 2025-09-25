@@ -3,6 +3,7 @@ package sk.henrichg.pppputsettings;
 class StringConstants {
     static final String PHONE_PROFILES_PLUS_PUT_SETTINGS = "PPPPutSettings";
     static final String AUTHOR_EMAIL = "henrich.gron@gmail.com";
+    static final String INTENT_DATA_MAIL_TO_COLON = "mailto:";
 
     static final String CHAR_HARD_SPACE = "\u00A0";
     //static final String CHAR_HARD_SPACE_HTML = "&nbsp;";
@@ -11,7 +12,7 @@ class StringConstants {
     static final String STR_DOUBLE_ARROW = "»»";
     //static final String STR_ARROW_INDICATOR = "[»]";
     //static final String STR_DOUBLE_ARROW_INDICATOR = "[»»]";
-    //static final String CHAR_BULLET = "•";
+    static final String CHAR_BULLET = "•";
     //static final String STR_BULLET = " "+ CHAR_BULLET +" ";
     static final String STR_HARD_SPACE_DOUBLE_ARROW = CHAR_HARD_SPACE + STR_DOUBLE_ARROW;
     //static final String STR_HARD_SPACE_DOUBLE_ARROW_HTML = CHAR_HARD_SPACE_HTML + STR_DOUBLE_ARROW;
@@ -39,8 +40,8 @@ class StringConstants {
     //static final String TAG_FONT_COLOR_HTML = "<font color=\"#%s\">%s</font>";
     //static final String TAG_LIST_START_HTML = "<ul>";
     //static final String TAG_LIST_END_HTML = "</ul>";
-    //static final String TAG_LIST_START_FIRST_ITEM_HTML = "<ul><li>";
-    //static final String TAG_LIST_END_LAST_ITEM_HTML = "</li></ul>";
+    static final String TAG_LIST_START_FIRST_ITEM_HTML = "<ul><li>";
+    static final String TAG_LIST_END_LAST_ITEM_HTML = "</li></ul>";
     //static final String TAG_NUMBERED_LIST_START_HTML = "<ol>";
     //static final String TAG_NUMBERED_LIST_END_HTML = "</ol>";
     //static final String TAG_NUMBERED_LIST_START_FIRST_ITEM_HTML = "<ol><li>";

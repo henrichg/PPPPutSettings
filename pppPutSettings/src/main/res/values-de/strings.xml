@@ -23,8 +23,17 @@
     <string name="pppputsettings_notification_channel_crash_report">Absturzbericht</string>
     <string name="pppputsettings_notification_channel_exclamation">Exclamation</string>
     <string name="pppputsettings_not_granted_write_settings_title">\"Modify system settings\" not granted</string>
-    <string name="pppputsettings_not_granted_write_settings_text">\"Modify system settings\" is not granted for PPPPutSettings. Click this notification to grant it.</string>
+    <string name="pppputsettings_not_granted_write_settings_text">\"Systemeinstellungen ändern\" wird für PPPPPPutSettings nicht gewährt. Klicken Sie auf diese Benachrichtigung, um sie zu gewähren.</string>
     <string name="pppputsettings_modify_system_settings_granted">Erlaubt</string>
     <string name="pppputsettings_modify_system_settings_not_granted">Abgelehnt</string>
     <string name="pppputsettings_email_chooser">E-Mail senden mit</string>
+    <string name="pppputsettings_menu_support">Support</string>
+    <string name="pppputsettings_support_subject">Support</string>
+    <string name="pppputsettings_menu_email_to_author">E-Mail an den Autor</string>
+    <string name="pppputsettings_menu_discord_server">PhoneProfilesPlus-Server</string>
+    <string name="pppputsettings_menu_discord_invitation">Server-Einladung</string>
+    <string name="pppputsettings_battery_optimization_text">Battery optimization for PPPPutSettings - please add it to \"Not optimized\" group</string>
+    <string name="pppputsettings_battery_optimization_optimized">Optimized</string>
+    <string name="pppputsettings_battery_optimization_not_optimized">Not optimized</string>
+    <string name="pppputsettings_battery_optimization_button">Open Battery optimization</string>
 </resources>

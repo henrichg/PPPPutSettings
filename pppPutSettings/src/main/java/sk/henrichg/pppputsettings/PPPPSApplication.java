@@ -7,9 +7,11 @@ import android.app.NotificationManager;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.os.Build;
+import android.os.PowerManager;
 import android.provider.Settings;
 import android.util.Log;
 
+import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.pm.PackageInfoCompat;
@@ -21,12 +23,10 @@ import org.acra.config.MailSenderConfigurationBuilder;
 import org.acra.config.NotificationConfigurationBuilder;
 import org.acra.data.StringFormat;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.text.Collator;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -49,19 +49,21 @@ public class PPPPSApplication extends Application {
     //static final int pid = Process.myPid();
     //static final int uid = Process.myUid();
 
-    @SuppressWarnings("PointlessBooleanExpression")
-    private static final boolean logIntoLogCat = true && BuildConfig.DEBUG;
+    // TODO: DISABLE IT FOR RELEASE VERSION!!!
+    private static final boolean logIntoLogCat = false /*&& BuildConfig.DEBUG*/;
     // TODO: DISABLE IT FOR RELEASE VERSION!!!
     static final boolean logIntoFile = false;
-    @SuppressWarnings("PointlessBooleanExpression")
+    /** @noinspection PointlessBooleanExpression*/
     static final boolean crashIntoFile = true && BuildConfig.DEBUG;
     private static final String logFilterTags = ""
-                                                //+ "|MainActivity"
+//                                                  "MainActivity"
+//                                                + "|PutSettingsParameterActivity"
+//                                                + "|PutSettingReceiver"
             ;
 
-    static final boolean deviceIsXiaomi = isXiaomi();
-    static final boolean deviceIsOnePlus = isOnePlus();
-    static final boolean romIsMIUI = isMIUIROM();
+//    static final boolean deviceIsXiaomi = isXiaomi();
+//    static final boolean deviceIsOnePlus = isOnePlus();
+//    static final boolean romIsMIUI = isMIUIROM();
 
     // for new log.txt and crash.txt is in /Android/data/sk.henrichg.phoneprofilesplusextender/files
     //public static final String EXPORT_PATH = "/PhoneProfilesPlusExtender";
@@ -86,6 +88,14 @@ public class PPPPSApplication extends Application {
 
     static final String INTENT_DATA_PACKAGE = "package:";
     //static final String EXTRA_PKG_NAME = "extra_pkgname";
+
+    static final String XDA_DEVELOPERS_PPP_URL = "https://forum.xda-developers.com/t/phoneprofilesplus.3799429/";
+    //static final String TWITTER_URL = "https://x.com/henrichg";
+    static final String REDDIT_URL = "https://www.reddit.com/user/henrichg/";
+    static final String BLUESKY_URL = "https://bsky.app/profile/henrichg.bsky.social";
+    static final String DISCORD_SERVER_URL = "https://discord.com/channels/1258733423426670633/1258733424504737936";
+    static final String DISCORD_INVITATION_URL = "https://discord.gg/Yb5hgAstQ3";
+    static final String MASTODON_URL = "https://mastodon.social/@henrichg";
 
     @Override
     public void onCreate() {
@@ -302,7 +312,8 @@ public class PPPPSApplication extends Application {
                         .withResSendButtonIcon(0)
                         .withResDiscardButtonIcon(0)
                         .withSendOnClick(true)
-                        .withColor(ContextCompat.getColor(base, R.color.error_color))
+                        .withColor(ContextCompat.getColor(base, R.color.errorColor))
+                        .withChannelId(EXCLAMATION_NOTIFICATION_CHANNEL)
                         .withEnabled(true)
                         .build(),
                 new MailSenderConfigurationBuilder()
@@ -335,6 +346,7 @@ public class PPPPSApplication extends Application {
 
     //--------------------------------------------------------------
 
+    /*
     private static boolean isXiaomi() {
         final String XIOMI = "xiaomi";
         return Build.BRAND.equalsIgnoreCase(XIOMI) ||
@@ -386,6 +398,7 @@ public class PPPPSApplication extends Application {
 
         return miuiRom1 || miuiRom2 || miuiRom3;
     }
+    */
 
     static void createBasicExecutorPool() {
         if (PPPPSApplication.basicExecutorPool == null)
@@ -432,7 +445,7 @@ public class PPPPSApplication extends Application {
 
             File logFile = new File(path, LOG_FILENAME);
 
-            if (logFile.length() > 1024 * 10000)
+            if (logFile.length() > 1024 * 100000)
                 resetLog();
 
             if (!logFile.exists())
@@ -461,17 +474,19 @@ public class PPPPSApplication extends Application {
     private static boolean logContainsFilterTag(String tag)
     {
         boolean contains = false;
-        String[] splits = logFilterTags.split(StringConstants.STR_SPLIT_REGEX);
-        for (String split : splits) {
-            if (tag.contains(split)) {
-                contains = true;
-                break;
+        String[] filterTags = logFilterTags.split(StringConstants.STR_SPLIT_REGEX);
+        for (String filterTag : filterTags) {
+            if (!filterTag.contains("!")) {
+                if (tag.contains(filterTag)) {
+                    contains = true;
+                    break;
+                }
             }
         }
         return contains;
     }
 
-    @SuppressWarnings("BooleanMethodIsAlwaysInverted")
+    /** @noinspection ConstantValue*/
     static private boolean logEnabled() {
         return (logIntoLogCat || logIntoFile);
     }
@@ -691,6 +706,19 @@ public class PPPPSApplication extends Application {
                 PPPPSApplication.recordException(e);
             }
         }
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.M)
+    static boolean isIgnoreBatteryOptimizationEnabled(Context appContext) {
+        PowerManager pm = (PowerManager) appContext.getSystemService(Context.POWER_SERVICE);
+        try {
+            if (pm != null) {
+                return pm.isIgnoringBatteryOptimizations(PPPPSApplication.PACKAGE_NAME);
+            }
+        } catch (Exception ignore) {
+            return false;
+        }
+        return false;
     }
 
 }

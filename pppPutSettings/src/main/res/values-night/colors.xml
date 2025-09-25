@@ -1,33 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">#1B1B1B</color>
-    <color name="primaryDark">#1B1B1B</color>
+<!--    <color name="primary">#1B1B1B</color>-->
+<!--    <color name="primaryDark">#1B1B1B</color>-->
+<!--    <color name="primary">#0b160b</color>-->
+<!--    <color name="primaryDark">#0b160b</color>-->
+    <color name="primary">#131713</color>
+    <color name="primaryDark">#131713</color>
+
     <color name="accent">#64B47F</color>
     <!--<color name="accent_disabled">#70E99B7F</color>-->
     <color name="navigationBar">#000000</color>
 
-    <color name="activityBackgroundColor">#1B1B1B</color>
+<!--    <color name="activityBackgroundColor">#1B1B1B</color>-->
+    <color name="activityBackgroundColor">#131713</color>
+
     <color name="activityNormalTextColor">#efefef</color>
     <color name="activitySecondaryTextColor">#C9C9C9</color>
-    <color name="activityDisabledTextColor">#707070</color>
+<!--    <color name="activityDisabledTextColor">#707070</color>-->
+    <color name="activityDisabledTextColor">#5b6d5c</color>
 
-    <color name="rippleRectangeleItemBackgroundColor">#606060</color>
-    <color name="noRippleRectangeleItemBackgroundColor">#404040</color>
+<!--    <color name="rippleRectangeleItemBackgroundColor">#606060</color>-->
+    <color name="rippleRectangeleItemBackgroundColor">#445d47</color>
+<!--    <color name="noRippleRectangeleItemBackgroundColor">#404040</color>-->
+<!--    <color name="noRippleRectangeleItemBackgroundColor">#4e6d52</color>-->
 
-    <color name="activityPopupMenuBackgroundColor">#151515</color>
+<!--    <color name="activityPopupMenuBackgroundColor">#151515</color>-->
+    <color name="activityPopupAndMenuBackgroundColor">#0e130e</color>
 <!--    <color name="activityPopupMenuClickedItemBackgroundColor">#37ffffff</color>-->
-    <color name="popupMenuBorderColor">#3f3f3f</color>
+<!--    <color name="popupMenuBorderColor">#3f3f3f</color>-->
+    <color name="popupAndMenuBorderColor">#2e4530</color>
 
-    <color name="buttonBorderColor">#656565</color>
-    <color name="buttonBackgroundColor">#151515</color>
-    <color name="buttonClickedBackgroundColor">#303030</color>
+<!--    <color name="buttonBorderColor">#656565</color>-->
+    <color name="buttonBorderColor">#415842</color>
+<!--    <color name="buttonBackgroundColor">#151515</color>-->
+<!--    <color name="buttonBackgroundColor">#1a231a</color>-->
+    <color name="buttonBackgroundColor">#131713</color>
+<!--    <color name="buttonClickedBackgroundColor">#303030</color>-->
+    <color name="buttonClickedBackgroundColor">#2d3d2f</color>
 
     <!--    <color name="notificationDecorationColor">#cc893e</color>-->
 
-    <color name="dialog_divider">#3f3f3f</color>
-    <color name="dialogBorderColor">#3f3f3f</color>
+<!--    <color name="dialog_divider">#3f3f3f</color>-->
+    <color name="dialogDividerColor">#2e4530</color>
+<!--    <color name="dialogBorderColor">#3f3f3f</color>-->
+    <color name="dialogBorderColor">#2a382b</color>
 
-    <color name="scrollbar_color">#404040</color>
+<!--    <color name="scrollbar_color">#404040</color>-->
+    <color name="scrollbarColor">#2e4530</color>
 
 <!--    <color name="primary">#201a18</color>-->
 <!--    <color name="primaryDark">#201a18</color>-->
@@ -54,6 +73,8 @@
 <!--    <color name="notificationDecorationColor">#cc893e</color>-->
 
 <!--    <color name="notification_color">#64B47F</color>-->
-    <color name="error_color">#FF2424</color>
+    <color name="errorColor">#FF2424</color>
+
+    <color name="dialogTitleTextColor">#ffffff</color>
 
 </resources>
