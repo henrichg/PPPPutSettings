@@ -7,9 +7,11 @@ import android.app.NotificationManager;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.os.Build;
+import android.os.PowerManager;
 import android.provider.Settings;
 import android.util.Log;
 
+import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.pm.PackageInfoCompat;
@@ -704,6 +706,19 @@ public class PPPPSApplication extends Application {
                 PPPPSApplication.recordException(e);
             }
         }
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.M)
+    static boolean isIgnoreBatteryOptimizationEnabled(Context appContext) {
+        PowerManager pm = (PowerManager) appContext.getSystemService(Context.POWER_SERVICE);
+        try {
+            if (pm != null) {
+                return pm.isIgnoringBatteryOptimizations(PPPPSApplication.PACKAGE_NAME);
+            }
+        } catch (Exception ignore) {
+            return false;
+        }
+        return false;
     }
 
 }

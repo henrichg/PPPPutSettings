@@ -32,4 +32,8 @@
     <string name="pppputsettings_menu_email_to_author">Envoyer un courriel à l\'auteur</string>
     <string name="pppputsettings_menu_discord_server">Serveur PhoneProfilesPlus</string>
     <string name="pppputsettings_menu_discord_invitation">Invitation au serveur</string>
+    <string name="pppputsettings_battery_optimization_text">Optimisation de la batterie pour PPPPutSettings : veuillez l\'ajouter au groupe « Non optimisé »</string>
+    <string name="pppputsettings_battery_optimization_optimized">Optimisée</string>
+    <string name="pppputsettings_battery_optimization_not_optimized">Non optimisée</string>
+    <string name="pppputsettings_battery_optimization_button">Ouvrir Optimisation de la batterie</string>
 </resources>
